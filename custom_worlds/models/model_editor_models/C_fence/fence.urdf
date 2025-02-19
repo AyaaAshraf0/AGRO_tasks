@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<robot name="fence">
+  
+  <!-- Fence Base -->
+  <link name="fence_base">
+    <visual>
+      <geometry>
+        <box size="5.0 0.1 0.2"/>
+      </geometry>
+      <material name="wood">
+        <color rgba="0.6 0.4 0.2 1"/>
+      </material>
+    </visual>
+    <inertial>
+      <mass value="1.0"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.01" iyy="0.01" izz="0.01" ixy="0.0" ixz="0.0" iyz="0.0"/>
+    </inertial>
+  </link>
+
+  <!-- Fence Posts -->
+  {% for i in [-2, -1, 0, 1, 2] %}
+  <link name="post_{{i}}">
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 1.0"/>
+      </geometry>
+      <material name="wood">
+        <color rgba="0.6 0.4 0.2 1"/>
+      </material>
+    </visual>
+    <inertial>
+      <mass value="0.5"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.005" iyy="0.005" izz="0.005" ixy="0.0" ixz="0.0" iyz="0.0"/>
+    </inertial>
+  </link>
+
+  <!-- Joints to Attach Posts to the Base -->
+  <joint name="post_{{i}}_joint" type="fixed">
+    <parent link="fence_base"/>
+    <child link="post_{{i}}"/>
+    <origin xyz="{{i}} 0 0.5"/>
+    <gazebo>
+      <preserveFixedJoint>true</preserveFixedJoint>
+    </gazebo>
+  </joint>
+  {% endfor %}
+
+</robot>

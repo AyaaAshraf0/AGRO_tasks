@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <model name="parametric_fence">
+    <include>
+      <uri>model://C_fence</uri>
+    </include>
+  </model>
+</sdf>

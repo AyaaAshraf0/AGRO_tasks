@@ -1,0 +1,18 @@
+material Gazebo/Water
+{
+    technique
+    {
+        pass
+        {
+        
+           	
+            
+            texture_unit
+            {
+                texture water.png
+                filtering bilinear
+                scale 10 10
+            }
+        }
+    }
+}
