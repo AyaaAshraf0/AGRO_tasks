@@ -1,0 +1,6 @@
+<!-- Add Smoother before following the path -->
+        <RecoveryNode number_of_retries="1" name="SmoothPath"> 
+          <SmoothPath unsmoothed_path="{path}" smoothed_path="{path}" max_smoothing_duration="3.0" smoother_id="simple_smoother" check_for_collisions="false" smoothing_duration="{smoothing_duration_used}" was_completed="{smoothing_completed}"/> 
+          <ClearEntireCostmap name="ClearGlobalCostmap-Context" service_name="global_costmap/clear_entirely_global_costmap"/>
+        </RecoveryNode>
+

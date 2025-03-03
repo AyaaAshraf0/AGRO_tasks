@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <sdf version="1.6">
   <world name="default">
+  
 
     <model name="custom_ground">
       <static>true</static>
@@ -35,6 +36,11 @@
     <scene>
       <shadows>false</shadows>
     </scene>
+
+    <include>
+      <uri>model://turtlebot3_burger</uri>
+      <pose>-22 -22 0 0 0 0 </pose>
+    </include>
 
     <include>
       <uri>model://pine_tree</uri>
@@ -87,10 +93,7 @@
       </ode>
     </physics>
 
-    <include>
-      <uri>model://turtlebot3_burger</uri>
-      <pose>-22 -22 0 0 0 0 </pose>
-    </include>
+    
 
         <model name='perimeter_fence'>
       <link name='link_0'>
@@ -1569,7 +1572,7 @@
                 <kd>1</kd>
                 <max_vel>0.01</max_vel>
                 <min_depth>0</min_depth>
-              </ode>
+              </ode>z
               <bullet>
                 <split_impulse>1</split_impulse>
                 <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>

@@ -20,12 +20,13 @@ setup(
         (os.path.join('share', package_name, 'config'), glob(os.path.join('config', '*.yaml'))),
     ],
     install_requires=['setuptools'],
+    extras_require={"test":["pytest"],},
     zip_safe=True,
     maintainer='ayaa',
     maintainer_email='ayaa@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
+
     entry_points={
         'console_scripts': [
         ],
