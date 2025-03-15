@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ayaa/Agro2/install/my_nav2_bringup/lib/python3.10/site-packages",
+        "/home/ayaa/Agro2/install/fer_gazebo/lib/python3.10/site-packages",
+        "/home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ayaa/Agro2/install/my_nav2_bringup/lib/python3.10/site-packages",
+        "/home/ayaa/Agro2/install/fer_gazebo/lib/python3.10/site-packages",
+        "/home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
