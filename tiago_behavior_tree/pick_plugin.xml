@@ -1,0 +1,8 @@
+<library path="pick_action_node">
+  <class name="ApproachObject"
+         type="ApproachObject"
+         base_class_type="BT::SyncActionNode"/>
+  <class name="GripperInterface"
+         type="GripperInterface"
+         base_class_type="BT::SyncActionNode"/>
+</library>

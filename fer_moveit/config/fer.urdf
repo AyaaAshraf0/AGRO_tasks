@@ -21,12 +21,12 @@
   <link name="fer_link0">
     <visual name="fer_link0_visual">
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_arms/fer/visual/link0.dae"/>
+        <mesh filename="package://franka_description/meshes/robot_arms/fer/visual/link0.dae"/>
       </geometry>
     </visual>
     <collision name="fer_link0_collision">
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_arms/fer/collision/link0.stl"/>
+        <mesh filename="package://franka_description/meshes/robot_arms/fer/collision/link0.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -39,12 +39,12 @@
   <link name="fer_link1">
     <visual name="fer_link1_visual">
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_arms/fer/visual/link1.dae"/>
+        <mesh filename="package://franka_description/meshes/robot_arms/fer/visual/link1.dae"/>
       </geometry>
     </visual>
     <collision name="fer_link1_collision">
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_arms/fer/collision/link1.stl"/>
+        <mesh filename="package://franka_description/meshes/robot_arms/fer/collision/link1.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -66,12 +66,12 @@
   <link name="fer_link2">
     <visual name="fer_link2_visual">
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_arms/fer/visual/link2.dae"/>
+        <mesh filename="package://franka_description/meshes/robot_arms/fer/visual/link2.dae"/>
       </geometry>
     </visual>
     <collision name="fer_link2_collision">
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_arms/fer/collision/link2.stl"/>
+        <mesh filename="package://franka_description/meshes/robot_arms/fer/collision/link2.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -93,12 +93,12 @@
   <link name="fer_link3">
     <visual name="fer_link3_visual">
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_arms/fer/visual/link3.dae"/>
+        <mesh filename="package://franka_description/meshes/robot_arms/fer/visual/link3.dae"/>
       </geometry>
     </visual>
     <collision name="fer_link3_collision">
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_arms/fer/collision/link3.stl"/>
+        <mesh filename="package://franka_description/meshes/robot_arms/fer/collision/link3.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -120,12 +120,12 @@
   <link name="fer_link4">
     <visual name="fer_link4_visual">
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_arms/fer/visual/link4.dae"/>
+        <mesh filename="package://franka_description/meshes/robot_arms/fer/visual/link4.dae"/>
       </geometry>
     </visual>
     <collision name="fer_link4_collision">
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_arms/fer/collision/link4.stl"/>
+        <mesh filename="package://franka_description/meshes/robot_arms/fer/collision/link4.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -147,12 +147,12 @@
   <link name="fer_link5">
     <visual name="fer_link5_visual">
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_arms/fer/visual/link5.dae"/>
+        <mesh filename="package://franka_description/meshes/robot_arms/fer/visual/link5.dae"/>
       </geometry>
     </visual>
     <collision name="fer_link5_collision">
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_arms/fer/collision/link5.stl"/>
+        <mesh filename="package://franka_description/meshes/robot_arms/fer/collision/link5.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -174,12 +174,12 @@
   <link name="fer_link6">
     <visual name="fer_link6_visual">
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_arms/fer/visual/link6.dae"/>
+        <mesh filename="package://franka_description/meshes/robot_arms/fer/visual/link6.dae"/>
       </geometry>
     </visual>
     <collision name="fer_link6_collision">
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_arms/fer/collision/link6.stl"/>
+        <mesh filename="package://franka_description/meshes/robot_arms/fer/collision/link6.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -201,12 +201,12 @@
   <link name="fer_link7">
     <visual name="fer_link7_visual">
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_arms/fer/visual/link7.dae"/>
+        <mesh filename="package://franka_description/meshes/robot_arms/fer/visual/link7.dae"/>
       </geometry>
     </visual>
     <collision name="fer_link7_collision">
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_arms/fer/collision/link7.stl"/>
+        <mesh filename="package://franka_description/meshes/robot_arms/fer/collision/link7.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -239,12 +239,12 @@
   <link name="fer_hand">
     <visual name="fer_hand_visual">
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_ee/franka_hand_white/visual/hand.dae"/>
+        <mesh filename="package://franka_description/meshes/robot_ee/franka_hand_white/visual/hand.dae"/>
       </geometry>
     </visual>
     <collision name="fer_hand_collision">
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_ee/franka_hand_white/collision/hand.stl"/>
+        <mesh filename="package://franka_description/meshes/robot_ee/franka_hand_white/collision/hand.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -263,7 +263,7 @@
   <link name="fer_leftfinger">
     <visual name="fer_leftfinger_visual">
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_ee/franka_hand_white/visual/finger.dae"/>
+        <mesh filename="package://franka_description/meshes/robot_ee/franka_hand_white/visual/finger.dae"/>
       </geometry>
     </visual>
     <!-- screw mount -->
@@ -304,7 +304,7 @@
     <visual name="fer_rightfinger_visual">
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/ayaa/Agro2/install/franka_description/share/franka_description/meshes/robot_ee/franka_hand_white/visual/finger.dae"/>
+        <mesh filename="package://franka_description/meshes/robot_ee/franka_hand_white/visual/finger.dae"/>
       </geometry>
     </visual>
     <!-- screw mount -->
@@ -361,7 +361,7 @@
   <ros2_control name="FakeSystem" type="system">
     <hardware>
       <!-- By default, set up controllers for simulation. This won't work on real hardware -->
-      <plugin>mock_components/GenericSystem</plugin>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
     </hardware>
     <joint name="fer_joint1">
       <command_interface name="position"/>
@@ -420,4 +420,9 @@
       <state_interface name="velocity"/>
     </joint>
   </ros2_control>
+  <gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <parameters>/home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/ros2_controllers.yaml</parameters>
+    </plugin>
+  </gazebo>
 </robot>

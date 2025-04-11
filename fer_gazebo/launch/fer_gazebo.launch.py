@@ -46,13 +46,14 @@ def generate_launch_description():
     )
 
     # Load controllers (Fix: Specify controller names)
-    load_controllers = ExecuteProcess(
-        cmd=[
-            'ros2', 'control', 'load_controller', '--set-state', 'active',
-            'panda_arm_controller', 'hand_controller'
-        ],
+    load_controllers = Node(
+        package="controller_manager",
+        executable="ros2_control_node",
+        parameters=['/home/ayaa/Agro2/src/fer_moveit/config/ros2_controllers.yaml'],
         output='screen'
+        
     )
+        
 
     # Robot state publisher (Fix: Use Xacro conversion)
     robot_state_publisher = Node(
@@ -62,12 +63,12 @@ def generate_launch_description():
         output='screen'
     )
 
-    # Joint state publisher
-    joint_state_publisher = Node(
-        package='joint_state_publisher',
-        executable='joint_state_publisher',
-        output='screen'
-    )
+    # # Joint state publisher
+    # joint_state_publisher = Node(
+    #     package='joint_state_publisher',
+    #     executable='joint_state_publisher',
+    #     output='screen'
+    # )
 
     # MoveIt launch files
     move_group = IncludeLaunchDescription(
@@ -77,17 +78,17 @@ def generate_launch_description():
         launch_arguments={'publish_monitored_planning_scene': 'true'}.items()
     )
 
-    # moveit_rviz = IncludeLaunchDescription(
-    #     PythonLaunchDescriptionSource(
-    #         os.path.join(fer_moveit_pkg, 'launch', 'moveit_rviz.launch.py')
-    #     ),
-    # )
+    moveit_rviz = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(fer_moveit_pkg, 'launch', 'moveit_rviz.launch.py')
+        ),
+    )
 
     return LaunchDescription(declared_arguments + [
         gazebo,
         spawn_robot,
         robot_state_publisher,
-        joint_state_publisher,
+        # joint_state_publisher,
         move_group,
         # moveit_rviz,
         load_controllers
