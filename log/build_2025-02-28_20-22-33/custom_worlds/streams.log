@@ -1,0 +1,22 @@
+[0.937s] Invoking command in '/home/ayaa/Agro2/src/custom_worlds': PYTHONPATH=/home/ayaa/Agro2/build/custom_worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_worlds build --build-base /home/ayaa/Agro2/build/custom_worlds/build install --record /home/ayaa/Agro2/build/custom_worlds/install.log --install-scripts $base/lib/custom_worlds --single-version-externally-managed install_data
+[1.179s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.179s]   warnings.warn(
+[1.187s] running egg_info
+[1.187s] writing ../../build/custom_worlds/custom_worlds.egg-info/PKG-INFO
+[1.188s] writing dependency_links to ../../build/custom_worlds/custom_worlds.egg-info/dependency_links.txt
+[1.188s] writing entry points to ../../build/custom_worlds/custom_worlds.egg-info/entry_points.txt
+[1.188s] writing requirements to ../../build/custom_worlds/custom_worlds.egg-info/requires.txt
+[1.188s] writing top-level names to ../../build/custom_worlds/custom_worlds.egg-info/top_level.txt
+[1.190s] reading manifest file '../../build/custom_worlds/custom_worlds.egg-info/SOURCES.txt'
+[1.191s] writing manifest file '../../build/custom_worlds/custom_worlds.egg-info/SOURCES.txt'
+[1.191s] running build
+[1.191s] running build_py
+[1.191s] running install
+[1.191s] running install_lib
+[1.192s] running install_data
+[1.193s] running install_egg_info
+[1.194s] removing '/home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages/custom_worlds-0.0.0-py3.10.egg-info' (and everything under it)
+[1.194s] Copying ../../build/custom_worlds/custom_worlds.egg-info to /home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages/custom_worlds-0.0.0-py3.10.egg-info
+[1.195s] running install_scripts
+[1.216s] writing list of installed files to '/home/ayaa/Agro2/build/custom_worlds/install.log'
+[1.239s] Invoked command in '/home/ayaa/Agro2/src/custom_worlds' returned '0': PYTHONPATH=/home/ayaa/Agro2/build/custom_worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_worlds build --build-base /home/ayaa/Agro2/build/custom_worlds/build install --record /home/ayaa/Agro2/build/custom_worlds/install.log --install-scripts $base/lib/custom_worlds --single-version-externally-managed install_data

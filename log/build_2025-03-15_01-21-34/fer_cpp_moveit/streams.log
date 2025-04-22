@@ -1,0 +1,26 @@
+[0.456s] Invoking command in '/home/ayaa/Agro2/build/fer_cpp_moveit': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/fer_cpp_moveit:/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description /usr/bin/cmake --build /home/ayaa/Agro2/build/fer_cpp_moveit -- -j8 -l8
+[0.952s] [35m[1mConsolidate compiler generated dependencies of target pick_place[0m
+[0.952s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_place.dir/src/pick_place.cpp.o[0m
+[10.766s] [100%] [32m[1mLinking CXX executable pick_place[0m
+[11.157s] [100%] Built target pick_place
+[11.168s] Invoked command in '/home/ayaa/Agro2/build/fer_cpp_moveit' returned '0': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/fer_cpp_moveit:/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description /usr/bin/cmake --build /home/ayaa/Agro2/build/fer_cpp_moveit -- -j8 -l8
+[11.169s] Invoking command in '/home/ayaa/Agro2/build/fer_cpp_moveit': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/fer_cpp_moveit:/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description /usr/bin/cmake --install /home/ayaa/Agro2/build/fer_cpp_moveit
+[11.177s] -- Install configuration: ""
+[11.177s] -- Installing: /home/ayaa/Agro2/install/fer_cpp_moveit/lib/fer_cpp_moveit/pick_place
+[11.178s] -- Set runtime path of "/home/ayaa/Agro2/install/fer_cpp_moveit/lib/fer_cpp_moveit/pick_place" to ""
+[11.178s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/ament_index/resource_index/package_run_dependencies/fer_cpp_moveit
+[11.178s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/ament_index/resource_index/parent_prefix_path/fer_cpp_moveit
+[11.179s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/environment/ament_prefix_path.sh
+[11.179s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/environment/ament_prefix_path.dsv
+[11.179s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/environment/path.sh
+[11.179s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/environment/path.dsv
+[11.179s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/local_setup.bash
+[11.179s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/local_setup.sh
+[11.179s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/local_setup.zsh
+[11.179s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/local_setup.dsv
+[11.179s] -- Installing: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/package.dsv
+[11.179s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/ament_index/resource_index/packages/fer_cpp_moveit
+[11.179s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/cmake/fer_cpp_moveitConfig.cmake
+[11.179s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/cmake/fer_cpp_moveitConfig-version.cmake
+[11.179s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/package.xml
+[11.181s] Invoked command in '/home/ayaa/Agro2/build/fer_cpp_moveit' returned '0': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/fer_cpp_moveit:/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description /usr/bin/cmake --install /home/ayaa/Agro2/build/fer_cpp_moveit

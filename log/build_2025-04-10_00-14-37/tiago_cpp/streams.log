@@ -1,0 +1,20 @@
+[2.374s] Invoking command in '/home/ayaa/Agro2/build/tiago_cpp': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_cpp -- -j8 -l8
+[2.453s] [35m[1mConsolidate compiler generated dependencies of target pick_place_tiago[0m
+[2.498s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_place_tiago.dir/src/pick_place_tiago.cpp.o[0m
+[12.061s] [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[12.061s] [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:46:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KMoveGroupInterface[m[K’
+[12.061s]    46 |   using moveit::planning_interface::MoveGroupInterface
+[12.061s]       |                                                       [01;31m[K^[m[K
+[12.061s]       |                                                       [32m[K;[m[K
+[12.061s]    47 |   [32m[KMoveGroupInterface[m[K gripper_group(node, "gripper");
+[12.062s]       |   [32m[K~~~~~~~~~~~~~~~~~~[m[K                                   
+[12.074s] [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:52:8:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto success[m[K’
+[12.074s]    52 |   auto [01;31m[Ksuccess[m[K = static_cast<bool>(gripper_group.move());
+[12.074s]       |        [01;31m[K^~~~~~~[m[K
+[12.074s] [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:34:8:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kbool success[m[K’
+[12.074s]    34 |   bool [01;36m[Ksuccess[m[K = static_cast<bool>(move_group.plan(plan));
+[12.074s]       |        [01;36m[K^~~~~~~[m[K
+[17.428s] gmake[2]: *** [CMakeFiles/pick_place_tiago.dir/build.make:76: CMakeFiles/pick_place_tiago.dir/src/pick_place_tiago.cpp.o] Error 1
+[17.428s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_place_tiago.dir/all] Error 2
+[17.429s] gmake: *** [Makefile:146: all] Error 2
+[17.432s] Invoked command in '/home/ayaa/Agro2/build/tiago_cpp' returned '2': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_cpp -- -j8 -l8

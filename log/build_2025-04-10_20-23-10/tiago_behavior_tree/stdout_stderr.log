@@ -1,0 +1,44 @@
+[35m[1mConsolidate compiler generated dependencies of target pick_action_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o[0m
+In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:10:30:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+   10 | class PickObject : public bt [01;31m[K{[m[KActionNode}
+      |                              [01;31m[K^[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:10:31:[m[K [01;31m[Kerror: [m[K‘[01m[KActionNode[m[K’ does not name a type
+   10 | lass PickObject : public bt {[01;31m[KActionNode[m[K}
+      |                              [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:10:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   10 | class PickObject : public bt {ActionNode}
+      |                                          [01;31m[K^[m[K
+      |                                          [32m[K;[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:11:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   11 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:9:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KPickObject::PickObject(const string&)[m[K’
+    9 | [01;31m[KPickObject[m[K::PickObject(const std::string& name) : ActionNode(name)
+      | [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:10:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kconstexpr PickObject::PickObject(PickObject&&)[m[K’
+   10 | class [01;36m[KPickObject[m[K : public bt {ActionNode}
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:10:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kconstexpr PickObject::PickObject(const PickObject&)[m[K’
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:10:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kconstexpr PickObject::PickObject()[m[K’
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:10:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PickObject[m[K’ defined here
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:16:25:[m[K [01;31m[Kerror: [m[Kdefinition of implicitly-declared ‘[01m[KPickObject::~PickObject()[m[K’
+   16 | PickObject::~PickObject([01;31m[K)[m[K
+      |                         [01;31m[K^[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:21:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kbt[m[K’ does not name a type
+   21 | [01;31m[Kbt[m[K::NodeStatus PickObject::tick()
+      | [01;31m[K^~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:36:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool PickObject::pick_object()[m[K’
+   36 | bool [01;31m[KPickObject[m[K::pick_object()
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:36:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kbool PickObject::pick_object()[m[K’
+In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:10:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PickObject[m[K’ defined here
+   10 | class [01;36m[KPickObject[m[K : public bt {ActionNode}
+      |       [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_action_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target pick_action_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o[0m
+In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:7[m[K,
+                 from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In instantiation of ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = OpenGripper; std::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:14:42:[m[K   required from here
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:399:19:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: [registerNode]: you MUST implement the static method:   PortsList providedPorts();
+
+  399 |     static_assert([01;31m[K!(param_constructable && !has_static_ports_list)[m[K, "[registerNode]: you "
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:399:19:[m[K [01;36m[Knote: [m[K‘[01m[K((!(bool)param_constructable) || ((bool)has_static_ports_list))[m[K’ evaluates to false
+gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_action_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

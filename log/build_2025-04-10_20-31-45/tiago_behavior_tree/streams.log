@@ -1,0 +1,58 @@
+[1.252s] Invoking command in '/home/ayaa/Agro2/build/tiago_behavior_tree': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8
+[1.309s] [35m[1mConsolidate compiler generated dependencies of target pick_action_node[0m
+[1.339s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o[0m
+[4.632s] In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+[4.632s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:11:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kbt[m[K’ has not been declared
+[4.632s]    11 | class PickObject : public [01;31m[Kbt[m[K::ActionNode
+[4.632s]       |                           [01;31m[K^~[m[K
+[4.632s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:11:31:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KActionNode[m[K’
+[4.632s]    11 | class PickObject : public bt::[01;31m[KActionNode[m[K
+[4.632s]       |                               [01;31m[K^~~~~~~~~~[m[K
+[4.632s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:13:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[4.632s]    13 | [01;31m[Kpublic[m[K:
+[4.632s]       | [01;31m[K^~~~~~[m[K
+[4.632s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:13:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[4.632s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:12:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[4.632s]    12 | [01;36m[K{[m[K
+[4.632s]       | [01;36m[K^[m[K
+[4.632s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:15:13:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[K~ PickObject[m[K’ as non-member
+[4.632s]    15 |     virtual [01;31m[K~PickObject[m[K();
+[4.632s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[4.633s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kbt[m[K’ does not name a type
+[4.633s]    18 |     [01;31m[Kbt[m[K::NodeStatus tick() override;
+[4.633s]       |     [01;31m[K^~[m[K
+[4.633s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:20:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[4.633s]    20 | [01;31m[Kprivate[m[K:
+[4.633s]       | [01;31m[K^~~~~~~[m[K
+[4.633s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:27:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[4.633s]    27 | [01;31m[K}[m[K;
+[4.634s]       | [01;31m[K^[m[K
+[6.603s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:9:47:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass PickObject[m[K’
+[6.603s]     9 | bject(const std::string& name[01;31m[K)[m[K : ActionNode(name)
+[6.603s]       |                              [01;31m[K^[m[K
+[6.603s] 
+[6.603s] In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+[6.603s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:11:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass PickObject[m[K’
+[6.603s]    11 | class [01;36m[KPickObject[m[K : public bt::ActionNode
+[6.603s]       |       [01;36m[K^~~~~~~~~~[m[K
+[6.603s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:16:25:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass PickObject[m[K’
+[6.603s]    16 | PickObject::~PickObject([01;31m[K)[m[K
+[6.603s]       |                         [01;31m[K^[m[K
+[6.603s] In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+[6.603s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:11:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass PickObject[m[K’
+[6.603s]    11 | class [01;36m[KPickObject[m[K : public bt::ActionNode
+[6.603s]       |       [01;36m[K^~~~~~~~~~[m[K
+[6.604s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:21:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kbt[m[K’ does not name a type
+[6.604s]    21 | [01;31m[Kbt[m[K::NodeStatus PickObject::tick()
+[6.604s]       | [01;31m[K^~[m[K
+[6.604s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:36:30:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass PickObject[m[K’
+[6.604s]    36 | bool PickObject::pick_object([01;31m[K)[m[K
+[6.604s]       |                              [01;31m[K^[m[K
+[6.604s] In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+[6.604s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:11:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass PickObject[m[K’
+[6.605s]    11 | class [01;36m[KPickObject[m[K : public bt::ActionNode
+[6.605s]       |       [01;36m[K^~~~~~~~~~[m[K
+[9.000s] gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+[9.000s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_action_node.dir/all] Error 2
+[9.001s] gmake: *** [Makefile:146: all] Error 2
+[9.003s] Invoked command in '/home/ayaa/Agro2/build/tiago_behavior_tree' returned '2': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8

@@ -1,0 +1,374 @@
+[0.161s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.161s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f7931518670>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f793151ab00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f793151ab00>>, mixin_verb=('build',))
+[0.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.404s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ayaa/Agro2'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_03_02-20_45_56) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_03_02-20_45_56) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_03_02-20_45_56) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_03_02-20_45_56) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_03_02-20_45_56) by extension 'colcon_pkg'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_03_02-20_45_56) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_03_02-20_45_56) by extension 'colcon_meta'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_03_02-20_45_56) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_03_02-20_45_56) by extension 'ros'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_03_02-20_45_56) by extensions ['cmake', 'python']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_03_02-20_45_56) by extension 'cmake'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_03_02-20_45_56) by extension 'python'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_03_02-20_45_56) by extensions ['python_setup_py']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_03_02-20_45_56) by extension 'python_setup_py'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_worlds) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_worlds) by extension 'ignore_ament_install'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_worlds) by extensions ['colcon_pkg']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_worlds) by extension 'colcon_pkg'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_worlds) by extensions ['colcon_meta']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_worlds) by extension 'colcon_meta'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_worlds) by extensions ['ros']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_worlds) by extension 'ros'
+[0.422s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_worlds' with type 'ros.ament_python' and name 'custom_worlds'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_gazebo) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_gazebo) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_gazebo) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_gazebo) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_gazebo) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_gazebo) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_gazebo) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_gazebo) by extension 'ros'
+[0.423s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fer_gazebo' with type 'ros.ament_python' and name 'fer_gazebo'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_moveit) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_moveit) by extension 'ignore_ament_install'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_moveit) by extensions ['colcon_pkg']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_moveit) by extension 'colcon_pkg'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_moveit) by extensions ['colcon_meta']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_moveit) by extension 'colcon_meta'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_moveit) by extensions ['ros']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/fer_moveit) by extension 'ros'
+[0.425s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fer_moveit' with type 'ros.ament_cmake' and name 'fer_moveit'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extension 'ignore_ament_install'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka_description) by extension 'ros'
+[0.426s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka_description' with type 'ros.ament_cmake' and name 'franka_description'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_nav2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_nav2_bringup) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_nav2_bringup) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_nav2_bringup) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_nav2_bringup) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_nav2_bringup) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_nav2_bringup) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_nav2_bringup) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_nav2_bringup) by extension 'ros'
+[0.428s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_nav2_bringup' with type 'ros.ament_python' and name 'my_nav2_bringup'
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.451s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/ayaa/Agro2/install
+[0.452s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 420 installed packages in /opt/ros/humble
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'custom_worlds' build argument 'cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'custom_worlds' build argument 'cmake_target' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'custom_worlds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'custom_worlds' build argument 'cmake_clean_cache' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'custom_worlds' build argument 'cmake_clean_first' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'custom_worlds' build argument 'cmake_force_configure' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'custom_worlds' build argument 'ament_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'custom_worlds' build argument 'catkin_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'custom_worlds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.503s] DEBUG:colcon.colcon_core.verb:Building package 'custom_worlds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ayaa/Agro2/build/custom_worlds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ayaa/Agro2/install/custom_worlds', 'merge_install': False, 'path': '/home/ayaa/Agro2/src/custom_worlds', 'symlink_install': False, 'test_result_base': None}
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'fer_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'fer_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'fer_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'fer_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'fer_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'fer_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'fer_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'fer_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'fer_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.503s] DEBUG:colcon.colcon_core.verb:Building package 'fer_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ayaa/Agro2/build/fer_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ayaa/Agro2/install/fer_gazebo', 'merge_install': False, 'path': '/home/ayaa/Agro2/src/fer_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_target' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.504s] DEBUG:colcon.colcon_core.verb:Building package 'franka_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ayaa/Agro2/build/franka_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ayaa/Agro2/install/franka_description', 'merge_install': False, 'path': '/home/ayaa/Agro2/src/franka_description', 'symlink_install': False, 'test_result_base': None}
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'my_nav2_bringup' build argument 'cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'my_nav2_bringup' build argument 'cmake_target' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'my_nav2_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'my_nav2_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'my_nav2_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'my_nav2_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'my_nav2_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'my_nav2_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'my_nav2_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.504s] DEBUG:colcon.colcon_core.verb:Building package 'my_nav2_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ayaa/Agro2/build/my_nav2_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ayaa/Agro2/install/my_nav2_bringup', 'merge_install': False, 'path': '/home/ayaa/Agro2/src/my_nav2_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'fer_moveit' build argument 'cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'fer_moveit' build argument 'cmake_target' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'fer_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'fer_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'fer_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'fer_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'fer_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'fer_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'fer_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.505s] DEBUG:colcon.colcon_core.verb:Building package 'fer_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ayaa/Agro2/build/fer_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ayaa/Agro2/install/fer_moveit', 'merge_install': False, 'path': '/home/ayaa/Agro2/src/fer_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.505s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.506s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.506s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ayaa/Agro2/src/franka_description' with build type 'ament_cmake'
+[0.506s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ayaa/Agro2/src/franka_description'
+[0.511s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.515s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ayaa/Agro2/src/custom_worlds' with build type 'ament_python'
+[0.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_worlds', 'ament_prefix_path')
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/hook/ament_prefix_path.ps1'
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/hook/ament_prefix_path.dsv'
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/hook/ament_prefix_path.sh'
+[0.517s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.517s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.522s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ayaa/Agro2/src/fer_gazebo' with build type 'ament_python'
+[0.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('fer_gazebo', 'ament_prefix_path')
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/fer_gazebo/share/fer_gazebo/hook/ament_prefix_path.ps1'
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaa/Agro2/install/fer_gazebo/share/fer_gazebo/hook/ament_prefix_path.dsv'
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/fer_gazebo/share/fer_gazebo/hook/ament_prefix_path.sh'
+[0.524s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.524s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.527s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ayaa/Agro2/src/my_nav2_bringup' with build type 'ament_python'
+[0.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_nav2_bringup', 'ament_prefix_path')
+[0.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/my_nav2_bringup/share/my_nav2_bringup/hook/ament_prefix_path.ps1'
+[0.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaa/Agro2/install/my_nav2_bringup/share/my_nav2_bringup/hook/ament_prefix_path.dsv'
+[0.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/my_nav2_bringup/share/my_nav2_bringup/hook/ament_prefix_path.sh'
+[0.529s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.529s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaa/Agro2/build/franka_description': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description /usr/bin/cmake --build /home/ayaa/Agro2/build/franka_description -- -j8 -l8
+[0.904s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ayaa/Agro2/src/custom_worlds'
+[0.905s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.905s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.264s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ayaa/Agro2/src/fer_gazebo'
+[1.264s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.264s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.620s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ayaa/Agro2/src/my_nav2_bringup'
+[1.620s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.620s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaa/Agro2/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description /usr/bin/cmake --build /home/ayaa/Agro2/build/franka_description -- -j8 -l8
+[1.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaa/Agro2/build/franka_description': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description /usr/bin/cmake --install /home/ayaa/Agro2/build/franka_description
+[1.648s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_description)
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/franka_description' for CMake module files
+[1.662s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/franka_description' for CMake config files
+[1.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_description', 'cmake_prefix_path')
+[1.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/franka_description/share/franka_description/hook/cmake_prefix_path.ps1'
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaa/Agro2/install/franka_description/share/franka_description/hook/cmake_prefix_path.dsv'
+[1.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/franka_description/share/franka_description/hook/cmake_prefix_path.sh'
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/franka_description/bin'
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/franka_description/lib/pkgconfig/franka_description.pc'
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/franka_description/lib/python3.10/site-packages'
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/franka_description/bin'
+[1.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/franka_description/share/franka_description/package.ps1'
+[1.672s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayaa/Agro2/install/franka_description/share/franka_description/package.dsv'
+[1.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/franka_description/share/franka_description/package.sh'
+[1.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/franka_description/share/franka_description/package.bash'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/franka_description/share/franka_description/package.zsh'
+[1.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayaa/Agro2/install/franka_description/share/colcon-core/packages/franka_description)
+[1.681s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_description)
+[1.681s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/franka_description' for CMake module files
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/franka_description' for CMake config files
+[1.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaa/Agro2/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description /usr/bin/cmake --install /home/ayaa/Agro2/build/franka_description
+[1.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_description', 'cmake_prefix_path')
+[1.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/franka_description/share/franka_description/hook/cmake_prefix_path.ps1'
+[1.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaa/Agro2/install/franka_description/share/franka_description/hook/cmake_prefix_path.dsv'
+[1.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/franka_description/share/franka_description/hook/cmake_prefix_path.sh'
+[1.688s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/franka_description/bin'
+[1.688s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/franka_description/lib/pkgconfig/franka_description.pc'
+[1.688s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/franka_description/lib/python3.10/site-packages'
+[1.689s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/franka_description/bin'
+[1.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/franka_description/share/franka_description/package.ps1'
+[1.690s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayaa/Agro2/install/franka_description/share/franka_description/package.dsv'
+[1.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/franka_description/share/franka_description/package.sh'
+[1.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/franka_description/share/franka_description/package.bash'
+[1.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/franka_description/share/franka_description/package.zsh'
+[1.692s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayaa/Agro2/install/franka_description/share/colcon-core/packages/franka_description)
+[1.692s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ayaa/Agro2/src/fer_moveit' with build type 'ament_cmake'
+[1.692s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ayaa/Agro2/src/fer_moveit'
+[1.693s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.693s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaa/Agro2/build/fer_moveit': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/fer_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/fer_moveit -- -j8 -l8
+[1.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaa/Agro2/build/fer_moveit' returned '0': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/fer_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/fer_moveit -- -j8 -l8
+[1.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaa/Agro2/build/fer_moveit': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/fer_moveit /usr/bin/cmake --install /home/ayaa/Agro2/build/fer_moveit
+[1.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fer_moveit)
+[1.757s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/fer_moveit' for CMake module files
+[1.758s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/fer_moveit' for CMake config files
+[1.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('fer_moveit', 'cmake_prefix_path')
+[1.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/hook/cmake_prefix_path.ps1'
+[1.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/hook/cmake_prefix_path.dsv'
+[1.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/hook/cmake_prefix_path.sh'
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/fer_moveit/bin'
+[1.763s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/fer_moveit/lib/pkgconfig/fer_moveit.pc'
+[1.763s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/fer_moveit/lib/python3.10/site-packages'
+[1.763s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/fer_moveit/bin'
+[1.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/package.ps1'
+[1.764s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/package.dsv'
+[1.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/package.sh'
+[1.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/package.bash'
+[1.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/package.zsh'
+[1.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaa/Agro2/build/fer_moveit' returned '0': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/fer_moveit /usr/bin/cmake --install /home/ayaa/Agro2/build/fer_moveit
+[1.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayaa/Agro2/install/fer_moveit/share/colcon-core/packages/fer_moveit)
+[1.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fer_moveit)
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/fer_moveit' for CMake module files
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/fer_moveit' for CMake config files
+[1.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('fer_moveit', 'cmake_prefix_path')
+[1.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/hook/cmake_prefix_path.ps1'
+[1.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/hook/cmake_prefix_path.dsv'
+[1.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/hook/cmake_prefix_path.sh'
+[1.771s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/fer_moveit/bin'
+[1.771s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/fer_moveit/lib/pkgconfig/fer_moveit.pc'
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/fer_moveit/lib/python3.10/site-packages'
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/fer_moveit/bin'
+[1.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/package.ps1'
+[1.773s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/package.dsv'
+[1.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/package.sh'
+[1.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/package.bash'
+[1.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/package.zsh'
+[1.774s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayaa/Agro2/install/fer_moveit/share/colcon-core/packages/fer_moveit)
+[2.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaa/Agro2/src/custom_worlds': PYTHONPATH=/home/ayaa/Agro2/build/custom_worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_worlds build --build-base /home/ayaa/Agro2/build/custom_worlds/build install --record /home/ayaa/Agro2/build/custom_worlds/install.log --single-version-externally-managed install_data
+[2.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaa/Agro2/src/my_nav2_bringup': PYTHONPATH=/home/ayaa/Agro2/build/my_nav2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/my_nav2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_nav2_bringup build --build-base /home/ayaa/Agro2/build/my_nav2_bringup/build install --record /home/ayaa/Agro2/build/my_nav2_bringup/install.log --single-version-externally-managed install_data
+[2.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayaa/Agro2/src/fer_gazebo': PYTHONPATH=/home/ayaa/Agro2/build/fer_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/fer_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fer_gazebo build --build-base /home/ayaa/Agro2/build/fer_gazebo/build install --record /home/ayaa/Agro2/build/fer_gazebo/install.log --single-version-externally-managed install_data
+[3.109s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/custom_worlds' for CMake module files
+[3.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaa/Agro2/src/custom_worlds' returned '0': PYTHONPATH=/home/ayaa/Agro2/build/custom_worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_worlds build --build-base /home/ayaa/Agro2/build/custom_worlds/build install --record /home/ayaa/Agro2/build/custom_worlds/install.log --single-version-externally-managed install_data
+[3.110s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/custom_worlds' for CMake config files
+[3.111s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/custom_worlds/lib'
+[3.111s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/custom_worlds/bin'
+[3.111s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/custom_worlds/lib/pkgconfig/custom_worlds.pc'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages'
+[3.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_worlds', 'pythonpath')
+[3.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/hook/pythonpath.ps1'
+[3.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/hook/pythonpath.dsv'
+[3.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/hook/pythonpath.sh'
+[3.114s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/custom_worlds/bin'
+[3.114s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_worlds)
+[3.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/package.ps1'
+[3.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/package.dsv'
+[3.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/package.sh'
+[3.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/package.bash'
+[3.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/package.zsh'
+[3.117s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayaa/Agro2/install/custom_worlds/share/colcon-core/packages/custom_worlds)
+[3.150s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/my_nav2_bringup' for CMake module files
+[3.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaa/Agro2/src/my_nav2_bringup' returned '0': PYTHONPATH=/home/ayaa/Agro2/build/my_nav2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/my_nav2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_nav2_bringup build --build-base /home/ayaa/Agro2/build/my_nav2_bringup/build install --record /home/ayaa/Agro2/build/my_nav2_bringup/install.log --single-version-externally-managed install_data
+[3.151s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/my_nav2_bringup' for CMake config files
+[3.152s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/my_nav2_bringup/lib'
+[3.153s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/my_nav2_bringup/bin'
+[3.153s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/my_nav2_bringup/lib/pkgconfig/my_nav2_bringup.pc'
+[3.153s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/my_nav2_bringup/lib/python3.10/site-packages'
+[3.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_nav2_bringup', 'pythonpath')
+[3.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/my_nav2_bringup/share/my_nav2_bringup/hook/pythonpath.ps1'
+[3.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaa/Agro2/install/my_nav2_bringup/share/my_nav2_bringup/hook/pythonpath.dsv'
+[3.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/my_nav2_bringup/share/my_nav2_bringup/hook/pythonpath.sh'
+[3.156s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/my_nav2_bringup/bin'
+[3.156s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_nav2_bringup)
+[3.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/my_nav2_bringup/share/my_nav2_bringup/package.ps1'
+[3.157s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayaa/Agro2/install/my_nav2_bringup/share/my_nav2_bringup/package.dsv'
+[3.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/my_nav2_bringup/share/my_nav2_bringup/package.sh'
+[3.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/my_nav2_bringup/share/my_nav2_bringup/package.bash'
+[3.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/my_nav2_bringup/share/my_nav2_bringup/package.zsh'
+[3.158s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayaa/Agro2/install/my_nav2_bringup/share/colcon-core/packages/my_nav2_bringup)
+[3.160s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/fer_gazebo' for CMake module files
+[3.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayaa/Agro2/src/fer_gazebo' returned '0': PYTHONPATH=/home/ayaa/Agro2/build/fer_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/fer_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fer_gazebo build --build-base /home/ayaa/Agro2/build/fer_gazebo/build install --record /home/ayaa/Agro2/build/fer_gazebo/install.log --single-version-externally-managed install_data
+[3.162s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/fer_gazebo' for CMake config files
+[3.162s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/fer_gazebo/lib'
+[3.162s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/fer_gazebo/bin'
+[3.162s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/fer_gazebo/lib/pkgconfig/fer_gazebo.pc'
+[3.163s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/fer_gazebo/lib/python3.10/site-packages'
+[3.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('fer_gazebo', 'pythonpath')
+[3.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/fer_gazebo/share/fer_gazebo/hook/pythonpath.ps1'
+[3.164s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayaa/Agro2/install/fer_gazebo/share/fer_gazebo/hook/pythonpath.dsv'
+[3.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayaa/Agro2/install/fer_gazebo/share/fer_gazebo/hook/pythonpath.sh'
+[3.165s] Level 1:colcon.colcon_core.environment:checking '/home/ayaa/Agro2/install/fer_gazebo/bin'
+[3.165s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fer_gazebo)
+[3.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/fer_gazebo/share/fer_gazebo/package.ps1'
+[3.166s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayaa/Agro2/install/fer_gazebo/share/fer_gazebo/package.dsv'
+[3.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/fer_gazebo/share/fer_gazebo/package.sh'
+[3.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/fer_gazebo/share/fer_gazebo/package.bash'
+[3.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayaa/Agro2/install/fer_gazebo/share/fer_gazebo/package.zsh'
+[3.168s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayaa/Agro2/install/fer_gazebo/share/colcon-core/packages/fer_gazebo)
+[3.168s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.168s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.169s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.169s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.177s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.177s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.177s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.188s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.188s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayaa/Agro2/install/local_setup.ps1'
+[3.189s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ayaa/Agro2/install/_local_setup_util_ps1.py'
+[3.190s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayaa/Agro2/install/setup.ps1'
+[3.192s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayaa/Agro2/install/local_setup.sh'
+[3.192s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ayaa/Agro2/install/_local_setup_util_sh.py'
+[3.193s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayaa/Agro2/install/setup.sh'
+[3.194s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayaa/Agro2/install/local_setup.bash'
+[3.195s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayaa/Agro2/install/setup.bash'
+[3.196s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayaa/Agro2/install/local_setup.zsh'
+[3.197s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayaa/Agro2/install/setup.zsh'

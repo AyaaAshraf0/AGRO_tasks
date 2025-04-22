@@ -1,0 +1,42 @@
+[1.215s] Invoking command in '/home/ayaa/Agro2/build/tiago_behavior_tree': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8
+[1.243s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.373s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.405s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.407s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.413s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.423s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.436s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.470s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.472s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.591s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.699s] -- Found moveit_ros_planning_interface: 2.5.8 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.706s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.991s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.040s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.056s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.094s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.153s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.204s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.420s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.481s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.521s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.588s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.722s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.722s] -- Configured cppcheck include dirs: 
+[2.722s] -- Configured cppcheck exclude dirs and/or files: 
+[2.723s] -- Added test 'lint_cmake' to check CMake code style
+[2.725s] -- Added test 'uncrustify' to check C / C++ code style
+[2.725s] -- Configured uncrustify additional arguments: 
+[2.725s] -- Added test 'xmllint' to check XML markup files
+[2.727s] -- Configuring done
+[2.779s] -- Generating done
+[2.795s] -- Build files have been written to: /home/ayaa/Agro2/build/tiago_behavior_tree
+[2.853s] [35m[1mConsolidate compiler generated dependencies of target pick_action_node[0m
+[2.891s] [ 50%] [32m[1mLinking CXX executable pick_action_node[0m
+[2.912s] /usr/bin/ld: cannot find -lpluginlib: No such file or directory
+[2.913s] /usr/bin/ld: cannot find -lbehaviortree_cpp_v3: No such file or directory
+[3.054s] collect2: error: ld returned 1 exit status
+[3.056s] gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:356: pick_action_node] Error 1
+[3.056s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_action_node.dir/all] Error 2
+[3.057s] gmake: *** [Makefile:146: all] Error 2
+[3.059s] Invoked command in '/home/ayaa/Agro2/build/tiago_behavior_tree' returned '2': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8

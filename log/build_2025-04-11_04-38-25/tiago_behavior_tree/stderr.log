@@ -1,0 +1,22 @@
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:9:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KBehaviorTreeFactory[m[K’
+    9 |     rclcpp::init(argc, argv)
+      |                             [01;31m[K^[m[K
+      |                             [32m[K;[m[K
+   10 |   // We use the BehaviorTreeFactory to register our custom nodes
+   11 |   [32m[KBehaviorTreeFactory[m[K factory;
+      |   [32m[K~~~~~~~~~~~~~~~~~~~[m[K        
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:14:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfactory[m[K’ was not declared in this scope
+   14 |   [01;31m[Kfactory[m[K.registerNodeType<OpenGripperAction>("OpenGripper");
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:14:45:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   14 | ype<OpenGripperAction[01;31m[K>[m[K("OpenGripper");
+      |                      [01;31m[K^[m[K
+
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:19:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   19 | deType<ApproachObject[01;31m[K>[m[K("ApproachObject");
+      |                      [01;31m[K^[m[K
+
+gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_action_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

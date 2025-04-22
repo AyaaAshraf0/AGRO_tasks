@@ -1,0 +1,28 @@
+[1.159s] Invoking command in '/home/ayaa/Agro2/build/tiago_behavior_tree': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8
+[1.207s] [35m[1mConsolidate compiler generated dependencies of target pick_action_node[0m
+[1.235s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o[0m
+[6.276s] In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+[6.276s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:[m[K In member function ‘[01m[KBT::NodeStatus GripperInterface::open()[m[K’:
+[6.276s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:45:17:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid rclcpp::init(int, const char* const*, const rclcpp::InitOptions&, rclcpp::SignalHandlerOptions)[m[K’
+[6.276s]    45 |     [01;31m[Krclcpp::init()[m[K;
+[6.276s]       |     [01;31m[K~~~~~~~~~~~~^~[m[K
+[6.276s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+[6.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.277s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:9[m[K,
+[6.277s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+[6.277s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:75:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.277s]    75 | [01;36m[Kinit[m[K(
+[6.277s]       | [01;36m[K^~~~[m[K
+[8.743s] gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+[8.744s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_action_node.dir/all] Error 2
+[8.744s] gmake: *** [Makefile:146: all] Error 2
+[8.746s] Invoked command in '/home/ayaa/Agro2/build/tiago_behavior_tree' returned '2': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8

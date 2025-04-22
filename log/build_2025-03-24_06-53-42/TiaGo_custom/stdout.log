@@ -1,0 +1,17 @@
+running egg_info
+writing ../../build/TiaGo_custom/TiaGo_custom.egg-info/PKG-INFO
+writing dependency_links to ../../build/TiaGo_custom/TiaGo_custom.egg-info/dependency_links.txt
+writing requirements to ../../build/TiaGo_custom/TiaGo_custom.egg-info/requires.txt
+writing top-level names to ../../build/TiaGo_custom/TiaGo_custom.egg-info/top_level.txt
+reading manifest file '../../build/TiaGo_custom/TiaGo_custom.egg-info/SOURCES.txt'
+writing manifest file '../../build/TiaGo_custom/TiaGo_custom.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/ayaa/Agro2/install/TiaGo_custom/lib/python3.10/site-packages/TiaGo_custom-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/TiaGo_custom/TiaGo_custom.egg-info to /home/ayaa/Agro2/install/TiaGo_custom/lib/python3.10/site-packages/TiaGo_custom-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ayaa/Agro2/build/TiaGo_custom/install.log'

@@ -1,0 +1,166 @@
+[0.051s] Invoking command in '/home/ayaa/Agro2/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake /home/ayaa/Agro2/src/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/ayaa/Agro2/install/gazebo_ros2_control
+[1.280s] -- The C compiler identification is GNU 11.4.0
+[1.281s] -- The CXX compiler identification is GNU 11.4.0
+[1.281s] -- Detecting C compiler ABI info
+[1.282s] -- Detecting C compiler ABI info - done
+[1.282s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.282s] -- Detecting C compile features
+[1.283s] -- Detecting C compile features - done
+[1.283s] -- Detecting CXX compiler ABI info
+[1.283s] -- Detecting CXX compiler ABI info - done
+[1.284s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.284s] -- Detecting CXX compile features
+[1.284s] -- Detecting CXX compile features - done
+[1.284s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.357s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.603s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[2.613s] -- Found controller_manager: 2.48.0 (/opt/ros/humble/share/controller_manager/cmake)
+[2.783s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.802s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.834s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.876s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.929s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.410s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.419s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.486s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.551s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.557s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.573s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.580s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.592s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.604s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.636s] -- Looking for pthread.h
+[3.792s] -- Looking for pthread.h - found
+[3.793s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.869s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.870s] -- Found Threads: TRUE  
+[4.073s] -- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[4.086s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.087s] -- Checking for module 'bullet>=2.82'
+[4.099s] --   Found bullet, version 3.05
+[4.355s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[4.415s] -- Found assimp: /usr/include (found version "5.2.0") 
+[4.491s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[4.555s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[4.640s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[4.668s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.699s] -- Searching for dependencies of ignition-math6
+[4.706s] -- Looking for OGRE...
+[4.707s] -- OGRE_PREFIX_WATCH changed.
+[4.717s] -- Checking for module 'OGRE'
+[4.744s] --   Found OGRE, version 1.9.0
+[4.811s] -- Found Ogre Ghadamon (1.9.0)
+[4.831s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[4.844s] -- Looking for OGRE_Paging...
+[4.851s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[4.851s] -- Looking for OGRE_Terrain...
+[4.858s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[4.858s] -- Looking for OGRE_Property...
+[4.865s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[4.866s] -- Looking for OGRE_RTShaderSystem...
+[4.872s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[4.872s] -- Looking for OGRE_Volume...
+[4.880s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[4.880s] -- Looking for OGRE_Overlay...
+[4.887s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[5.040s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.047s] -- Looking for ignition-transport8 -- found version 8.2.1
+[5.048s] -- Searching for dependencies of ignition-transport8
+[5.069s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[5.093s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[5.098s] -- Checking for module 'libzmq >= 4'
+[5.121s] --   Found libzmq , version 4.3.4
+[5.164s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[5.171s] -- Checking for module 'uuid'
+[5.184s] --   Found uuid, version 2.37.2
+[5.211s] -- Found UUID: TRUE  
+[5.218s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.218s] -- Searching for dependencies of ignition-msgs5
+[5.241s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.246s] -- Checking for module 'tinyxml2'
+[5.259s] --   Found tinyxml2, version 9.0.0
+[5.292s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.306s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.308s] -- Searching for dependencies of ignition-common3
+[5.309s] -- Looking for dlfcn.h - found
+[5.311s] -- Looking for libdl - found
+[5.314s] -- Found DL: TRUE  
+[5.341s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[5.342s] -- Searching for <ignition-common3> component [graphics]
+[5.348s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[5.349s] -- Searching for dependencies of ignition-common3-graphics
+[5.349s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.357s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[5.357s] -- Searching for dependencies of ignition-fuel_tools4
+[5.437s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[5.452s] -- Checking for module 'jsoncpp'
+[5.466s] --   Found jsoncpp, version 1.9.5
+[5.496s] -- Found JSONCPP: TRUE  
+[5.504s] -- Checking for module 'libzip'
+[5.516s] --   Found libzip, version 1.7.3
+[5.545s] -- Found ZIP: TRUE  
+[5.545s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.546s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.546s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.556s] -- Gazebo version: 11.10
+[5.557s] -- Checking for module 'tbb'
+[5.570s] --   Found tbb, version 2021.5.0
+[5.603s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[5.613s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[5.668s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.677s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.823s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.826s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.827s] -- Configured cppcheck include dirs: /home/ayaa/Agro2/src/gazebo_ros2_control/gazebo_ros2_control/include
+[5.827s] -- Configured cppcheck exclude dirs and/or files: 
+[5.830s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.830s] -- Configured cpplint exclude dirs and/or files: 
+[5.833s] -- Added test 'lint_cmake' to check CMake code style
+[5.835s] -- Added test 'uncrustify' to check C / C++ code style
+[5.835s] -- Configured uncrustify additional arguments: 
+[5.837s] -- Added test 'xmllint' to check XML markup files
+[5.840s] -- Configuring done
+[6.075s] -- Generating done
+[6.084s] -- Build files have been written to: /home/ayaa/Agro2/build/gazebo_ros2_control
+[6.100s] Invoked command in '/home/ayaa/Agro2/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake /home/ayaa/Agro2/src/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/ayaa/Agro2/install/gazebo_ros2_control
+[6.102s] Invoking command in '/home/ayaa/Agro2/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/gazebo_ros2_control -- -j8 -l8
+[6.152s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o[0m
+[6.152s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o[0m
+[21.543s] [ 75%] [32m[1mLinking CXX shared library libgazebo_hardware_plugins.so[0m
+[22.154s] [ 75%] Built target gazebo_hardware_plugins
+[23.309s] [100%] [32m[1mLinking CXX shared library libgazebo_ros2_control.so[0m
+[23.935s] [100%] Built target gazebo_ros2_control
+[23.946s] Invoked command in '/home/ayaa/Agro2/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/gazebo_ros2_control -- -j8 -l8
+[23.947s] Invoking command in '/home/ayaa/Agro2/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --install /home/ayaa/Agro2/build/gazebo_ros2_control
+[23.956s] -- Install configuration: ""
+[23.956s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[23.959s] -- Set runtime path of "/home/ayaa/Agro2/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so" to ""
+[23.959s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[23.961s] -- Set runtime path of "/home/ayaa/Agro2/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so" to ""
+[23.962s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[23.962s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[23.962s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/include/gazebo_ros2_control
+[23.962s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[23.962s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[23.962s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[23.962s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/gazebo_ros2_control/gazebo_hardware_plugins.xml
+[23.963s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[23.963s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[23.963s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[23.963s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[23.963s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[23.963s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[23.963s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[23.964s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[23.964s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[23.964s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[23.964s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[23.964s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[23.964s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[23.965s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.965s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.965s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[23.965s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[23.965s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[23.965s] -- Installing: /home/ayaa/Agro2/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[23.968s] Invoked command in '/home/ayaa/Agro2/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --install /home/ayaa/Agro2/build/gazebo_ros2_control

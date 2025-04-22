@@ -1,0 +1,2 @@
+[console_scripts]
+bridge_cmd = tiago_custom.bridge_cmd:main

@@ -1,0 +1,21 @@
+[0.380s] Invoking command in '/home/ayaa/Agro2/build/franka_description': /usr/bin/cmake /home/ayaa/Agro2/src/franka_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ayaa/Agro2/install/franka_description
+[0.402s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.402s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.402s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.403s]   CMake did not find one.
+[0.403s] 
+[0.403s]   Could not find a package configuration file provided by "catkin" with any
+[0.403s]   of the following names:
+[0.403s] 
+[0.403s]     catkinConfig.cmake
+[0.403s]     catkin-config.cmake
+[0.403s] 
+[0.403s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.403s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.403s]   provides a separate development package or SDK, be sure it has been
+[0.403s]   installed.
+[0.403s] 
+[0.403s] -- Configuring incomplete, errors occurred!
+[0.403s] See also "/home/ayaa/Agro2/build/franka_description/CMakeFiles/CMakeOutput.log".
+[0.403s] [0m
+[0.759s] Invoked command in '/home/ayaa/Agro2/build/franka_description' returned '1': /usr/bin/cmake /home/ayaa/Agro2/src/franka_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ayaa/Agro2/install/franka_description

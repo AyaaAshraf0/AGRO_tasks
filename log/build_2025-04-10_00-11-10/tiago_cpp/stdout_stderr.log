@@ -1,0 +1,60 @@
+[35m[1mConsolidate compiler generated dependencies of target pick_place_tiago[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pick_place_tiago.dir/src/pick_place_tiago.cpp.o[0m
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:51:8:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto success[m[K’
+   51 |   auto [01;31m[Ksuccess[m[K = static_cast<bool>(gripper_group.move());
+      |        [01;31m[K^~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:34:8:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kbool success[m[K’
+   34 |   bool [01;36m[Ksuccess[m[K = static_cast<bool>(move_group.plan(plan));
+      |        [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:1[m[K:
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:54:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<rclcpp::Node>[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   54 |   RCLCPP_ERROR(node.[01;31m[Kget_logger[m[K(), "Failed to move gripper");
+      |                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:54:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<rclcpp::Node>[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:54:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   54 |   [01;31m[KRCLCPP_ERROR[m[K(node.get_logger(), "Failed to move gripper");
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:54:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   54 |   [01;31m[KRCLCPP_ERROR[m[K(node.get_logger(), "Failed to move gripper");
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:54:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   54 |   [01;31m[KRCLCPP_ERROR[m[K(node.get_logger(), "Failed to move gripper");
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:1[m[K:
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:54:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<rclcpp::Node>[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   54 |   RCLCPP_ERROR(node.[01;31m[Kget_logger[m[K(), "Failed to move gripper");
+      |                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:54:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<rclcpp::Node>[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   54 |   RCLCPP_ERROR(node.[01;31m[Kget_logger[m[K(), "Failed to move gripper");
+      |                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:53:1:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+   53 | [01;35m[Kif[m[K (!success)
+      | [01;35m[K^~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:58:3:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+   58 |   [01;36m[Krclcpp[m[K::shutdown();
+      |   [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pick_place_tiago.dir/build.make:76: CMakeFiles/pick_place_tiago.dir/src/pick_place_tiago.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_place_tiago.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

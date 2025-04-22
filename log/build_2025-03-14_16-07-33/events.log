@@ -1,0 +1,104 @@
+[0.000000] (-) TimerEvent: {}
+[0.000636] (custom_worlds) JobQueued: {'identifier': 'custom_worlds', 'dependencies': OrderedDict()}
+[0.000705] (moveit2_tutorials) JobQueued: {'identifier': 'moveit2_tutorials', 'dependencies': OrderedDict()}
+[0.000739] (my_nav2_bringup) JobQueued: {'identifier': 'my_nav2_bringup', 'dependencies': OrderedDict()}
+[0.000775] (ur_description) JobQueued: {'identifier': 'ur_description', 'dependencies': OrderedDict()}
+[0.000792] (ur5_moveit) JobQueued: {'identifier': 'ur5_moveit', 'dependencies': OrderedDict([('ur_description', '/home/ayaa/Agro2/install/ur_description')])}
+[0.000881] (custom_worlds) JobStarted: {'identifier': 'custom_worlds'}
+[0.099395] (-) TimerEvent: {}
+[0.199705] (-) TimerEvent: {}
+[0.300027] (-) TimerEvent: {}
+[0.400799] (-) TimerEvent: {}
+[0.501104] (-) TimerEvent: {}
+[0.601451] (-) TimerEvent: {}
+[0.701736] (-) TimerEvent: {}
+[0.801997] (-) TimerEvent: {}
+[0.902267] (-) TimerEvent: {}
+[1.002541] (-) TimerEvent: {}
+[1.102857] (-) TimerEvent: {}
+[1.137537] (custom_worlds) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/custom_worlds', 'build', '--build-base', '/home/ayaa/Agro2/build/custom_worlds/build', 'install', '--record', '/home/ayaa/Agro2/build/custom_worlds/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ayaa/Agro2/src/custom_worlds', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ayaa', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ayaa', 'OLDPWD': '/home/ayaa/Agro2/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_EG.UTF-8', 'MANAGERPID': '1264', 'SYSTEMD_EXEC_PID': '1652', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '39184', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ayaa/Agro2/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ayaa', 'JOURNAL_STREAM': '8:31143', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ayaa', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/ayaa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ayaa-Precision-5520:@/tmp/.ICE-unix/1604,unix/ayaa-Precision-5520:/tmp/.ICE-unix/1604', 'INVOCATION_ID': 'ebf8d1333bdc4414927a89c83475fa53', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:c6a8d0c2-0dc4-42bd-b9a8-3cf7f13ef7ba', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ayaa/Agro2/build/custom_worlds', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ayaa/Agro2/build/custom_worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages:/home/ayaa/Agro2/install/my_nav2_bringup/lib/python3.10/site-packages:/home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/franka_description'}, 'shell': False}
+[1.202974] (-) TimerEvent: {}
+[1.303274] (-) TimerEvent: {}
+[1.403532] (-) TimerEvent: {}
+[1.503878] (-) TimerEvent: {}
+[1.551621] (custom_worlds) StdoutLine: {'line': b'running egg_info\n'}
+[1.568672] (custom_worlds) StdoutLine: {'line': b'writing ../../build/custom_worlds/custom_worlds.egg-info/PKG-INFO\n'}
+[1.569092] (custom_worlds) StdoutLine: {'line': b'writing dependency_links to ../../build/custom_worlds/custom_worlds.egg-info/dependency_links.txt\n'}
+[1.569406] (custom_worlds) StdoutLine: {'line': b'writing requirements to ../../build/custom_worlds/custom_worlds.egg-info/requires.txt\n'}
+[1.569623] (custom_worlds) StdoutLine: {'line': b'writing top-level names to ../../build/custom_worlds/custom_worlds.egg-info/top_level.txt\n'}
+[1.604041] (-) TimerEvent: {}
+[1.610991] (custom_worlds) StdoutLine: {'line': b"reading manifest file '../../build/custom_worlds/custom_worlds.egg-info/SOURCES.txt'\n"}
+[1.611303] (custom_worlds) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.612002] (custom_worlds) StdoutLine: {'line': b"writing manifest file '../../build/custom_worlds/custom_worlds.egg-info/SOURCES.txt'\n"}
+[1.612246] (custom_worlds) StdoutLine: {'line': b'running build\n'}
+[1.612444] (custom_worlds) StdoutLine: {'line': b'running build_py\n'}
+[1.612673] (custom_worlds) StdoutLine: {'line': b'running install\n'}
+[1.618193] (custom_worlds) StdoutLine: {'line': b'running install_lib\n'}
+[1.635630] (custom_worlds) StdoutLine: {'line': b'running install_data\n'}
+[1.635916] (custom_worlds) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.653682] (custom_worlds) StdoutLine: {'line': b"removing '/home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages/custom_worlds-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.653973] (custom_worlds) StdoutLine: {'line': b'Copying ../../build/custom_worlds/custom_worlds.egg-info to /home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages/custom_worlds-0.0.0-py3.10.egg-info\n'}
+[1.654719] (custom_worlds) StdoutLine: {'line': b'running install_scripts\n'}
+[1.704102] (-) TimerEvent: {}
+[1.720924] (custom_worlds) StdoutLine: {'line': b"writing list of installed files to '/home/ayaa/Agro2/build/custom_worlds/install.log'\n"}
+[1.761152] (custom_worlds) CommandEnded: {'returncode': 0}
+[1.773858] (custom_worlds) JobEnded: {'identifier': 'custom_worlds', 'rc': 0}
+[1.774611] (moveit2_tutorials) JobStarted: {'identifier': 'moveit2_tutorials'}
+[1.780281] (moveit2_tutorials) JobProgress: {'identifier': 'moveit2_tutorials', 'progress': 'cmake'}
+[1.781080] (moveit2_tutorials) Command: {'cmd': ['/usr/bin/cmake', '/home/ayaa/Agro2/src/moveit2_tutorials', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/ayaa/Agro2/install/moveit2_tutorials'], 'cwd': '/home/ayaa/Agro2/build/moveit2_tutorials', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ayaa'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ayaa'), ('OLDPWD', '/home/ayaa/Agro2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1264'), ('SYSTEMD_EXEC_PID', '1652'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '39184'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ayaa/Agro2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ayaa'), ('JOURNAL_STREAM', '8:31143'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ayaa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ayaa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ayaa-Precision-5520:@/tmp/.ICE-unix/1604,unix/ayaa-Precision-5520:/tmp/.ICE-unix/1604'), ('INVOCATION_ID', 'ebf8d1333bdc4414927a89c83475fa53'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c6a8d0c2-0dc4-42bd-b9a8-3cf7f13ef7ba'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ayaa/Agro2/build/moveit2_tutorials'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ayaa/Agro2/install/my_nav2_bringup/lib/python3.10/site-packages:/home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble')]), 'shell': False}
+[1.794988] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_common: 2.5.8 (/opt/ros/humble/share/moveit_common/cmake)\n'}
+[1.795378] (moveit2_tutorials) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.804195] (-) TimerEvent: {}
+[1.904431] (-) TimerEvent: {}
+[1.998910] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread \n'}
+[2.000132] (moveit2_tutorials) StdoutLine: {'line': b'-- Found control_msgs: 4.7.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[2.004590] (-) TimerEvent: {}
+[2.026190] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.028729] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.037042] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.046509] (moveit2_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.059402] (moveit2_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.104715] (-) TimerEvent: {}
+[2.181476] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_core: 2.5.8 (/opt/ros/humble/share/moveit_core/cmake)\n'}
+[2.190887] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[2.204834] (-) TimerEvent: {}
+[2.217851] (moveit2_tutorials) StdoutLine: {'line': b'-- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[2.248078] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.249536] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.304952] (-) TimerEvent: {}
+[2.358613] (moveit2_tutorials) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.405070] (-) TimerEvent: {}
+[2.407556] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[2.430091] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[2.464986] (moveit2_tutorials) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[2.505189] (-) TimerEvent: {}
+[2.506625] (moveit2_tutorials) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.605306] (-) TimerEvent: {}
+[2.700828] (moveit2_tutorials) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (find_package):\n'}
+[2.701121] (moveit2_tutorials) StderrLine: {'line': b'  By not providing "Findmoveit_task_constructor_core.cmake" in\n'}
+[2.701201] (moveit2_tutorials) StderrLine: {'line': b'  CMAKE_MODULE_PATH this project has asked CMake to find a package\n'}
+[2.701261] (moveit2_tutorials) StderrLine: {'line': b'  configuration file provided by "moveit_task_constructor_core", but CMake\n'}
+[2.701320] (moveit2_tutorials) StderrLine: {'line': b'  did not find one.\n'}
+[2.701377] (moveit2_tutorials) StderrLine: {'line': b'\n'}
+[2.701450] (moveit2_tutorials) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[2.701508] (moveit2_tutorials) StderrLine: {'line': b'  "moveit_task_constructor_core" with any of the following names:\n'}
+[2.701564] (moveit2_tutorials) StderrLine: {'line': b'\n'}
+[2.701620] (moveit2_tutorials) StderrLine: {'line': b'    moveit_task_constructor_coreConfig.cmake\n'}
+[2.701676] (moveit2_tutorials) StderrLine: {'line': b'    moveit_task_constructor_core-config.cmake\n'}
+[2.701732] (moveit2_tutorials) StderrLine: {'line': b'\n'}
+[2.701787] (moveit2_tutorials) StderrLine: {'line': b'  Add the installation prefix of "moveit_task_constructor_core" to\n'}
+[2.701843] (moveit2_tutorials) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "moveit_task_constructor_core_DIR" to a directory\n'}
+[2.701899] (moveit2_tutorials) StderrLine: {'line': b'  containing one of the above files.  If "moveit_task_constructor_core"\n'}
+[2.701974] (moveit2_tutorials) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.702043] (moveit2_tutorials) StderrLine: {'line': b'  installed.\n'}
+[2.702097] (moveit2_tutorials) StderrLine: {'line': b'\n'}
+[2.702151] (moveit2_tutorials) StderrLine: {'line': b'\x1b[0m\n'}
+[2.702205] (moveit2_tutorials) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.702270] (moveit2_tutorials) StdoutLine: {'line': b'See also "/home/ayaa/Agro2/build/moveit2_tutorials/CMakeFiles/CMakeOutput.log".\n'}
+[2.705407] (-) TimerEvent: {}
+[2.710881] (moveit2_tutorials) CommandEnded: {'returncode': 1}
+[2.726241] (moveit2_tutorials) JobEnded: {'identifier': 'moveit2_tutorials', 'rc': 1}
+[2.726976] (my_nav2_bringup) JobSkipped: {'identifier': 'my_nav2_bringup'}
+[2.727009] (ur_description) JobSkipped: {'identifier': 'ur_description'}
+[2.727028] (ur5_moveit) JobSkipped: {'identifier': 'ur5_moveit'}
+[2.727046] (-) EventReactorShutdown: {}

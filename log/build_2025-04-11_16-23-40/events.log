@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000253] (-) JobUnselected: {'identifier': 'custom_worlds'}
+[0.000751] (-) JobUnselected: {'identifier': 'fer_cpp_moveit'}
+[0.000887] (-) JobUnselected: {'identifier': 'fer_gazebo'}
+[0.000907] (-) JobUnselected: {'identifier': 'fer_moveit'}
+[0.001036] (-) JobUnselected: {'identifier': 'franka_description'}
+[0.001102] (-) JobUnselected: {'identifier': 'my_nav2_bringup'}
+[0.001135] (-) JobUnselected: {'identifier': 'tiago_cpp'}
+[0.001189] (-) JobUnselected: {'identifier': 'tiago_custom'}
+[0.001261] (tiago_behavior_tree) JobQueued: {'identifier': 'tiago_behavior_tree', 'dependencies': OrderedDict()}
+[0.001313] (tiago_behavior_tree) JobStarted: {'identifier': 'tiago_behavior_tree'}
+[0.010678] (tiago_behavior_tree) JobProgress: {'identifier': 'tiago_behavior_tree', 'progress': 'cmake'}
+[0.011436] (tiago_behavior_tree) JobProgress: {'identifier': 'tiago_behavior_tree', 'progress': 'build'}
+[0.012202] (tiago_behavior_tree) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ayaa/Agro2/build/tiago_behavior_tree', '--', '-j8', '-l8'], 'cwd': '/home/ayaa/Agro2/build/tiago_behavior_tree', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ayaa'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ayaa'), ('OLDPWD', '/home/ayaa'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1345'), ('SYSTEMD_EXEC_PID', '1692'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2626'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ayaa/Agro2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ayaa'), ('JOURNAL_STREAM', '8:29689'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ayaa'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ayaa/Agro2/install/tiago_behavior_tree/bin:/opt/ros/humble/bin:/home/ayaa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ayaa-Precision-5520:@/tmp/.ICE-unix/1668,unix/ayaa-Precision-5520:/tmp/.ICE-unix/1668'), ('INVOCATION_ID', 'ce6a7ed3079741cc8909d1d3798e4e88'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/fer_cpp_moveit:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c4526065-cb6d-4484-8879-3b8f27c40fe4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ayaa/Agro2/build/tiago_behavior_tree'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ayaa/Agro2/install/tiago_description/local/lib/python3.10/dist-packages:/home/ayaa/Agro2/install/tiago_custom/lib/python3.10/site-packages:/home/ayaa/Agro2/install/my_nav2_bringup/lib/python3.10/site-packages:/home/ayaa/Agro2/install/fer_gazebo/lib/python3.10/site-packages:/home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit')]), 'shell': False}
+[0.060260] (tiago_behavior_tree) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pick_action_node\x1b[0m\n'}
+[0.086152] (tiago_behavior_tree) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o\x1b[0m\n'}
+[0.099769] (-) TimerEvent: {}
+[0.200012] (-) TimerEvent: {}
+[0.300322] (-) TimerEvent: {}
+[0.400604] (-) TimerEvent: {}
+[0.500853] (-) TimerEvent: {}
+[0.601125] (-) TimerEvent: {}
+[0.701388] (-) TimerEvent: {}
+[0.801668] (-) TimerEvent: {}
+[0.901943] (-) TimerEvent: {}
+[1.002245] (-) TimerEvent: {}
+[1.102539] (-) TimerEvent: {}
+[1.202836] (-) TimerEvent: {}
+[1.303131] (-) TimerEvent: {}
+[1.403414] (-) TimerEvent: {}
+[1.503688] (-) TimerEvent: {}
+[1.603988] (-) TimerEvent: {}
+[1.704330] (-) TimerEvent: {}
+[1.804577] (-) TimerEvent: {}
+[1.904856] (-) TimerEvent: {}
+[2.005172] (-) TimerEvent: {}
+[2.105535] (-) TimerEvent: {}
+[2.205841] (-) TimerEvent: {}
+[2.306115] (-) TimerEvent: {}
+[2.406422] (-) TimerEvent: {}
+[2.506691] (-) TimerEvent: {}
+[2.606982] (-) TimerEvent: {}
+[2.707330] (-) TimerEvent: {}
+[2.807617] (-) TimerEvent: {}
+[2.907894] (-) TimerEvent: {}
+[3.008219] (-) TimerEvent: {}
+[3.108527] (-) TimerEvent: {}
+[3.208880] (-) TimerEvent: {}
+[3.309180] (-) TimerEvent: {}
+[3.409454] (-) TimerEvent: {}
+[3.509768] (-) TimerEvent: {}
+[3.610098] (-) TimerEvent: {}
+[3.710474] (-) TimerEvent: {}
+[3.810796] (-) TimerEvent: {}
+[3.911162] (-) TimerEvent: {}
+[4.011430] (-) TimerEvent: {}
+[4.111719] (-) TimerEvent: {}
+[4.211988] (-) TimerEvent: {}
+[4.312317] (-) TimerEvent: {}
+[4.412622] (-) TimerEvent: {}
+[4.512981] (-) TimerEvent: {}
+[4.613330] (-) TimerEvent: {}
+[4.713659] (-) TimerEvent: {}
+[4.814018] (-) TimerEvent: {}
+[4.914410] (-) TimerEvent: {}
+[5.014689] (-) TimerEvent: {}
+[5.114955] (-) TimerEvent: {}
+[5.215219] (-) TimerEvent: {}
+[5.315466] (-) TimerEvent: {}
+[5.331743] (tiago_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.331901] (tiago_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:14:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ka function-definition is not allowed here before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.331970] (tiago_behavior_tree) StderrLine: {'line': b'   14 |   \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[5.332031] (tiago_behavior_tree) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.415607] (-) TimerEvent: {}
+[5.515889] (-) TimerEvent: {}
+[5.616181] (-) TimerEvent: {}
+[5.716504] (-) TimerEvent: {}
+[5.816789] (-) TimerEvent: {}
+[5.917072] (-) TimerEvent: {}
+[6.017348] (-) TimerEvent: {}
+[6.117634] (-) TimerEvent: {}
+[6.217911] (-) TimerEvent: {}
+[6.318197] (-) TimerEvent: {}
+[6.418470] (-) TimerEvent: {}
+[6.518749] (-) TimerEvent: {}
+[6.619068] (-) TimerEvent: {}
+[6.719355] (-) TimerEvent: {}
+[6.819662] (-) TimerEvent: {}
+[6.919969] (-) TimerEvent: {}
+[7.020315] (-) TimerEvent: {}
+[7.120635] (-) TimerEvent: {}
+[7.220952] (-) TimerEvent: {}
+[7.321237] (-) TimerEvent: {}
+[7.421511] (-) TimerEvent: {}
+[7.521813] (-) TimerEvent: {}
+[7.622115] (-) TimerEvent: {}
+[7.722420] (-) TimerEvent: {}
+[7.785155] (tiago_behavior_tree) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1\n'}
+[7.785469] (tiago_behavior_tree) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_action_node.dir/all] Error 2\n'}
+[7.785759] (tiago_behavior_tree) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.788343] (tiago_behavior_tree) CommandEnded: {'returncode': 2}
+[7.801092] (tiago_behavior_tree) JobEnded: {'identifier': 'tiago_behavior_tree', 'rc': 2}
+[7.811807] (-) EventReactorShutdown: {}

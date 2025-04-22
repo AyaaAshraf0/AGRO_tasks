@@ -1,0 +1,32 @@
+[1.937s] Invoking command in '/home/ayaa/Agro2/src/fer_gazebo': PYTHONPATH=/home/ayaa/Agro2/build/fer_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/fer_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fer_gazebo build --build-base /home/ayaa/Agro2/build/fer_gazebo/build install --record /home/ayaa/Agro2/build/fer_gazebo/install.log --single-version-externally-managed install_data
+[2.352s] running egg_info
+[2.353s] creating ../../build/fer_gazebo/fer_gazebo.egg-info
+[2.370s] writing ../../build/fer_gazebo/fer_gazebo.egg-info/PKG-INFO
+[2.370s] writing dependency_links to ../../build/fer_gazebo/fer_gazebo.egg-info/dependency_links.txt
+[2.371s] writing requirements to ../../build/fer_gazebo/fer_gazebo.egg-info/requires.txt
+[2.371s] writing top-level names to ../../build/fer_gazebo/fer_gazebo.egg-info/top_level.txt
+[2.371s] writing manifest file '../../build/fer_gazebo/fer_gazebo.egg-info/SOURCES.txt'
+[2.417s] reading manifest file '../../build/fer_gazebo/fer_gazebo.egg-info/SOURCES.txt'
+[2.418s] writing manifest file '../../build/fer_gazebo/fer_gazebo.egg-info/SOURCES.txt'
+[2.419s] running build
+[2.419s] running build_py
+[2.419s] creating /home/ayaa/Agro2/build/fer_gazebo/build
+[2.419s] creating /home/ayaa/Agro2/build/fer_gazebo/build/lib
+[2.419s] creating /home/ayaa/Agro2/build/fer_gazebo/build/lib/fer_gazebo
+[2.420s] copying fer_gazebo/__init__.py -> /home/ayaa/Agro2/build/fer_gazebo/build/lib/fer_gazebo
+[2.420s] running install
+[2.428s] running install_lib
+[2.445s] creating /home/ayaa/Agro2/install/fer_gazebo/lib/python3.10/site-packages/fer_gazebo
+[2.445s] copying /home/ayaa/Agro2/build/fer_gazebo/build/lib/fer_gazebo/__init__.py -> /home/ayaa/Agro2/install/fer_gazebo/lib/python3.10/site-packages/fer_gazebo
+[2.446s] byte-compiling /home/ayaa/Agro2/install/fer_gazebo/lib/python3.10/site-packages/fer_gazebo/__init__.py to __init__.cpython-310.pyc
+[2.446s] running install_data
+[2.447s] creating /home/ayaa/Agro2/install/fer_gazebo/share/ament_index
+[2.447s] creating /home/ayaa/Agro2/install/fer_gazebo/share/ament_index/resource_index
+[2.447s] creating /home/ayaa/Agro2/install/fer_gazebo/share/ament_index/resource_index/packages
+[2.447s] copying resource/fer_gazebo -> /home/ayaa/Agro2/install/fer_gazebo/share/ament_index/resource_index/packages
+[2.447s] copying package.xml -> /home/ayaa/Agro2/install/fer_gazebo/share/fer_gazebo
+[2.447s] running install_egg_info
+[2.466s] Copying ../../build/fer_gazebo/fer_gazebo.egg-info to /home/ayaa/Agro2/install/fer_gazebo/lib/python3.10/site-packages/fer_gazebo-0.0.0-py3.10.egg-info
+[2.467s] running install_scripts
+[2.536s] writing list of installed files to '/home/ayaa/Agro2/build/fer_gazebo/install.log'
+[2.605s] Invoked command in '/home/ayaa/Agro2/src/fer_gazebo' returned '0': PYTHONPATH=/home/ayaa/Agro2/build/fer_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/fer_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fer_gazebo build --build-base /home/ayaa/Agro2/build/fer_gazebo/build install --record /home/ayaa/Agro2/build/fer_gazebo/install.log --single-version-externally-managed install_data

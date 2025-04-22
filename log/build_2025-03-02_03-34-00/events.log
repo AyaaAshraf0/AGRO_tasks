@@ -1,0 +1,20 @@
+[0.000000] (-) TimerEvent: {}
+[0.000904] (custom_worlds) JobQueued: {'identifier': 'custom_worlds', 'dependencies': OrderedDict()}
+[0.000940] (my_nav2_bringup) JobQueued: {'identifier': 'my_nav2_bringup', 'dependencies': OrderedDict()}
+[0.000971] (custom_worlds) JobStarted: {'identifier': 'custom_worlds'}
+[0.013503] (my_nav2_bringup) JobStarted: {'identifier': 'my_nav2_bringup'}
+[0.099971] (-) TimerEvent: {}
+[0.200261] (-) TimerEvent: {}
+[0.300477] (-) TimerEvent: {}
+[0.400715] (-) TimerEvent: {}
+[0.501020] (-) TimerEvent: {}
+[0.601358] (-) TimerEvent: {}
+[0.701620] (-) TimerEvent: {}
+[0.801876] (-) TimerEvent: {}
+[0.902176] (-) TimerEvent: {}
+[1.002563] (-) TimerEvent: {}
+[1.102811] (-) TimerEvent: {}
+[1.189647] (my_nav2_bringup) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.10/selectors.py", line 469, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 96, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 194, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'-W\', \'ignore:setup.py install is deprecated\', \'-W\', \'ignore:easy_install command is deprecated\', \'setup.py\', \'--help-commands\'] to pass: Traceback (most recent call last):\n  File "/home/ayaa/Agro2/src/my_nav2_bringup/setup.py", line 1, in <module>\n    from setuptools import setup\n  File "/home/ayaa/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>\n    import setuptools.version\n  File "/home/ayaa/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>\n    import pkg_resources\n  File "/home/ayaa/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3260, in <module>\n    def _initialize_master_working_set():\n  File "/home/ayaa/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3234, in _call_aside\n    f(*args, **kwargs)\n  File "/home/ayaa/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3285, in _initialize_master_working_set\n    tuple(\n  File "/home/ayaa/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3286, in <genexpr>\n    dist.activate(replace=False)\n  File "/home/ayaa/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2802, in activate\n    for pkg in self._get_metadata(\'namespace_packages.txt\'):\nKeyboardInterrupt\n\n'}
+[1.190164] (my_nav2_bringup) JobEnded: {'identifier': 'my_nav2_bringup', 'rc': 'SIGINT'}
+[1.190537] (custom_worlds) JobEnded: {'identifier': 'custom_worlds', 'rc': 'SIGINT'}
+[1.200235] (-) EventReactorShutdown: {}

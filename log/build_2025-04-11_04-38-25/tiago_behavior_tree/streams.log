@@ -1,0 +1,26 @@
+[1.161s] Invoking command in '/home/ayaa/Agro2/build/tiago_behavior_tree': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8
+[1.211s] [35m[1mConsolidate compiler generated dependencies of target pick_action_node[0m
+[1.240s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o[0m
+[6.407s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.407s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:9:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KBehaviorTreeFactory[m[K’
+[6.407s]     9 |     rclcpp::init(argc, argv)
+[6.407s]       |                             [01;31m[K^[m[K
+[6.407s]       |                             [32m[K;[m[K
+[6.407s]    10 |   // We use the BehaviorTreeFactory to register our custom nodes
+[6.407s]    11 |   [32m[KBehaviorTreeFactory[m[K factory;
+[6.407s]       |   [32m[K~~~~~~~~~~~~~~~~~~~[m[K        
+[6.412s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:14:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfactory[m[K’ was not declared in this scope
+[6.412s]    14 |   [01;31m[Kfactory[m[K.registerNodeType<OpenGripperAction>("OpenGripper");
+[6.412s]       |   [01;31m[K^~~~~~~[m[K
+[6.412s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:14:45:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[6.412s]    14 | ype<OpenGripperAction[01;31m[K>[m[K("OpenGripper");
+[6.413s]       |                      [01;31m[K^[m[K
+[6.413s] 
+[6.413s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:19:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[6.413s]    19 | deType<ApproachObject[01;31m[K>[m[K("ApproachObject");
+[6.413s]       |                      [01;31m[K^[m[K
+[6.413s] 
+[8.810s] gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+[8.810s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_action_node.dir/all] Error 2
+[8.811s] gmake: *** [Makefile:146: all] Error 2
+[8.813s] Invoked command in '/home/ayaa/Agro2/build/tiago_behavior_tree' returned '2': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8

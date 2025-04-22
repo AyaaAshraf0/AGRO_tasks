@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target pick_action_node[0m
+[100%] Built target pick_action_node
+-- Install configuration: ""
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/pick_plugin.xml
+-- Installing: /home/ayaa/Agro2/install/tiago_behavior_tree/lib/tiago_behavior_tree/pick_action_node
+-- Set runtime path of "/home/ayaa/Agro2/install/tiago_behavior_tree/lib/tiago_behavior_tree/pick_action_node" to ""
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/ament_index/resource_index/package_run_dependencies/tiago_behavior_tree
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/ament_index/resource_index/parent_prefix_path/tiago_behavior_tree
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/environment/path.sh
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/environment/path.dsv
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/local_setup.bash
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/local_setup.sh
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/local_setup.zsh
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/local_setup.dsv
+-- Installing: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/package.dsv
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/ament_index/resource_index/packages/tiago_behavior_tree
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/ament_index/resource_index/behaviortree_cpp_v3__pluginlib__plugin/tiago_behavior_tree
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/tiago_behavior_treeConfig.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/tiago_behavior_treeConfig-version.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/package.xml

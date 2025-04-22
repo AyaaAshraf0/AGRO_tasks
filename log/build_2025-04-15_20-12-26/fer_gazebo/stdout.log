@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/fer_gazebo/fer_gazebo.egg-info/PKG-INFO
+writing dependency_links to ../../build/fer_gazebo/fer_gazebo.egg-info/dependency_links.txt
+writing entry points to ../../build/fer_gazebo/fer_gazebo.egg-info/entry_points.txt
+writing requirements to ../../build/fer_gazebo/fer_gazebo.egg-info/requires.txt
+writing top-level names to ../../build/fer_gazebo/fer_gazebo.egg-info/top_level.txt
+reading manifest file '../../build/fer_gazebo/fer_gazebo.egg-info/SOURCES.txt'
+writing manifest file '../../build/fer_gazebo/fer_gazebo.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/ayaa/Agro2/install/fer_gazebo/lib/python3.10/site-packages/fer_gazebo
+copying /home/ayaa/Agro2/build/fer_gazebo/build/lib/fer_gazebo/__init__.py -> /home/ayaa/Agro2/install/fer_gazebo/lib/python3.10/site-packages/fer_gazebo
+copying /home/ayaa/Agro2/build/fer_gazebo/build/lib/fer_gazebo/pick_place.py -> /home/ayaa/Agro2/install/fer_gazebo/lib/python3.10/site-packages/fer_gazebo
+byte-compiling /home/ayaa/Agro2/install/fer_gazebo/lib/python3.10/site-packages/fer_gazebo/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ayaa/Agro2/install/fer_gazebo/lib/python3.10/site-packages/fer_gazebo/pick_place.py to pick_place.cpython-310.pyc
+running install_data
+creating /home/ayaa/Agro2/install/fer_gazebo/share/ament_index
+creating /home/ayaa/Agro2/install/fer_gazebo/share/ament_index/resource_index
+creating /home/ayaa/Agro2/install/fer_gazebo/share/ament_index/resource_index/packages
+copying resource/fer_gazebo -> /home/ayaa/Agro2/install/fer_gazebo/share/ament_index/resource_index/packages
+copying package.xml -> /home/ayaa/Agro2/install/fer_gazebo/share/fer_gazebo
+creating /home/ayaa/Agro2/install/fer_gazebo/share/fer_gazebo/launch
+copying launch/fer_gazebo.launch.py -> /home/ayaa/Agro2/install/fer_gazebo/share/fer_gazebo/launch
+copying launch/spawn_fer.launch.py -> /home/ayaa/Agro2/install/fer_gazebo/share/fer_gazebo/launch
+running install_egg_info
+Copying ../../build/fer_gazebo/fer_gazebo.egg-info to /home/ayaa/Agro2/install/fer_gazebo/lib/python3.10/site-packages/fer_gazebo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pick_place script to /home/ayaa/Agro2/install/fer_gazebo/lib/fer_gazebo
+writing list of installed files to '/home/ayaa/Agro2/build/fer_gazebo/install.log'

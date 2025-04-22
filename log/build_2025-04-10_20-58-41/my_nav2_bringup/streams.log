@@ -1,0 +1,20 @@
+[3.507s] Invoking command in '/home/ayaa/Agro2/src/my_nav2_bringup': PYTHONPATH=/home/ayaa/Agro2/build/my_nav2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/my_nav2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_nav2_bringup build --build-base /home/ayaa/Agro2/build/my_nav2_bringup/build install --record /home/ayaa/Agro2/build/my_nav2_bringup/install.log --single-version-externally-managed install_data
+[4.013s] running egg_info
+[4.033s] writing ../../build/my_nav2_bringup/my_nav2_bringup.egg-info/PKG-INFO
+[4.034s] writing dependency_links to ../../build/my_nav2_bringup/my_nav2_bringup.egg-info/dependency_links.txt
+[4.034s] writing requirements to ../../build/my_nav2_bringup/my_nav2_bringup.egg-info/requires.txt
+[4.034s] writing top-level names to ../../build/my_nav2_bringup/my_nav2_bringup.egg-info/top_level.txt
+[4.088s] reading manifest file '../../build/my_nav2_bringup/my_nav2_bringup.egg-info/SOURCES.txt'
+[4.088s] adding license file 'LICENSE'
+[4.089s] writing manifest file '../../build/my_nav2_bringup/my_nav2_bringup.egg-info/SOURCES.txt'
+[4.089s] running build
+[4.089s] running build_py
+[4.090s] running install
+[4.096s] running install_lib
+[4.116s] running install_data
+[4.117s] running install_egg_info
+[4.138s] removing '/home/ayaa/Agro2/install/my_nav2_bringup/lib/python3.10/site-packages/my_nav2_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[4.139s] Copying ../../build/my_nav2_bringup/my_nav2_bringup.egg-info to /home/ayaa/Agro2/install/my_nav2_bringup/lib/python3.10/site-packages/my_nav2_bringup-0.0.0-py3.10.egg-info
+[4.140s] running install_scripts
+[4.220s] writing list of installed files to '/home/ayaa/Agro2/build/my_nav2_bringup/install.log'
+[4.283s] Invoked command in '/home/ayaa/Agro2/src/my_nav2_bringup' returned '0': PYTHONPATH=/home/ayaa/Agro2/build/my_nav2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/my_nav2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_nav2_bringup build --build-base /home/ayaa/Agro2/build/my_nav2_bringup/build install --record /home/ayaa/Agro2/build/my_nav2_bringup/install.log --single-version-externally-managed install_data

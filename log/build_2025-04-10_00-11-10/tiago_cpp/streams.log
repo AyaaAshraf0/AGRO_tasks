@@ -1,0 +1,62 @@
+[1.258s] Invoking command in '/home/ayaa/Agro2/build/tiago_cpp': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_cpp -- -j8 -l8
+[1.688s] [35m[1mConsolidate compiler generated dependencies of target pick_place_tiago[0m
+[1.688s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_place_tiago.dir/src/pick_place_tiago.cpp.o[0m
+[6.631s] [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.631s] [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:51:8:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto success[m[K’
+[6.631s]    51 |   auto [01;31m[Ksuccess[m[K = static_cast<bool>(gripper_group.move());
+[6.631s]       |        [01;31m[K^~~~~~~[m[K
+[6.631s] [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:34:8:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kbool success[m[K’
+[6.631s]    34 |   bool [01;36m[Ksuccess[m[K = static_cast<bool>(move_group.plan(plan));
+[6.631s]       |        [01;36m[K^~~~~~~[m[K
+[6.631s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.631s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.631s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.631s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.631s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.632s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.632s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.632s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.632s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.632s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.632s]                  from [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:1[m[K:
+[6.632s] [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:54:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<rclcpp::Node>[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[6.632s]    54 |   RCLCPP_ERROR(node.[01;31m[Kget_logger[m[K(), "Failed to move gripper");
+[6.632s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[6.632s] [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:54:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<rclcpp::Node>[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[6.632s] [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:54:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.633s]    54 |   [01;31m[KRCLCPP_ERROR[m[K(node.get_logger(), "Failed to move gripper");
+[6.633s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[6.633s] [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:54:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.633s]    54 |   [01;31m[KRCLCPP_ERROR[m[K(node.get_logger(), "Failed to move gripper");
+[6.633s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[6.633s] [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:54:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.633s]    54 |   [01;31m[KRCLCPP_ERROR[m[K(node.get_logger(), "Failed to move gripper");
+[6.633s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[6.634s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.634s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.634s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.634s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.634s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.634s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.634s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.634s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.634s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.634s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.634s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.634s]                  from [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:1[m[K:
+[6.634s] [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:54:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<rclcpp::Node>[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[6.634s]    54 |   RCLCPP_ERROR(node.[01;31m[Kget_logger[m[K(), "Failed to move gripper");
+[6.634s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[6.634s] [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:54:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<rclcpp::Node>[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[6.634s]    54 |   RCLCPP_ERROR(node.[01;31m[Kget_logger[m[K(), "Failed to move gripper");
+[6.635s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[6.635s] [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:53:1:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[6.635s]    53 | [01;35m[Kif[m[K (!success)
+[6.635s]       | [01;35m[K^~[m[K
+[6.635s] [01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:58:3:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[6.635s]    58 |   [01;36m[Krclcpp[m[K::shutdown();
+[6.635s]       |   [01;36m[K^~~~~~[m[K
+[8.940s] gmake[2]: *** [CMakeFiles/pick_place_tiago.dir/build.make:76: CMakeFiles/pick_place_tiago.dir/src/pick_place_tiago.cpp.o] Error 1
+[8.940s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_place_tiago.dir/all] Error 2
+[8.941s] gmake: *** [Makefile:146: all] Error 2
+[8.943s] Invoked command in '/home/ayaa/Agro2/build/tiago_cpp' returned '2': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_cpp -- -j8 -l8

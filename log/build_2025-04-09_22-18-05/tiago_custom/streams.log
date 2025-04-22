@@ -1,0 +1,21 @@
+[5.941s] Invoking command in '/home/ayaa/Agro2/src/tiago_custom': PYTHONPATH=/home/ayaa/Agro2/build/tiago_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/tiago_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tiago_custom build --build-base /home/ayaa/Agro2/build/tiago_custom/build install --record /home/ayaa/Agro2/build/tiago_custom/install.log --single-version-externally-managed install_data
+[7.069s] running egg_info
+[7.114s] writing ../../build/tiago_custom/tiago_custom.egg-info/PKG-INFO
+[7.114s] writing dependency_links to ../../build/tiago_custom/tiago_custom.egg-info/dependency_links.txt
+[7.115s] writing entry points to ../../build/tiago_custom/tiago_custom.egg-info/entry_points.txt
+[7.115s] writing requirements to ../../build/tiago_custom/tiago_custom.egg-info/requires.txt
+[7.115s] writing top-level names to ../../build/tiago_custom/tiago_custom.egg-info/top_level.txt
+[7.241s] reading manifest file '../../build/tiago_custom/tiago_custom.egg-info/SOURCES.txt'
+[7.243s] writing manifest file '../../build/tiago_custom/tiago_custom.egg-info/SOURCES.txt'
+[7.244s] running build
+[7.244s] running build_py
+[7.245s] running install
+[7.261s] running install_lib
+[7.306s] running install_data
+[7.307s] running install_egg_info
+[7.353s] removing '/home/ayaa/Agro2/install/tiago_custom/lib/python3.10/site-packages/tiago_custom-0.0.0-py3.10.egg-info' (and everything under it)
+[7.354s] Copying ../../build/tiago_custom/tiago_custom.egg-info to /home/ayaa/Agro2/install/tiago_custom/lib/python3.10/site-packages/tiago_custom-0.0.0-py3.10.egg-info
+[7.356s] running install_scripts
+[7.529s] Installing bridge_cmd script to /home/ayaa/Agro2/install/tiago_custom/lib/tiago_custom
+[7.530s] writing list of installed files to '/home/ayaa/Agro2/build/tiago_custom/install.log'
+[7.711s] Invoked command in '/home/ayaa/Agro2/src/tiago_custom' returned '0': PYTHONPATH=/home/ayaa/Agro2/build/tiago_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/tiago_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tiago_custom build --build-base /home/ayaa/Agro2/build/tiago_custom/build install --record /home/ayaa/Agro2/build/tiago_custom/install.log --single-version-externally-managed install_data

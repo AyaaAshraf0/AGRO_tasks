@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target pick_action_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o[0m
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:17:21:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KOpenGripperAction::OpenGripperAction()[m[K’
+   17 |   OpenGripperAction [01;31m[Kgripper[m[K;
+      |                     [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:40:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KOpenGripperAction::OpenGripperAction(const string&)[m[K’
+   40 |     [01;36m[KOpenGripperAction[m[K(const std::string& name) : SyncActionNode(name, {})
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:40:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_action_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

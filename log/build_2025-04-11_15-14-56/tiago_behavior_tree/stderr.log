@@ -1,0 +1,7 @@
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kros2_bt_tut/bt_tut_01.hpp: No such file or directory
+    1 | #include [01;31m[K"ros2_bt_tut/bt_tut_01.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_action_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

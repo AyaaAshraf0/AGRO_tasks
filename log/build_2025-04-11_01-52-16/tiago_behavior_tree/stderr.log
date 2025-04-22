@@ -1,0 +1,50 @@
+In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:[m[K In constructor ‘[01m[KPickObject::PickObject(const string&)[m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:23:32:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KPickObject[m[K’ does not have any field named ‘[01m[Knode_[m[K’
+   23 | ActionNode(name, {}),[01;31m[Knode_[m[K(rclcpp::Node::make_shared("pick_object"))
+      |                      [01;31m[K^~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:7[m[K,
+                 from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:[m[K In member function ‘[01m[KBT::NodeStatus PickObject::open()[m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:37:17:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+   37 |     RCLCPP_INFO([01;31m[Knode_[m[K->get_logger(), "Picking the object...");
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:37:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   37 |     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Picking the object...");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:37:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   37 |     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Picking the object...");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:37:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   37 |     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Picking the object...");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:40:38:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+   40 | erface gripper_group([01;31m[Knode_[m[K, "gripper");
+      |                      [01;31m[K^~~~~[m[K
+      |                      [32m[Kmode_t[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:10:3:[m[K [01;31m[Kerror: [m[K‘[01m[KBehaviorTreeFactory[m[K’ was not declared in this scope
+   10 |   [01;31m[KBehaviorTreeFactory[m[K factory;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:13:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kfactory[m[K’ was not declared in this scope
+   13 |    [01;31m[Kfactory[m[K.registerNodeType<PickObject>("PickObject");
+      |    [01;31m[K^~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:13:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   13 | erNodeType<PickObject[01;31m[K>[m[K("PickObject");
+      |                      [01;31m[K^[m[K
+
+gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_action_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

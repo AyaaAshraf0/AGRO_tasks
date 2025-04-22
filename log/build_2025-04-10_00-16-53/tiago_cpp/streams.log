@@ -1,0 +1,26 @@
+[2.910s] Invoking command in '/home/ayaa/Agro2/build/tiago_cpp': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_cpp -- -j8 -l8
+[2.991s] [35m[1mConsolidate compiler generated dependencies of target pick_place_tiago[0m
+[3.037s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_place_tiago.dir/src/pick_place_tiago.cpp.o[0m
+[18.161s] [100%] [32m[1mLinking CXX executable pick_place_tiago[0m
+[18.715s] [100%] Built target pick_place_tiago
+[18.730s] Invoked command in '/home/ayaa/Agro2/build/tiago_cpp' returned '0': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_cpp -- -j8 -l8
+[18.733s] Invoking command in '/home/ayaa/Agro2/build/tiago_cpp': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --install /home/ayaa/Agro2/build/tiago_cpp
+[18.742s] -- Install configuration: ""
+[18.742s] -- Installing: /home/ayaa/Agro2/install/tiago_cpp/lib/tiago_cpp/pick_place_tiago
+[18.748s] -- Set runtime path of "/home/ayaa/Agro2/install/tiago_cpp/lib/tiago_cpp/pick_place_tiago" to ""
+[18.748s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/ament_index/resource_index/package_run_dependencies/tiago_cpp
+[18.748s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/ament_index/resource_index/parent_prefix_path/tiago_cpp
+[18.748s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/environment/ament_prefix_path.sh
+[18.749s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/environment/ament_prefix_path.dsv
+[18.749s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/environment/path.sh
+[18.749s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/environment/path.dsv
+[18.749s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/local_setup.bash
+[18.749s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/local_setup.sh
+[18.749s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/local_setup.zsh
+[18.749s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/local_setup.dsv
+[18.749s] -- Installing: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/package.dsv
+[18.750s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/ament_index/resource_index/packages/tiago_cpp
+[18.750s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/cmake/tiago_cppConfig.cmake
+[18.750s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/cmake/tiago_cppConfig-version.cmake
+[18.750s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/package.xml
+[18.764s] Invoked command in '/home/ayaa/Agro2/build/tiago_cpp' returned '0': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --install /home/ayaa/Agro2/build/tiago_cpp

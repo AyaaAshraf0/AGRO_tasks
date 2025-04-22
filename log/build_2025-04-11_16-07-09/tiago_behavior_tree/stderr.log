@@ -1,0 +1,16 @@
+In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:40:77:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   40 | figuration &config[01;31m[K)[m[K :: SyncActionNode(name, config) {}
+      |                   [01;31m[K^[m[K
+      |                    [32m[K;[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.hpp:40:101:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K,[m[K’ token
+   40 | yncActionNode[34m[K([m[Kname[01;31m[K,[m[K config) {}
+      |              [34m[K~[m[K    [01;31m[K^[m[K
+      |                   [32m[K)[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:14:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   14 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_action_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

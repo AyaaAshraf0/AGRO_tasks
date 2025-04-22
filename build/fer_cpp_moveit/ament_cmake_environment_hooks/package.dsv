@@ -1,0 +1,4 @@
+source;share/fer_cpp_moveit/local_setup.bash
+source;share/fer_cpp_moveit/local_setup.dsv
+source;share/fer_cpp_moveit/local_setup.sh
+source;share/fer_cpp_moveit/local_setup.zsh

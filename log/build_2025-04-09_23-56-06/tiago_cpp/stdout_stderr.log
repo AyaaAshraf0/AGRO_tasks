@@ -1,0 +1,47 @@
+[35m[1mConsolidate compiler generated dependencies of target pick_place_tiago[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pick_place_tiago.dir/src/pick_place_tiago.cpp.o[0m
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:46:93:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   46 | t_names=["gripper_left_finger_joint",[01;35m[K'gripper_right_finger_joint'[m[K]);
+      |                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:46:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_names[m[K’ was not declared in this scope
+   46 | erface gripper_group(node, "gripper",[01;31m[Kjoint_names[m[K=["gripper_left_finger_joint",'gripper_right_finger_joint']);
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:46:65:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+   46 | r_group(node, "gripper",joint_names=[[01;31m[K"gripper_left_finger_joint"[m[K,'gripper_right_finger_joint']);
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:46:92:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[K,[m[K’ token
+   46 | nt_names=["gripper_left_finger_joint"[01;31m[K,[m[K'gripper_right_finger_joint']);
+      |                                      [01;31m[K^[m[K
+      |                                      [32m[K][m[K
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:[m[K In lambda function:
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:46:92:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K,[m[K’ token
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:46:121:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K][m[K’ token
+   46 | ft_finger_joint",'gripper_right_finger_joint'[01;31m[K][m[K);
+      |                                              [01;31m[K^[m[K
+      |                                              [32m[K)[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:47:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[Kmove_to_joint_positions[m[K’
+   47 |   gripper_group.[01;31m[Kmove_to_joint_positions[m[K([0.04,0.04]);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:47:42:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   47 | ipper_group.move_to_joint_positions([[01;31m[K0.04[m[K,0.04]);
+      |                                      [01;31m[K^~~~[m[K
+
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:47:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[K,[m[K’ token
+   47 | pper_group.move_to_joint_positions([0.04[01;31m[K,[m[K0.04]);
+      |                                         [01;31m[K^[m[K
+      |                                         [32m[K][m[K
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:[m[K In lambda function:
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:47:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K,[m[K’ token
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_cpp/src/pick_place_tiago.cpp:47:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K][m[K’ token
+   47 | pper_group.move_to_joint_positions[34m[K([m[K[0.04,0.04[01;31m[K][m[K);
+      |                                   [34m[K~[m[K          [01;31m[K^[m[K
+      |                                              [32m[K)[m[K
+gmake[2]: *** [CMakeFiles/pick_place_tiago.dir/build.make:76: CMakeFiles/pick_place_tiago.dir/src/pick_place_tiago.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_place_tiago.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

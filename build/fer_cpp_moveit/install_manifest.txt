@@ -1,0 +1,16 @@
+/home/ayaa/Agro2/install/fer_cpp_moveit/lib/fer_cpp_moveit/pick_place
+/home/ayaa/Agro2/install/fer_cpp_moveit/share/ament_index/resource_index/package_run_dependencies/fer_cpp_moveit
+/home/ayaa/Agro2/install/fer_cpp_moveit/share/ament_index/resource_index/parent_prefix_path/fer_cpp_moveit
+/home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/environment/ament_prefix_path.sh
+/home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/environment/ament_prefix_path.dsv
+/home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/environment/path.sh
+/home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/environment/path.dsv
+/home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/local_setup.bash
+/home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/local_setup.sh
+/home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/local_setup.zsh
+/home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/local_setup.dsv
+/home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/package.dsv
+/home/ayaa/Agro2/install/fer_cpp_moveit/share/ament_index/resource_index/packages/fer_cpp_moveit
+/home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/cmake/fer_cpp_moveitConfig.cmake
+/home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/cmake/fer_cpp_moveitConfig-version.cmake
+/home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/package.xml

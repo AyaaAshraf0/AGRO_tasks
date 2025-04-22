@@ -1,0 +1,26 @@
+[0.896s] Invoking command in '/home/ayaa/Agro2/build/fer_cpp_moveit': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/fer_cpp_moveit -- -j8 -l8
+[2.592s] [35m[1mConsolidate compiler generated dependencies of target pick_place[0m
+[2.592s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_place.dir/src/pick_place.cpp.o[0m
+[16.459s] [100%] [32m[1mLinking CXX executable pick_place[0m
+[17.007s] [100%] Built target pick_place
+[17.025s] Invoked command in '/home/ayaa/Agro2/build/fer_cpp_moveit' returned '0': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --build /home/ayaa/Agro2/build/fer_cpp_moveit -- -j8 -l8
+[17.028s] Invoking command in '/home/ayaa/Agro2/build/fer_cpp_moveit': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --install /home/ayaa/Agro2/build/fer_cpp_moveit
+[17.038s] -- Install configuration: ""
+[17.038s] -- Installing: /home/ayaa/Agro2/install/fer_cpp_moveit/lib/fer_cpp_moveit/pick_place
+[17.039s] -- Set runtime path of "/home/ayaa/Agro2/install/fer_cpp_moveit/lib/fer_cpp_moveit/pick_place" to ""
+[17.040s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/ament_index/resource_index/package_run_dependencies/fer_cpp_moveit
+[17.040s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/ament_index/resource_index/parent_prefix_path/fer_cpp_moveit
+[17.040s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/environment/ament_prefix_path.sh
+[17.040s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/environment/ament_prefix_path.dsv
+[17.040s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/environment/path.sh
+[17.041s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/environment/path.dsv
+[17.041s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/local_setup.bash
+[17.041s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/local_setup.sh
+[17.041s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/local_setup.zsh
+[17.041s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/local_setup.dsv
+[17.041s] -- Installing: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/package.dsv
+[17.042s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/ament_index/resource_index/packages/fer_cpp_moveit
+[17.042s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/cmake/fer_cpp_moveitConfig.cmake
+[17.042s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/cmake/fer_cpp_moveitConfig-version.cmake
+[17.042s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/package.xml
+[17.044s] Invoked command in '/home/ayaa/Agro2/build/fer_cpp_moveit' returned '0': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/ur5_moveit:/home/ayaa/Agro2/install/ur_description:/home/ayaa/Agro2/install/tiago_simulation:/home/ayaa/Agro2/install/tiago_robot:/home/ayaa/Agro2/install/tiago_gazebo:/home/ayaa/Agro2/install/tiago_bringup:/home/ayaa/Agro2/install/tiago_description:/home/ayaa/Agro2/install/tiago_controller_configuration:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit /usr/bin/cmake --install /home/ayaa/Agro2/build/fer_cpp_moveit

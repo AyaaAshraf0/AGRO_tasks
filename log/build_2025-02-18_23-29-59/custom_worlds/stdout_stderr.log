@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/custom_worlds/custom_worlds.egg-info/PKG-INFO
+writing dependency_links to ../../build/custom_worlds/custom_worlds.egg-info/dependency_links.txt
+writing entry points to ../../build/custom_worlds/custom_worlds.egg-info/entry_points.txt
+writing requirements to ../../build/custom_worlds/custom_worlds.egg-info/requires.txt
+writing top-level names to ../../build/custom_worlds/custom_worlds.egg-info/top_level.txt
+reading manifest file '../../build/custom_worlds/custom_worlds.egg-info/SOURCES.txt'
+writing manifest file '../../build/custom_worlds/custom_worlds.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying config/my_map.yaml -> /home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/config
+running install_egg_info
+removing '/home/ayaa/Agro2/install/custom_worlds/lib/python3.8/site-packages/custom_worlds-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/custom_worlds/custom_worlds.egg-info to /home/ayaa/Agro2/install/custom_worlds/lib/python3.8/site-packages/custom_worlds-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/ayaa/Agro2/build/custom_worlds/install.log'

@@ -1,0 +1,10 @@
+/home/ayaa/Agro2/build/tiago_cpp/CMakeFiles/uninstall.dir
+/home/ayaa/Agro2/build/tiago_cpp/CMakeFiles/tiago_cpp_uninstall.dir
+/home/ayaa/Agro2/build/tiago_cpp/CMakeFiles/pick_place_tiago.dir
+/home/ayaa/Agro2/build/tiago_cpp/CMakeFiles/test.dir
+/home/ayaa/Agro2/build/tiago_cpp/CMakeFiles/edit_cache.dir
+/home/ayaa/Agro2/build/tiago_cpp/CMakeFiles/rebuild_cache.dir
+/home/ayaa/Agro2/build/tiago_cpp/CMakeFiles/list_install_components.dir
+/home/ayaa/Agro2/build/tiago_cpp/CMakeFiles/install.dir
+/home/ayaa/Agro2/build/tiago_cpp/CMakeFiles/install/local.dir
+/home/ayaa/Agro2/build/tiago_cpp/CMakeFiles/install/strip.dir

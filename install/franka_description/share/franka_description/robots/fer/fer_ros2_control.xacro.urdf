@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<ros2_control name= "GazeboSystem" type= "system">
+    <hardware>
+        <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+		
+
