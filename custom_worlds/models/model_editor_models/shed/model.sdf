@@ -23,7 +23,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/ayaa/Downloads/MedievalHouse1.obj</uri>
+            <uri>model://shed/meshes/MedievalHouse1.obj</uri>
             <scale>0.02 0.02 0.02</scale>
           </mesh>
         </geometry>
@@ -50,7 +50,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/ayaa/Downloads/MedievalHouse1.obj</uri>
+            <uri>model://shed/meshes/MedievalHouse1.obj</uri>
             <scale>0.02 0.02 0.02</scale>
           </mesh>
         </geometry>

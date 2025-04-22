@@ -23,7 +23,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/ayaa/Downloads/Gothic_Wood_Fence_Pane_v2_L3.123c59ff94b4-605e-433e-9d9a-8232b1382d17/13076_Gothic_Wood_Fence_Panel_v2_l3.obj</uri>
+            <uri>model://perimeter_fence/meshes/13076_Gothic_Wood_Fence_Panel_v2_l3.obj</uri>
             <scale>0.05 0.05 0.05</scale>
           </mesh>
         </geometry>
@@ -31,7 +31,7 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Wood</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
@@ -50,7 +50,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/ayaa/Downloads/Gothic_Wood_Fence_Pane_v2_L3.123c59ff94b4-605e-433e-9d9a-8232b1382d17/13076_Gothic_Wood_Fence_Panel_v2_l3.obj</uri>
+            <uri>model://perimeter_fence/meshes/13076_Gothic_Wood_Fence_Panel_v2_l3.obj</uri>
             <scale>0.05 0.05 0.05</scale>
           </mesh>
         </geometry>

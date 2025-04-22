@@ -5,8 +5,6 @@ material Gazebo/Water
         pass
         {
         
-           	
-            
             texture_unit
             {
                 texture water.png

@@ -7,7 +7,7 @@
         </RateController>
         <FollowPath path="{path}" controller_id="FollowPath"/>
       </PipelineSequence>
-     
+     <OpenGripper/>
     </Sequence>
   </BehaviorTree>
 </root>
