@@ -22,3 +22,22 @@ Before running the project, make sure you have the following dependencies instal
 1. *Clone the repository* and initialize it as a ROS 2 workspace:
    ```bash
    git clone https://github.com/AyaaAshraf0/AGRO_tasks.git
+   
+## Usage
+### Using Docker 
+You can run the simulation environment and packages using Docker for a consistent and isolated setup.
+1. Make sure you are inside Agro2
+   ```bash
+   cd /path/to/Agro2 
+2. Build the Docker image:
+   ```bash
+   docker build -t ros2_gazebo .
+3. Run the container with GUI support (for Gazebo/RViz):
+   ```bash
+   xhost +local:root
+   ```bash
+   docker run -it     --env DISPLAY=$DISPLAY     --env QT_X11_NO_MITSHM=1     --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"     --network host --name agro  ros2_gazebo:latest 
+4. Make sure you are inside Agro2
+   ```bash
+   cd Agro2
+
