@@ -64,6 +64,6 @@ You can run the simulation environment and packages using Docker for a consisten
     ```bash
     ros2 launch  nav2_bringup bringup_launch.py map:=src/my_nav2_bringup/maps/my_map.yaml params_file:=src/tiago_custom/config/Tiago_nav_params.yaml use_sim_time:=True
 
-###And to stop the docker 
+### And to stop the docker 
     ```bash
     docker stop agro
