@@ -53,8 +53,8 @@ You can run the simulation environment and packages using Docker for a consisten
 #### To launch the navigation for turtlebot3  
 
     ros2 run  rviz2 rviz2 -d /opt/ros/humble/share/nav2_bringup/rviz/nav2_default_view.rviz 
-    ```
-    ```bash
+###
+
     ros2 launch my_nav2_bringup bringup.launch.py
 
 #### To launch the agricultural world with TiaGo mobile manipulator 
