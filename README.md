@@ -44,27 +44,27 @@ You can run the simulation environment and packages using Docker for a consisten
 5. To be able to use multiple termianls in the docker container run:
    ```bash 
    tmux
-   ```   
+
 
 #### To launch the agricultural world with turtlebot3 burger
-    ```bash
+
     ros2 launch custom_worlds agricultural.launch.py 
     
 #### To launch the navigation for turtlebot3  
-    ```bash 
+
     ros2 run  rviz2 rviz2 -d /opt/ros/humble/share/nav2_bringup/rviz/nav2_default_view.rviz 
     ```
     ```bash
     ros2 launch my_nav2_bringup bringup.launch.py
 
 #### To launch the agricultural world with TiaGo mobile manipulator 
-    ```bash
+
     ros2 launch tiago_custom spawn.launch.py is_public_sim:=True
     
 #### And to launch the navigation for it
-    ```bash
+
     ros2 launch  nav2_bringup bringup_launch.py map:=src/my_nav2_bringup/maps/my_map.yaml params_file:=src/tiago_custom/config/Tiago_nav_params.yaml use_sim_time:=True
 
 ### And to stop the docker 
-    ```bash
+
     docker stop agro
