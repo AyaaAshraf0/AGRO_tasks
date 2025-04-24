@@ -71,7 +71,7 @@
            <gazebo>
             <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
               <robot_param>robot_description</robot_param>
-              <parameters>/home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/ros2_controllers.yaml</parameters>
+              <parameters>install/fer_moveit/share/fer_moveit/config/ros2_controllers.yaml</parameters>
             </plugin>
           </gazebo>
 

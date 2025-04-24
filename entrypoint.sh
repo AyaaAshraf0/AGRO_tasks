@@ -11,6 +11,8 @@ source /app/Agro2/install/setup.bash
 source /usr/share/gazebo/setup.sh 
 export TURTLEBOT3_MODEL=burger
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/app/Agro2/src/custom_worlds/models/model_editor_models
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/app/Agro2/src
+
 
 # This means that we are doing everything in this  entrypoint.sh script, 
 # then in the same shell, we will run the command the user passes in on the command line.

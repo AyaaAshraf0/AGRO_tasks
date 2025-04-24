@@ -29,7 +29,7 @@
         </geometry>
         <material>
           <script>
-            <uri>file:///home/ayaa/Agro2/src/custom_worlds/models/model_editor_models/water/material/water.material</uri>
+            <uri>file://src/custom_worlds/models/model_editor_models/water/material</uri>
 
             <name>Gazebo/Water</name>
           </script>

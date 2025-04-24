@@ -21,7 +21,7 @@
           </geometry>
           <material>
               <script>
-                <uri>file:///home/ayaa/Agro2/src/custom_worlds/materials/mud.material</uri>
+                <uri>file://src/custom_worlds/worlds/materials</uri>
                 <name>Gazebo/Mud</name>
               </script>
           </material>
@@ -38,7 +38,7 @@
     </scene>
 
     <include>
-      <uri>model://turtlebot3_burger</uri>
+      <uri>model://burger</uri>
       <pose>-22 -22 0 0 0 0 </pose>
     </include>
 

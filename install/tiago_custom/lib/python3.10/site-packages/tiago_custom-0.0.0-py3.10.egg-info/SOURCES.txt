@@ -9,7 +9,6 @@ setup.py
 ../../build/tiago_custom/tiago_custom.egg-info/top_level.txt
 ../../build/tiago_custom/tiago_custom.egg-info/zip-safe
 config/Tiago_nav_params.yaml
-launch/navigate_pick_place.launch.py
 launch/spawn.launch.py
 resource/tiago_custom
 rviz/tiago.rviz

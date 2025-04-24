@@ -13,7 +13,10 @@ RUN apt-get update && apt-get install -y \
     python-is-python3 \
     nano \
     less \
-    xterm
+    xterm \
+    mesa-utils \
+    x11-utils \
+    tmux 
 
 RUN apt update && apt install -y \
     software-properties-common && \

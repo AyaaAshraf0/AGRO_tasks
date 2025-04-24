@@ -23,7 +23,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/ayaa/Downloads/uploads_files_2500749_Well.obj</uri>
+            <uri>file://src/custom_worlds/models/model_editor_models/well/uploads_files_2500749_Well.obj</uri>
             <scale>3 3 3</scale>
           </mesh>
         </geometry>
@@ -50,7 +50,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/ayaa/Downloads/uploads_files_2500749_Well.obj</uri>
+            <uri>file://src/custom_worlds/models/model_editor_models/well/uploads_files_2500749_Well.obj</uri>
             <scale>3 3 3</scale>
           </mesh>
         </geometry>
