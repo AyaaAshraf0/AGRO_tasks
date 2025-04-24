@@ -43,7 +43,8 @@ You can run the simulation environment and packages using Docker for a consisten
    cd Agro2
 5. To be able to use multiple termianls in the docker container run:
    ```bash 
-   tmux   
+   tmux
+   ```   
 
 #### To launch the agricultural world with turtlebot3 burger
     ```bash
