@@ -34,7 +34,7 @@ You can run the simulation environment and packages using Docker for a consisten
    docker build -t ros2_gazebo .
 3. Run the container with GUI support (for Gazebo/RViz):
    ```bash
-   xhost +local:root
+   xhost +local:root'
    ```bash
    docker run -it     --env DISPLAY=$DISPLAY     --env QT_X11_NO_MITSHM=1     --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"     --network host --name agro  ros2_gazebo:latest 
 4. Make sure you are inside Agro2
