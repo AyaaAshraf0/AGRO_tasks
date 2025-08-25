@@ -41,9 +41,6 @@ You can run the simulation environment and packages using Docker for a consisten
 4. Make sure you are inside Agro2
    ```bash
    cd Agro2
-5. To be able to use multiple termianls in the docker container run:
-   ```bash 
-   tmux
 
 
 #### To launch the agricultural world with turtlebot3 burger
