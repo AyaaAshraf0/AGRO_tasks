@@ -13,8 +13,10 @@
   <test_depend>python3-pytest</test_depend>
   
   <depend>ros2_control</depend>
+  <depend>controller_manager</depend>
   <depend>gazebo_ros2_control</depend>
   <depend>gazebo_ros2_control_demos</depend>
+  <depend>moveit_ros_move_group</depend>
 
   <export>
     <build_type>ament_python</build_type>

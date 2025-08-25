@@ -1,5 +1,0 @@
-<library path="pick_action_node">
-  <class name="PickObject"
-         type="PickObject"
-         base_class_type="BT::SyncActionNode"/>
-</library>

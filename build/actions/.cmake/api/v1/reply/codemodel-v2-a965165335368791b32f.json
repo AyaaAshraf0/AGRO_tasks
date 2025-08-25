@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-88841ef0e26e4bfaaa76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "actions__py",
+					"jsonFile" : "directory-actions__py-f0704e5e3a6da24fcc7f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ayaa/Agro2/build/actions/actions__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "actions",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "actions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-actions-24d5d34733d51d750294.json",
+					"name" : "actions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "actions__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-actions__cpp-72964ad385b177b1d1fa.json",
+					"name" : "actions__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "actions__py::@5d03b79e6f2fee88dc13",
+					"jsonFile" : "target-actions__py-476e8a607d799b4a2c35.json",
+					"name" : "actions__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "actions__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-actions__rosidl_generator_c-58dbb5080fd712b68d91.json",
+					"name" : "actions__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "actions__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-actions__rosidl_generator_py-7b97af2ad49799ba86b0.json",
+					"name" : "actions__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "actions__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-actions__rosidl_typesupport_c-dbb0036688fcfaae6160.json",
+					"name" : "actions__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "actions__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-actions__rosidl_typesupport_c__pyext-6f09b195e3b7c5040103.json",
+					"name" : "actions__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "actions__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-actions__rosidl_typesupport_cpp-b8f41d43064144e0335f.json",
+					"name" : "actions__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "actions__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-actions__rosidl_typesupport_fastrtps_c-c25fe65b5051f37d06b8.json",
+					"name" : "actions__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "actions__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-actions__rosidl_typesupport_fastrtps_c__pyext-ddfdec117e7921effc56.json",
+					"name" : "actions__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "actions__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-actions__rosidl_typesupport_fastrtps_cpp-38361865a613efd46cf6.json",
+					"name" : "actions__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "actions__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-actions__rosidl_typesupport_introspection_c-a2492a3e8c20632ebb7b.json",
+					"name" : "actions__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "actions__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-actions__rosidl_typesupport_introspection_c__pyext-5ab5e5568fedc17262f2.json",
+					"name" : "actions__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "actions__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-actions__rosidl_typesupport_introspection_cpp-e41db895e49647b5f5cf.json",
+					"name" : "actions__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "actions_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-actions_uninstall-983e305644efc69a77a7.json",
+					"name" : "actions_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_actions_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_actions_egg-5fc30738856ecacbf3b7.json",
+					"name" : "ament_cmake_python_build_actions_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_actions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_actions-a3aebf7a6106f0e72ff5.json",
+					"name" : "ament_cmake_python_copy_actions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-63b0eeb9cf1ecbec560d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ayaa/Agro2/build/actions",
+		"source" : "/home/ayaa/Agro2/src/actions"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

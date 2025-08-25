@@ -1,0 +1,57 @@
+running egg_info
+creating ../../build/trials/trials.egg-info
+writing ../../build/trials/trials.egg-info/PKG-INFO
+writing dependency_links to ../../build/trials/trials.egg-info/dependency_links.txt
+writing entry points to ../../build/trials/trials.egg-info/entry_points.txt
+writing requirements to ../../build/trials/trials.egg-info/requires.txt
+writing top-level names to ../../build/trials/trials.egg-info/top_level.txt
+writing manifest file '../../build/trials/trials.egg-info/SOURCES.txt'
+reading manifest file '../../build/trials/trials.egg-info/SOURCES.txt'
+writing manifest file '../../build/trials/trials.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ayaa/Agro2/build/trials/build
+creating /home/ayaa/Agro2/build/trials/build/lib
+creating /home/ayaa/Agro2/build/trials/build/lib/trials
+copying trials/__init__.py -> /home/ayaa/Agro2/build/trials/build/lib/trials
+copying trials/publisher.py -> /home/ayaa/Agro2/build/trials/build/lib/trials
+copying trials/A_star.py -> /home/ayaa/Agro2/build/trials/build/lib/trials
+copying trials/action_server.py -> /home/ayaa/Agro2/build/trials/build/lib/trials
+copying trials/client.py -> /home/ayaa/Agro2/build/trials/build/lib/trials
+copying trials/ORC_odom_pub.py -> /home/ayaa/Agro2/build/trials/build/lib/trials
+copying trials/server.py -> /home/ayaa/Agro2/build/trials/build/lib/trials
+copying trials/subscriber.py -> /home/ayaa/Agro2/build/trials/build/lib/trials
+running install
+running install_lib
+creating /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials
+copying /home/ayaa/Agro2/build/trials/build/lib/trials/__init__.py -> /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials
+copying /home/ayaa/Agro2/build/trials/build/lib/trials/publisher.py -> /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials
+copying /home/ayaa/Agro2/build/trials/build/lib/trials/A_star.py -> /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials
+copying /home/ayaa/Agro2/build/trials/build/lib/trials/action_server.py -> /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials
+copying /home/ayaa/Agro2/build/trials/build/lib/trials/client.py -> /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials
+copying /home/ayaa/Agro2/build/trials/build/lib/trials/ORC_odom_pub.py -> /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials
+copying /home/ayaa/Agro2/build/trials/build/lib/trials/server.py -> /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials
+copying /home/ayaa/Agro2/build/trials/build/lib/trials/subscriber.py -> /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials
+byte-compiling /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials/publisher.py to publisher.cpython-310.pyc
+byte-compiling /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials/A_star.py to A_star.cpython-310.pyc
+byte-compiling /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials/action_server.py to action_server.cpython-310.pyc
+byte-compiling /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials/client.py to client.cpython-310.pyc
+byte-compiling /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials/ORC_odom_pub.py to ORC_odom_pub.cpython-310.pyc
+byte-compiling /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials/server.py to server.cpython-310.pyc
+byte-compiling /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials/subscriber.py to subscriber.cpython-310.pyc
+running install_data
+creating /home/ayaa/Agro2/install/trials/share/ament_index
+creating /home/ayaa/Agro2/install/trials/share/ament_index/resource_index
+creating /home/ayaa/Agro2/install/trials/share/ament_index/resource_index/packages
+copying resource/trials -> /home/ayaa/Agro2/install/trials/share/ament_index/resource_index/packages
+copying package.xml -> /home/ayaa/Agro2/install/trials/share/trials
+running install_egg_info
+Copying ../../build/trials/trials.egg-info to /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials-0.0.0-py3.10.egg-info
+running install_scripts
+Installing astar_path_pub script to /home/ayaa/Agro2/install/trials/lib/trials
+Installing client script to /home/ayaa/Agro2/install/trials/lib/trials
+Installing listener script to /home/ayaa/Agro2/install/trials/lib/trials
+Installing server script to /home/ayaa/Agro2/install/trials/lib/trials
+Installing talker script to /home/ayaa/Agro2/install/trials/lib/trials
+writing list of installed files to '/home/ayaa/Agro2/build/trials/install.log'

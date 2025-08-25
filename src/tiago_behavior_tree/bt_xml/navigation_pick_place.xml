@@ -6,8 +6,12 @@
           <ComputePathToPose goal="{goal}" path="{path}" planner_id="GridBased"/>
         </RateController>
         <FollowPath path="{path}" controller_id="FollowPath"/>
+        <Wait/>
+        <OpenGripperAction/>
+        
       </PipelineSequence>
-     <OpenGripper/>
+      
     </Sequence>
+    
   </BehaviorTree>
 </root>

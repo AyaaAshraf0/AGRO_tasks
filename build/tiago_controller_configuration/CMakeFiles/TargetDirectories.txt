@@ -1,9 +1,0 @@
-/home/ayaa/Agro2/build/tiago_controller_configuration/CMakeFiles/uninstall.dir
-/home/ayaa/Agro2/build/tiago_controller_configuration/CMakeFiles/tiago_controller_configuration_uninstall.dir
-/home/ayaa/Agro2/build/tiago_controller_configuration/CMakeFiles/test.dir
-/home/ayaa/Agro2/build/tiago_controller_configuration/CMakeFiles/edit_cache.dir
-/home/ayaa/Agro2/build/tiago_controller_configuration/CMakeFiles/rebuild_cache.dir
-/home/ayaa/Agro2/build/tiago_controller_configuration/CMakeFiles/list_install_components.dir
-/home/ayaa/Agro2/build/tiago_controller_configuration/CMakeFiles/install.dir
-/home/ayaa/Agro2/build/tiago_controller_configuration/CMakeFiles/install/local.dir
-/home/ayaa/Agro2/build/tiago_controller_configuration/CMakeFiles/install/strip.dir

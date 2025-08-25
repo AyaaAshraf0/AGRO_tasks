@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from tiago_behavior_tree/action/ApproachObject.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module tiago_behavior_tree {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct ApproachObject_Goal {
+      geometry_msgs::msg::Pose target_pose;
+    };
+    struct ApproachObject_Result {
+      @verbatim (language="comment", text=
+        "Result")
+      boolean success;
+    };
+    struct ApproachObject_Feedback {
+      @verbatim (language="comment", text=
+        "Feedback")
+      string status_message;
+    };
+  };
+};

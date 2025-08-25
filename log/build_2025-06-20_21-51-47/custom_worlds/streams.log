@@ -1,0 +1,41 @@
+[3.236s] Invoking command in '/home/ayaa/Agro2/src/custom_worlds': PYTHONPATH=/home/ayaa/Agro2/build/custom_worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_worlds build --build-base /home/ayaa/Agro2/build/custom_worlds/build install --record /home/ayaa/Agro2/build/custom_worlds/install.log --single-version-externally-managed install_data
+[4.265s] running egg_info
+[4.267s] creating ../../build/custom_worlds/custom_worlds.egg-info
+[4.300s] writing ../../build/custom_worlds/custom_worlds.egg-info/PKG-INFO
+[4.300s] writing dependency_links to ../../build/custom_worlds/custom_worlds.egg-info/dependency_links.txt
+[4.301s] writing requirements to ../../build/custom_worlds/custom_worlds.egg-info/requires.txt
+[4.301s] writing top-level names to ../../build/custom_worlds/custom_worlds.egg-info/top_level.txt
+[4.301s] writing manifest file '../../build/custom_worlds/custom_worlds.egg-info/SOURCES.txt'
+[4.469s] reading manifest file '../../build/custom_worlds/custom_worlds.egg-info/SOURCES.txt'
+[4.470s] adding license file 'LICENSE'
+[4.471s] writing manifest file '../../build/custom_worlds/custom_worlds.egg-info/SOURCES.txt'
+[4.471s] running build
+[4.471s] running build_py
+[4.472s] creating /home/ayaa/Agro2/build/custom_worlds/build
+[4.472s] creating /home/ayaa/Agro2/build/custom_worlds/build/lib
+[4.472s] creating /home/ayaa/Agro2/build/custom_worlds/build/lib/custom_worlds
+[4.475s] copying custom_worlds/__init__.py -> /home/ayaa/Agro2/build/custom_worlds/build/lib/custom_worlds
+[4.475s] running install
+[4.503s] running install_lib
+[4.566s] creating /home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages/custom_worlds
+[4.567s] copying /home/ayaa/Agro2/build/custom_worlds/build/lib/custom_worlds/__init__.py -> /home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages/custom_worlds
+[4.569s] byte-compiling /home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages/custom_worlds/__init__.py to __init__.cpython-310.pyc
+[4.573s] running install_data
+[4.574s] creating /home/ayaa/Agro2/install/custom_worlds/share/ament_index
+[4.576s] creating /home/ayaa/Agro2/install/custom_worlds/share/ament_index/resource_index
+[4.576s] creating /home/ayaa/Agro2/install/custom_worlds/share/ament_index/resource_index/packages
+[4.591s] copying resource/custom_worlds -> /home/ayaa/Agro2/install/custom_worlds/share/ament_index/resource_index/packages
+[4.592s] copying package.xml -> /home/ayaa/Agro2/install/custom_worlds/share/custom_worlds
+[4.592s] creating /home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/launch
+[4.593s] copying launch/map_server.launch.py -> /home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/launch
+[4.593s] copying launch/agricultural.launch.py -> /home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/launch
+[4.594s] creating /home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/worlds
+[4.595s] copying worlds/turtlebot_agr.sdf -> /home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/worlds
+[4.596s] copying worlds/agricultural.sdf -> /home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/worlds
+[4.598s] copying worlds/agricultural.world.sdf -> /home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/worlds
+[4.599s] creating /home/ayaa/Agro2/install/custom_worlds/share/custom_worlds/config
+[4.600s] running install_egg_info
+[4.671s] Copying ../../build/custom_worlds/custom_worlds.egg-info to /home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages/custom_worlds-0.0.0-py3.10.egg-info
+[4.674s] running install_scripts
+[4.906s] writing list of installed files to '/home/ayaa/Agro2/build/custom_worlds/install.log'
+[5.995s] Invoked command in '/home/ayaa/Agro2/src/custom_worlds' returned '0': PYTHONPATH=/home/ayaa/Agro2/build/custom_worlds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/custom_worlds/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_worlds build --build-base /home/ayaa/Agro2/build/custom_worlds/build install --record /home/ayaa/Agro2/build/custom_worlds/install.log --single-version-externally-managed install_data

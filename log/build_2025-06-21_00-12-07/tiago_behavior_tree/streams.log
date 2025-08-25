@@ -1,0 +1,49 @@
+[0.096s] Invoking command in '/home/ayaa/Agro2/build/tiago_behavior_tree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8
+[0.178s] [  2%] Built target tiago_behavior_tree__cpp
+[0.181s] [ 11%] Built target tiago_behavior_tree__rosidl_generator_c
+[0.204s] [ 11%] Built target ament_cmake_python_copy_tiago_behavior_tree
+[0.215s] [ 20%] Built target tiago_behavior_tree__rosidl_typesupport_cpp
+[0.239s] [ 28%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_cpp
+[0.248s] [ 37%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_cpp
+[0.260s] [ 54%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_c
+[0.261s] [ 54%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_c
+[0.263s] [35m[1mConsolidate compiler generated dependencies of target pick_action_node[0m
+[0.273s] [ 62%] Built target tiago_behavior_tree__rosidl_typesupport_c
+[0.303s] [ 68%] Built target open_gripper_server
+[0.308s] [ 68%] Built target tiago_behavior_tree
+[0.314s] [ 71%] [32mBuilding CXX object CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o[0m
+[0.342s] [ 74%] Built target tiago_behavior_tree__py
+[0.392s] [ 80%] Built target tiago_behavior_tree__rosidl_generator_py
+[0.443s] [ 85%] Built target tiago_behavior_tree__rosidl_typesupport_c__pyext
+[0.443s] [ 91%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_c__pyext
+[0.456s] [ 97%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_c__pyext
+[0.782s] running egg_info
+[0.801s] writing tiago_behavior_tree.egg-info/PKG-INFO
+[0.801s] writing dependency_links to tiago_behavior_tree.egg-info/dependency_links.txt
+[0.802s] writing top-level names to tiago_behavior_tree.egg-info/top_level.txt
+[0.859s] reading manifest file 'tiago_behavior_tree.egg-info/SOURCES.txt'
+[0.860s] writing manifest file 'tiago_behavior_tree.egg-info/SOURCES.txt'
+[0.913s] [ 97%] Built target ament_cmake_python_build_tiago_behavior_tree_egg
+[5.918s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_behavior_tree::OpenGripperAction::on_tick()[m[K’:
+[5.918s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:38:65:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const char [8])[m[K’
+[5.919s]    38 |     auto gripper_group_interface = MoveGroupInterface( "gripper"[01;31m[K)[m[K;
+[5.919s]       |                                                                 [01;31m[K^[m[K
+[5.919s] In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:11[m[K:
+[5.919s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+[5.919s]   159 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+[5.919s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.919s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [8][m[K’ to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&&[m[K’
+[5.919s]   159 |   MoveGroupInterface([01;36m[KMoveGroupInterface&& other[m[K) noexcept;
+[5.919s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[5.919s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+[5.919s]   145 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+[5.919s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.919s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[5.919s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+[5.919s]   134 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+[5.919s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.919s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.637s] gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+[8.638s] gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/pick_action_node.dir/all] Error 2
+[8.638s] gmake: *** [Makefile:146: all] Error 2
+[8.640s] Invoked command in '/home/ayaa/Agro2/build/tiago_behavior_tree' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8

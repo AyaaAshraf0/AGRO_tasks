@@ -1,0 +1,34 @@
+[0.072s] Invoking command in '/home/ayaa/Agro2/build/tiago_behavior_tree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8
+[0.164s] [  8%] Built target tiago_behavior_tree__rosidl_generator_c
+[0.179s] [ 11%] [32mBuilding CXX object CMakeFiles/open_gripper_server.dir/src/open_gripper_action_server.cpp.o[0m
+[0.179s] [ 11%] Built target ament_cmake_python_copy_tiago_behavior_tree
+[0.180s] [ 14%] Built target tiago_behavior_tree__cpp
+[0.215s] [ 22%] Built target tiago_behavior_tree__rosidl_typesupport_c
+[0.229s] [ 31%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_c
+[0.235s] [ 40%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_c
+[0.250s] [ 48%] Built target tiago_behavior_tree__rosidl_typesupport_cpp
+[0.284s] [ 57%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_cpp
+[0.290s] [ 65%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_cpp
+[0.312s] [ 71%] Built target pick_action_node
+[0.318s] [ 71%] Built target tiago_behavior_tree
+[0.349s] [ 74%] Built target tiago_behavior_tree__py
+[0.381s] [ 80%] Built target tiago_behavior_tree__rosidl_generator_py
+[0.419s] [ 85%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_c__pyext
+[0.427s] [ 91%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_c__pyext
+[0.437s] [ 97%] Built target tiago_behavior_tree__rosidl_typesupport_c__pyext
+[0.653s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/open_gripper_action_server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ktiago_behavior_tree/action/open_gripper.hpp: No such file or directory
+[0.653s]     3 | #include [01;31m[K"tiago_behavior_tree/action/open_gripper.hpp"[m[K
+[0.653s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.653s] compilation terminated.
+[0.658s] gmake[2]: *** [CMakeFiles/open_gripper_server.dir/build.make:76: CMakeFiles/open_gripper_server.dir/src/open_gripper_action_server.cpp.o] Error 1
+[0.658s] gmake[1]: *** [CMakeFiles/Makefile2:621: CMakeFiles/open_gripper_server.dir/all] Error 2
+[0.658s] gmake[1]: *** Waiting for unfinished jobs....
+[0.778s] running egg_info
+[0.798s] writing tiago_behavior_tree.egg-info/PKG-INFO
+[0.798s] writing dependency_links to tiago_behavior_tree.egg-info/dependency_links.txt
+[0.798s] writing top-level names to tiago_behavior_tree.egg-info/top_level.txt
+[0.855s] reading manifest file 'tiago_behavior_tree.egg-info/SOURCES.txt'
+[0.856s] writing manifest file 'tiago_behavior_tree.egg-info/SOURCES.txt'
+[0.904s] [ 97%] Built target ament_cmake_python_build_tiago_behavior_tree_egg
+[0.905s] gmake: *** [Makefile:146: all] Error 2
+[1.200s] Invoked command in '/home/ayaa/Agro2/build/tiago_behavior_tree' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8

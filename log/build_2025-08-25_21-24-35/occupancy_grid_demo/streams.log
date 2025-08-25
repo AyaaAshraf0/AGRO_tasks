@@ -1,0 +1,30 @@
+[0.129s] Invoking command in '/home/ayaa/Agro2/build/occupancy_grid_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/occupancy_grid_demo -- -j8 -l8
+[0.236s] [ 25%] [32mBuilding CXX object CMakeFiles/grid_publisher.dir/src/grid_publisher.cpp.o[0m
+[0.244s] [ 50%] [32mBuilding CXX object CMakeFiles/astar_planner_node.dir/src/astar_planner_node.cpp.o[0m
+[9.739s] [ 75%] [32m[1mLinking CXX executable astar_planner_node[0m
+[10.188s] [ 75%] Built target astar_planner_node
+[10.547s] [100%] [32m[1mLinking CXX executable grid_publisher[0m
+[10.829s] [100%] Built target grid_publisher
+[10.840s] Invoked command in '/home/ayaa/Agro2/build/occupancy_grid_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/occupancy_grid_demo -- -j8 -l8
+[10.842s] Invoking command in '/home/ayaa/Agro2/build/occupancy_grid_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --install /home/ayaa/Agro2/build/occupancy_grid_demo
+[10.851s] -- Install configuration: ""
+[10.852s] -- Installing: /home/ayaa/Agro2/install/occupancy_grid_demo/lib/occupancy_grid_demo/grid_publisher
+[10.854s] -- Set runtime path of "/home/ayaa/Agro2/install/occupancy_grid_demo/lib/occupancy_grid_demo/grid_publisher" to ""
+[10.855s] -- Installing: /home/ayaa/Agro2/install/occupancy_grid_demo/lib/occupancy_grid_demo/astar_planner_node
+[10.856s] -- Set runtime path of "/home/ayaa/Agro2/install/occupancy_grid_demo/lib/occupancy_grid_demo/astar_planner_node" to ""
+[10.856s] -- Up-to-date: /home/ayaa/Agro2/install/occupancy_grid_demo/share/ament_index/resource_index/package_run_dependencies/occupancy_grid_demo
+[10.857s] -- Up-to-date: /home/ayaa/Agro2/install/occupancy_grid_demo/share/ament_index/resource_index/parent_prefix_path/occupancy_grid_demo
+[10.857s] -- Up-to-date: /home/ayaa/Agro2/install/occupancy_grid_demo/share/occupancy_grid_demo/environment/ament_prefix_path.sh
+[10.857s] -- Up-to-date: /home/ayaa/Agro2/install/occupancy_grid_demo/share/occupancy_grid_demo/environment/ament_prefix_path.dsv
+[10.857s] -- Up-to-date: /home/ayaa/Agro2/install/occupancy_grid_demo/share/occupancy_grid_demo/environment/path.sh
+[10.857s] -- Up-to-date: /home/ayaa/Agro2/install/occupancy_grid_demo/share/occupancy_grid_demo/environment/path.dsv
+[10.857s] -- Up-to-date: /home/ayaa/Agro2/install/occupancy_grid_demo/share/occupancy_grid_demo/local_setup.bash
+[10.858s] -- Up-to-date: /home/ayaa/Agro2/install/occupancy_grid_demo/share/occupancy_grid_demo/local_setup.sh
+[10.858s] -- Up-to-date: /home/ayaa/Agro2/install/occupancy_grid_demo/share/occupancy_grid_demo/local_setup.zsh
+[10.858s] -- Up-to-date: /home/ayaa/Agro2/install/occupancy_grid_demo/share/occupancy_grid_demo/local_setup.dsv
+[10.858s] -- Installing: /home/ayaa/Agro2/install/occupancy_grid_demo/share/occupancy_grid_demo/package.dsv
+[10.858s] -- Up-to-date: /home/ayaa/Agro2/install/occupancy_grid_demo/share/ament_index/resource_index/packages/occupancy_grid_demo
+[10.858s] -- Up-to-date: /home/ayaa/Agro2/install/occupancy_grid_demo/share/occupancy_grid_demo/cmake/occupancy_grid_demoConfig.cmake
+[10.858s] -- Up-to-date: /home/ayaa/Agro2/install/occupancy_grid_demo/share/occupancy_grid_demo/cmake/occupancy_grid_demoConfig-version.cmake
+[10.858s] -- Up-to-date: /home/ayaa/Agro2/install/occupancy_grid_demo/share/occupancy_grid_demo/package.xml
+[10.861s] Invoked command in '/home/ayaa/Agro2/build/occupancy_grid_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --install /home/ayaa/Agro2/build/occupancy_grid_demo

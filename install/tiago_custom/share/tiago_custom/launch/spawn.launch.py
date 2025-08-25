@@ -65,7 +65,7 @@ def declare_actions(launch_description: LaunchDescription):
             robot_name,
             '-x','-22',
             '-y','-22',
-            '-z','0'
+            '-z','1'
         ],
         output="screen",
     )

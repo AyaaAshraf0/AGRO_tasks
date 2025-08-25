@@ -1,0 +1,73 @@
+[0.092s] Invoking command in '/home/ayaa/Agro2/build/tiago_behavior_tree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8
+[0.179s] [  3%] Built target tiago_behavior_tree__cpp
+[0.181s] [ 12%] Built target tiago_behavior_tree__rosidl_generator_c
+[0.201s] [ 12%] Built target ament_cmake_python_copy_tiago_behavior_tree
+[0.213s] [ 21%] Built target tiago_behavior_tree__rosidl_typesupport_cpp
+[0.223s] [ 30%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_cpp
+[0.225s] [ 39%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_cpp
+[0.258s] [ 48%] Built target tiago_behavior_tree__rosidl_typesupport_c
+[0.262s] [ 57%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_c
+[0.262s] [ 66%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_c
+[0.287s] [ 69%] [32mBuilding CXX object CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o[0m
+[0.293s] [ 69%] Built target tiago_behavior_tree
+[0.324s] [ 72%] Built target tiago_behavior_tree__py
+[0.360s] [ 78%] Built target tiago_behavior_tree__rosidl_generator_py
+[0.399s] [ 84%] Built target tiago_behavior_tree__rosidl_typesupport_c__pyext
+[0.408s] [ 90%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_c__pyext
+[0.419s] [ 96%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_c__pyext
+[0.922s] running egg_info
+[0.950s] writing tiago_behavior_tree.egg-info/PKG-INFO
+[0.950s] writing dependency_links to tiago_behavior_tree.egg-info/dependency_links.txt
+[0.951s] writing top-level names to tiago_behavior_tree.egg-info/top_level.txt
+[1.008s] reading manifest file 'tiago_behavior_tree.egg-info/SOURCES.txt'
+[1.009s] writing manifest file 'tiago_behavior_tree.egg-info/SOURCES.txt'
+[1.061s] [ 96%] Built target ament_cmake_python_build_tiago_behavior_tree_egg
+[3.705s] In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:6[m[K:
+[3.706s] /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In instantiation of ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>][m[K’:
+[3.706s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:67:63:[m[K   required from here
+[3.706s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:385:41:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: [registerNode]: the registered class must have at least one of these two constructors:   (const std::string&, const NodeConfiguration&) or (const std::string&).
+[3.706s] Check also if the constructor is public!
+[3.706s]   385 |     static_assert([01;31m[Kdefault_constructable || param_constructable[m[K, "[registerNode]: the "
+[3.706s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.706s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:385:41:[m[K [01;36m[Knote: [m[K‘[01m[K(((bool)default_constructable) || ((bool)param_constructable))[m[K’ evaluates to false
+[3.706s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:407:19:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: [registerNode]: since you have a static method providedPorts(), you MUST add a constructor sign signature (const std::string&, const NodeParameters&)
+[3.706s] 
+[3.706s]   407 |     static_assert([01;31m[K!(has_static_ports_list && !param_constructable)[m[K, "[registerNode]: "
+[3.706s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.707s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:407:19:[m[K [01;36m[Knote: [m[K‘[01m[K((!(bool)has_static_ports_list) || ((bool)param_constructable))[m[K’ evaluates to false
+[3.707s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:418:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KCreateBuilder<custom_bt_nodes::OpenGripperAction>()[m[K’
+[3.707s]   418 |     registerBuilder(CreateManifest<T>(ID), [01;31m[KCreateBuilder<T>()[m[K);
+[3.707s]       |                                            [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+[3.707s] In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:6[m[K:
+[3.707s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:43:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::CreateBuilder(typename std::enable_if<(std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value && std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const BT::NodeConfiguration&>::value)>::type*)[m[K’
+[3.707s]    43 | [01;36m[KCreateBuilder[m[K(typename std::enable_if<has_default_constructor<T>::value &&
+[3.707s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[3.707s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:43:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.707s] /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In substitution of ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::CreateBuilder(typename std::enable_if<(std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value && std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const BT::NodeConfiguration&>::value)>::type*) [with T = custom_bt_nodes::OpenGripperAction][m[K’:
+[3.707s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:418:60:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.707s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:67:63:[m[K   required from here
+[3.707s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:43:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[3.707s] /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In instantiation of ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>][m[K’:
+[3.707s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:67:63:[m[K   required from here
+[3.707s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:59:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::CreateBuilder(typename std::enable_if<((! std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value) && std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const BT::NodeConfiguration&>::value)>::type*)[m[K’
+[3.708s]    59 | [01;36m[KCreateBuilder[m[K(typename std::enable_if<!has_default_constructor<T>::value &&
+[3.708s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[3.708s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:59:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.708s] /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In substitution of ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::CreateBuilder(typename std::enable_if<((! std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value) && std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const BT::NodeConfiguration&>::value)>::type*) [with T = custom_bt_nodes::OpenGripperAction][m[K’:
+[3.708s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:418:60:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.708s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:67:63:[m[K   required from here
+[3.708s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:59:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[3.708s] /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In instantiation of ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>][m[K’:
+[3.708s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:67:63:[m[K   required from here
+[3.708s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:69:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::CreateBuilder(typename std::enable_if<(std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value && (! std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const BT::NodeConfiguration&>::value))>::type*)[m[K’
+[3.708s]    69 | [01;36m[KCreateBuilder[m[K(typename std::enable_if<has_default_constructor<T>::value &&
+[3.708s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[3.708s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:69:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.708s] /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In substitution of ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::CreateBuilder(typename std::enable_if<(std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value && (! std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const BT::NodeConfiguration&>::value))>::type*) [with T = custom_bt_nodes::OpenGripperAction][m[K’:
+[3.708s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:418:60:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.709s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:67:63:[m[K   required from here
+[3.709s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:69:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[4.543s] gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+[4.543s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/pick_action_node.dir/all] Error 2
+[4.543s] gmake: *** [Makefile:146: all] Error 2
+[4.546s] Invoked command in '/home/ayaa/Agro2/build/tiago_behavior_tree' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8

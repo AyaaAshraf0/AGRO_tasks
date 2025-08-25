@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ayaa/Agro2/install/tiago_behavior_tree/include/**",
+        "/home/ayaa/Agro2/install/service_define/include/**",
+        "/home/ayaa/Agro2/install/gazebo_ros2_control/include/**",
+        "/home/ayaa/Agro2/install/actions/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/ayaa/Agro2/src/actions/include/**",
+        "/home/ayaa/Agro2/src/fer_cpp_moveit/include/**",
+        "/home/ayaa/Agro2/src/service_define/include/**",
+        "/home/ayaa/Agro2/src/tiago_behavior_tree/include/**",
+        "/home/ayaa/Agro2/src/tiago_cpp/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

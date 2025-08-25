@@ -1,2 +1,0 @@
-Invoking command in '/home/ayaa/Agro2/build/ur5_moveit': /usr/bin/cmake /home/ayaa/Agro2/src/ur5_moveit -DCMAKE_INSTALL_PREFIX=/home/ayaa/Agro2/install/ur5_moveit
-Invoked command in '/home/ayaa/Agro2/build/ur5_moveit' returned '1': /usr/bin/cmake /home/ayaa/Agro2/src/ur5_moveit -DCMAKE_INSTALL_PREFIX=/home/ayaa/Agro2/install/ur5_moveit

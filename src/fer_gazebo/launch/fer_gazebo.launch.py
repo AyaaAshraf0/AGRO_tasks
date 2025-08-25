@@ -104,7 +104,7 @@ def generate_launch_description():
         [
         # gazebo,
         # spawn_robot,
-        # robot_state_publisher,
+        robot_state_publisher,
         load_controllers,
         joint_state_broadcaster,
         # joint_state_publisher,

@@ -1,0 +1,151 @@
+[0.056s] Invoking command in '/home/ayaa/Agro2/build/service_define': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/service_define -- -j8 -l8
+[1.542s] [  3%] Built target service_define__cpp
+[1.542s] [ 12%] Built target service_define__rosidl_generator_c
+[1.543s] [ 12%] Built target ament_cmake_python_copy_service_define
+[1.543s] [ 22%] Built target service_define__rosidl_typesupport_cpp
+[1.543s] [ 32%] Built target service_define__rosidl_typesupport_fastrtps_cpp
+[1.543s] [ 41%] Built target service_define__rosidl_typesupport_introspection_cpp
+[1.543s] [ 61%] Built target service_define__rosidl_typesupport_introspection_c
+[1.544s] [ 61%] Built target service_define__rosidl_typesupport_c
+[1.544s] [ 70%] Built target service_define__rosidl_typesupport_fastrtps_c
+[1.544s] [ 70%] Built target service_define
+[1.544s] [ 74%] Built target service_define__py
+[1.544s] [ 80%] Built target service_define__rosidl_generator_py
+[1.545s] [ 87%] Built target service_define__rosidl_typesupport_fastrtps_c__pyext
+[1.545s] [ 93%] Built target service_define__rosidl_typesupport_introspection_c__pyext
+[1.546s] [100%] Built target service_define__rosidl_typesupport_c__pyext
+[1.547s] running egg_info
+[1.547s] writing service_define.egg-info/PKG-INFO
+[1.547s] writing dependency_links to service_define.egg-info/dependency_links.txt
+[1.548s] writing top-level names to service_define.egg-info/top_level.txt
+[1.548s] reading manifest file 'service_define.egg-info/SOURCES.txt'
+[1.549s] writing manifest file 'service_define.egg-info/SOURCES.txt'
+[1.549s] [100%] Built target ament_cmake_python_build_service_define_egg
+[1.568s] Invoked command in '/home/ayaa/Agro2/build/service_define' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/service_define -- -j8 -l8
+[1.571s] Invoking command in '/home/ayaa/Agro2/build/service_define': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --install /home/ayaa/Agro2/build/service_define
+[1.617s] -- Install configuration: ""
+[1.617s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/ament_index/resource_index/rosidl_interfaces/service_define
+[1.618s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define
+[1.618s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv
+[1.618s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail
+[1.619s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail/add_two_ints__functions.h
+[1.619s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail/add_two_ints__functions.c
+[1.619s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail/add_two_ints__type_support.h
+[1.619s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail/add_two_ints__struct.h
+[1.619s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/add_two_ints.h
+[1.619s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/msg
+[1.620s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/msg/rosidl_generator_c__visibility_control.h
+[1.620s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/environment/library_path.sh
+[1.620s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/environment/library_path.dsv
+[1.621s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/lib/libservice_define__rosidl_generator_c.so
+[1.621s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define
+[1.622s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv
+[1.622s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail
+[1.623s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[1.623s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/msg
+[1.623s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.623s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/lib/libservice_define__rosidl_typesupport_fastrtps_c.so
+[1.624s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define
+[1.624s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv
+[1.625s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail
+[1.625s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail/add_two_ints__builder.hpp
+[1.625s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail/add_two_ints__struct.hpp
+[1.626s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail/add_two_ints__type_support.hpp
+[1.626s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail/add_two_ints__traits.hpp
+[1.626s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/add_two_ints.hpp
+[1.626s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/msg
+[1.626s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.626s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define
+[1.627s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv
+[1.627s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail
+[1.627s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail/dds_fastrtps
+[1.627s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[1.627s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/msg
+[1.627s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.627s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/lib/libservice_define__rosidl_typesupport_fastrtps_cpp.so
+[1.627s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define
+[1.645s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv
+[1.646s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail
+[1.646s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[1.646s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail/add_two_ints__type_support.c
+[1.646s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/msg
+[1.646s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.646s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/lib/libservice_define__rosidl_typesupport_introspection_c.so
+[1.647s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/lib/libservice_define__rosidl_typesupport_c.so
+[1.647s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define
+[1.647s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv
+[1.647s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail
+[1.647s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[1.647s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/include/service_define/service_define/srv/detail/add_two_ints__type_support.cpp
+[1.647s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/lib/libservice_define__rosidl_typesupport_introspection_cpp.so
+[1.647s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/lib/libservice_define__rosidl_typesupport_cpp.so
+[1.648s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/environment/pythonpath.sh
+[1.648s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/environment/pythonpath.dsv
+[1.648s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define-0.0.0-py3.10.egg-info
+[1.648s] -- Installing: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define-0.0.0-py3.10.egg-info/PKG-INFO
+[1.648s] -- Installing: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.648s] -- Installing: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.648s] -- Installing: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define-0.0.0-py3.10.egg-info/top_level.txt
+[1.648s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define
+[1.649s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define/__init__.py
+[1.649s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define/srv
+[1.649s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define/srv/__init__.py
+[1.649s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define/srv/_add_two_ints.py
+[1.649s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define/srv/_add_two_ints_s.c
+[1.651s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define/service_define_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.651s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define/_service_define_s.ep.rosidl_typesupport_c.c
+[1.651s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define/_service_define_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.652s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define/service_define_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.652s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define/service_define_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.654s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define/_service_define_s.ep.rosidl_typesupport_introspection_c.c
+[1.654s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define/libservice_define__rosidl_generator_py.so
+[1.680s] Listing '/home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define'...
+[1.680s] Listing '/home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define/srv'...
+[1.681s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define/service_define_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.681s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define/service_define_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.682s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/local/lib/python3.10/dist-packages/service_define/service_define_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.683s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/lib/libservice_define__rosidl_generator_py.so
+[1.683s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/srv/AddTwoInts.idl
+[1.683s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/srv/AddTwoInts.srv
+[1.684s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/srv/AddTwoInts_Request.msg
+[1.684s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/srv/AddTwoInts_Response.msg
+[1.685s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/ament_index/resource_index/package_run_dependencies/service_define
+[1.685s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/ament_index/resource_index/parent_prefix_path/service_define
+[1.685s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/environment/ament_prefix_path.sh
+[1.685s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/environment/ament_prefix_path.dsv
+[1.686s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/environment/path.sh
+[1.686s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/environment/path.dsv
+[1.686s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/local_setup.bash
+[1.686s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/local_setup.sh
+[1.686s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/local_setup.zsh
+[1.687s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/local_setup.dsv
+[1.687s] -- Installing: /home/ayaa/Agro2/install/service_define/share/service_define/package.dsv
+[1.687s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/ament_index/resource_index/packages/service_define
+[1.687s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/export_service_define__rosidl_generator_cExport.cmake
+[1.687s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/export_service_define__rosidl_generator_cExport-noconfig.cmake
+[1.687s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/export_service_define__rosidl_typesupport_fastrtps_cExport.cmake
+[1.687s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/export_service_define__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.687s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/export_service_define__rosidl_generator_cppExport.cmake
+[1.688s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/export_service_define__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.688s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/export_service_define__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.688s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/service_define__rosidl_typesupport_introspection_cExport.cmake
+[1.688s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/service_define__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.688s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/service_define__rosidl_typesupport_cExport.cmake
+[1.688s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/service_define__rosidl_typesupport_cExport-noconfig.cmake
+[1.688s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/service_define__rosidl_typesupport_introspection_cppExport.cmake
+[1.688s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/service_define__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.689s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/service_define__rosidl_typesupport_cppExport.cmake
+[1.689s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/service_define__rosidl_typesupport_cppExport-noconfig.cmake
+[1.690s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/export_service_define__rosidl_generator_pyExport.cmake
+[1.690s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/export_service_define__rosidl_generator_pyExport-noconfig.cmake
+[1.690s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/rosidl_cmake-extras.cmake
+[1.691s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.691s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.691s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/ament_cmake_export_libraries-extras.cmake
+[1.691s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/ament_cmake_export_targets-extras.cmake
+[1.692s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.692s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.692s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/service_defineConfig.cmake
+[1.692s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/cmake/service_defineConfig-version.cmake
+[1.692s] -- Up-to-date: /home/ayaa/Agro2/install/service_define/share/service_define/package.xml
+[1.760s] Invoked command in '/home/ayaa/Agro2/build/service_define' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --install /home/ayaa/Agro2/build/service_define

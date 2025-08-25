@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "service_define__py",
+		"source" : "/home/ayaa/Agro2/build/service_define/service_define__py"
+	}
+}

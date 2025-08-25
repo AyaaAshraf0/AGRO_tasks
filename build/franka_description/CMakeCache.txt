@@ -40,9 +40,6 @@ AMENT_TEST_RESULTS_DIR:PATH=/home/ayaa/Agro2/build/franka_description/test_resul
 //Build the testing tree.
 BUILD_TESTING:BOOL=ON
 
-//No help, variable specified on the command line.
-CATKIN_INSTALL_INTO_PREFIX_ROOT:UNINITIALIZED=0
-
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -339,9 +336,6 @@ ament_pep257_BIN:FILEPATH=/opt/ros/humble/bin/ament_pep257
 
 //Path to a program.
 ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
-
-//The directory containing a CMake configuration file for catkin.
-catkin_DIR:PATH=catkin_DIR-NOTFOUND
 
 //Value Computed by CMake
 franka_description_BINARY_DIR:STATIC=/home/ayaa/Agro2/build/franka_description

@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/trials/trials.egg-info/PKG-INFO
+writing dependency_links to ../../build/trials/trials.egg-info/dependency_links.txt
+writing entry points to ../../build/trials/trials.egg-info/entry_points.txt
+writing requirements to ../../build/trials/trials.egg-info/requires.txt
+writing top-level names to ../../build/trials/trials.egg-info/top_level.txt
+reading manifest file '../../build/trials/trials.egg-info/SOURCES.txt'
+writing manifest file '../../build/trials/trials.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/trials/trials.egg-info to /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials-0.0.0-py3.10.egg-info
+running install_scripts
+Installing astar_path_pub script to /home/ayaa/Agro2/install/trials/lib/trials
+Installing client script to /home/ayaa/Agro2/install/trials/lib/trials
+Installing listener script to /home/ayaa/Agro2/install/trials/lib/trials
+Installing server script to /home/ayaa/Agro2/install/trials/lib/trials
+Installing talker script to /home/ayaa/Agro2/install/trials/lib/trials
+writing list of installed files to '/home/ayaa/Agro2/build/trials/install.log'

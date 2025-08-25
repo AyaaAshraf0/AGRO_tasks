@@ -1,0 +1,38 @@
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:25:69:[m[K [01;31m[Kerror: [m[Kinvalid declarator before ‘[01m[Kgripper_group_[m[K’
+   25 |     std::shared_ptr<moveit::planning_interface::MoveGroupInterface> [01;31m[Kgripper_group_[m[K;
+      |                                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:26:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kxml_tag_name[m[K’ was not declared in this scope
+   26 |   : BtActionNode<ActionType>([01;31m[Kxml_tag_name[m[K, action_name, conf)
+      |                              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:26:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_name[m[K’ was not declared in this scope; did you mean ‘[01m[Kaction_name_[m[K’?
+   26 |   : BtActionNode<ActionType>(xml_tag_name, [01;31m[Kaction_name[m[K, conf)
+      |                                            [01;31m[K^~~~~~~~~~~[m[K
+      |                                            [32m[Kaction_name_[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:26:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kconf[m[K’ was not declared in this scope; did you mean ‘[01m[Kcosf[m[K’?
+   26 |   : BtActionNode<ActionType>(xml_tag_name, action_name, [01;31m[Kconf[m[K)
+      |                                                         [01;31m[K^~~~[m[K
+      |                                                         [32m[Kcosf[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:27:3:[m[K [01;31m[Kerror: [m[Kdefault member initializer for unnamed bit-field
+   27 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:31:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   31 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:31:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   31 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+      |    [32m[K;[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_behavior_tree::OpenGripperAction::on_tick()[m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_group_[m[K’ was not declared in this scope
+   42 |     [01;31m[Kgripper_group_[m[K->setJointValueTarget({
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:49:96:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   49 |     bool success = (gripper_group_->plan(plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:11[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/pick_action_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

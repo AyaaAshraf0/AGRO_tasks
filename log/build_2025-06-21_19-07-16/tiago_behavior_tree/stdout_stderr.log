@@ -1,0 +1,218 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found nav2_behavior_tree: 1.1.18 (/opt/ros/humble/share/nav2_behavior_tree/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/ayaa/Agro2/src/tiago_behavior_tree/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ayaa/Agro2/build/tiago_behavior_tree
+[35m[1mConsolidate compiler generated dependencies of target tiago_behavior_tree__rosidl_generator_c[0m
+[  2%] Built target tiago_behavior_tree__cpp
+[ 11%] Built target tiago_behavior_tree__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target tiago_behavior_tree__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target tiago_behavior_tree__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target tiago_behavior_tree__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target tiago_behavior_tree__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target tiago_behavior_tree__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target tiago_behavior_tree__rosidl_typesupport_c[0m
+[ 11%] Built target ament_cmake_python_copy_tiago_behavior_tree
+[ 20%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_c
+[ 31%] Built target tiago_behavior_tree__rosidl_typesupport_c
+[ 45%] Built target tiago_behavior_tree__rosidl_typesupport_cpp
+[ 45%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_cpp
+[ 54%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_cpp
+[ 62%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_c
+[35m[1mConsolidate compiler generated dependencies of target pick_action_node[0m
+[35m[1mConsolidate compiler generated dependencies of target open_gripper_server[0m
+[ 62%] Built target tiago_behavior_tree
+[ 68%] Built target open_gripper_server
+[ 71%] Built target tiago_behavior_tree__py
+[ 74%] [32mBuilding CXX object CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target tiago_behavior_tree__rosidl_generator_py[0m
+[ 80%] Built target tiago_behavior_tree__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target tiago_behavior_tree__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target tiago_behavior_tree__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target tiago_behavior_tree__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 85%] Built target tiago_behavior_tree__rosidl_typesupport_c__pyext
+[ 91%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing tiago_behavior_tree.egg-info/PKG-INFO
+writing dependency_links to tiago_behavior_tree.egg-info/dependency_links.txt
+writing top-level names to tiago_behavior_tree.egg-info/top_level.txt
+reading manifest file 'tiago_behavior_tree.egg-info/SOURCES.txt'
+writing manifest file 'tiago_behavior_tree.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_tiago_behavior_tree_egg
+[100%] [32m[1mLinking CXX shared library libpick_action_node.so[0m
+[100%] Built target pick_action_node
+-- Install configuration: ""
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/ament_index/resource_index/rosidl_interfaces/tiago_behavior_tree
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/msg
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail/open_gripper__functions.c
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail/open_gripper__functions.h
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail/open_gripper__struct.h
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail/open_gripper__type_support.h
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/open_gripper.h
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/environment/library_path.sh
+-- Installing: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/environment/library_path.dsv
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/lib/libtiago_behavior_tree__rosidl_generator_c.so
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/msg
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail/open_gripper__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/lib/libtiago_behavior_tree__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/msg
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail/open_gripper__traits.hpp
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail/open_gripper__type_support.hpp
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail/open_gripper__struct.hpp
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail/open_gripper__builder.hpp
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/open_gripper.hpp
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/msg
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail/open_gripper__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail/dds_fastrtps
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/lib/libtiago_behavior_tree__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/msg
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail/open_gripper__type_support.c
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail/open_gripper__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/lib/libtiago_behavior_tree__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/lib/libtiago_behavior_tree__rosidl_typesupport_c.so
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail/open_gripper__type_support.cpp
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/tiago_behavior_tree/action/detail/open_gripper__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/lib/libtiago_behavior_tree__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/lib/libtiago_behavior_tree__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/environment/pythonpath.sh
+-- Installing: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/environment/pythonpath.dsv
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree-0.0.0-py3.10.egg-info
+-- Installing: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree
+-- Installing: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree/__init__.py
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree/_tiago_behavior_tree_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree/tiago_behavior_tree_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree/_tiago_behavior_tree_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree/_tiago_behavior_tree_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree/tiago_behavior_tree_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree/tiago_behavior_tree_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree/action
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree/action/__init__.py
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree/action/_open_gripper_s.c
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree/action/_open_gripper.py
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree/libtiago_behavior_tree__rosidl_generator_py.so
+Listing '/home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree'...
+Compiling '/home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree/__init__.py'...
+Listing '/home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree/action'...
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree/tiago_behavior_tree_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree/tiago_behavior_tree_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/local/lib/python3.10/dist-packages/tiago_behavior_tree/tiago_behavior_tree_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/lib/libtiago_behavior_tree__rosidl_generator_py.so
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/action/OpenGripper.idl
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/action/OpenGripper.action
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/pick_plugin.xml
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/lib/tiago_behavior_tree/open_gripper_server
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/action
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/include/tiago_behavior_tree/action/OpenGripper.action
+-- Installing: /home/ayaa/Agro2/install/tiago_behavior_tree/lib/libpick_action_node.so
+-- Set runtime path of "/home/ayaa/Agro2/install/tiago_behavior_tree/lib/libpick_action_node.so" to ""
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/pick_plugin.xml
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/ament_index/resource_index/package_run_dependencies/tiago_behavior_tree
+-- Installing: /home/ayaa/Agro2/install/tiago_behavior_tree/share/ament_index/resource_index/parent_prefix_path/tiago_behavior_tree
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/environment/ament_prefix_path.sh
+-- Installing: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/environment/path.sh
+-- Installing: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/environment/path.dsv
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/local_setup.bash
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/local_setup.sh
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/local_setup.zsh
+-- Installing: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/local_setup.dsv
+-- Installing: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/package.dsv
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/ament_index/resource_index/packages/tiago_behavior_tree
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/ament_index/resource_index/nav2_behavior_tree__pluginlib__plugin/tiago_behavior_tree
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/export_tiago_behavior_tree__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/export_tiago_behavior_tree__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/export_tiago_behavior_tree__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/export_tiago_behavior_tree__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/export_tiago_behavior_tree__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/export_tiago_behavior_tree__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/export_tiago_behavior_tree__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/tiago_behavior_tree__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/tiago_behavior_tree__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/tiago_behavior_tree__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/tiago_behavior_tree__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/tiago_behavior_tree__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/tiago_behavior_tree__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/tiago_behavior_tree__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/tiago_behavior_tree__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/export_tiago_behavior_tree__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/export_tiago_behavior_tree__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/tiago_behavior_treeConfig.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/cmake/tiago_behavior_treeConfig-version.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_behavior_tree/share/tiago_behavior_tree/package.xml

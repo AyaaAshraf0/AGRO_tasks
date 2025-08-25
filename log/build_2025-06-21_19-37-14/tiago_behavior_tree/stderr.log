@@ -1,0 +1,10 @@
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_behavior_tree::ApproachObjectAction::on_tick()[m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:106:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Goal = using ApproachObject_Goal = struct tiago_behavior_tree::action::ApproachObject_Goal_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tiago_behavior_tree::action::ApproachObject_Goal_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+  106 |     getInput("target_pose", goal_.[01;31m[Kpose[m[K);
+      |                                   [01;31m[K^~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:109:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Goal = using ApproachObject_Goal = struct tiago_behavior_tree::action::ApproachObject_Goal_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tiago_behavior_tree::action::ApproachObject_Goal_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+  109 |     geometry_msgs::msg::Pose target = goal_.[01;31m[Kpose[m[K;
+      |                                             [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/pick_action_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

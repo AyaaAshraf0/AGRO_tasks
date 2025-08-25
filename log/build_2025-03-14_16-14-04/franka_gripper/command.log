@@ -1,2 +1,0 @@
-Invoking command in '/home/ayaa/Agro2/build/franka_gripper': /usr/bin/cmake /home/ayaa/Agro2/src/franka_ros/franka_gripper -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ayaa/Agro2/install/franka_gripper
-Invoked command in '/home/ayaa/Agro2/build/franka_gripper' returned '1': /usr/bin/cmake /home/ayaa/Agro2/src/franka_ros/franka_gripper -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ayaa/Agro2/install/franka_gripper

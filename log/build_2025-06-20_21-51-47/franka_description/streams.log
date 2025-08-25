@@ -1,0 +1,169 @@
+[0.046s] Invoking command in '/home/ayaa/Agro2/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake /home/ayaa/Agro2/src/franka_description -DCMAKE_INSTALL_PREFIX=/home/ayaa/Agro2/install/franka_description
+[1.713s] -- The C compiler identification is GNU 11.4.0
+[1.714s] -- The CXX compiler identification is GNU 11.4.0
+[1.715s] -- Detecting C compiler ABI info
+[1.715s] -- Detecting C compiler ABI info - done
+[1.715s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.716s] -- Detecting C compile features
+[1.716s] -- Detecting C compile features - done
+[1.716s] -- Detecting CXX compiler ABI info
+[1.716s] -- Detecting CXX compiler ABI info - done
+[1.716s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.717s] -- Detecting CXX compile features
+[1.717s] -- Detecting CXX compile features - done
+[1.719s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.719s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.719s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.013s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.048s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.054s] -- Added test 'lint_cmake' to check CMake code style
+[2.057s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.075s] -- Added test 'xmllint' to check XML markup files
+[2.078s] -- Configuring done
+[2.083s] -- Generating done
+[2.087s] -- Build files have been written to: /home/ayaa/Agro2/build/franka_description
+[2.095s] Invoked command in '/home/ayaa/Agro2/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake /home/ayaa/Agro2/src/franka_description -DCMAKE_INSTALL_PREFIX=/home/ayaa/Agro2/install/franka_description
+[2.096s] Invoking command in '/home/ayaa/Agro2/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/franka_description -- -j8 -l8
+[2.162s] Invoked command in '/home/ayaa/Agro2/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/franka_description -- -j8 -l8
+[2.175s] Invoking command in '/home/ayaa/Agro2/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --install /home/ayaa/Agro2/build/franka_description
+[2.186s] -- Install configuration: ""
+[2.186s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//launch
+[2.186s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//launch/visualize_franka.launch.py
+[2.187s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots
+[2.187s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/fp3
+[2.187s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/fp3/inertials.yaml
+[2.188s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/fp3/joint_limits.yaml
+[2.189s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/fp3/dynamics.yaml
+[2.189s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/fp3/kinematics.yaml
+[2.190s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/fp3/fp3.urdf.xacro
+[2.191s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/fr3
+[2.191s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/fr3/inertials.yaml
+[2.192s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/fr3/joint_limits.yaml
+[2.192s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/fr3/dynamics.yaml
+[2.193s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/fr3/kinematics.yaml
+[2.193s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/fr3/fr3.urdf.xacro
+[2.194s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/fer
+[2.194s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/fer/fer_ros2_control.xacro.urdf
+[2.195s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/fer/inertials.yaml
+[2.195s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/fer/joint_limits.yaml
+[2.196s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/fer/dynamics.yaml
+[2.197s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/fer/kinematics.yaml
+[2.197s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/fer/fer.urdf.xacro
+[2.198s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/common
+[2.198s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/common/utils.xacro
+[2.199s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/common/franka_arm.xacro
+[2.200s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/common/franka_robot.xacro
+[2.200s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/common/franka_arm.ros2_control.xacro
+[2.201s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/multi_arm
+[2.201s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//robots/multi_arm/multi_arm.urdf.xacro
+[2.202s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//end_effectors
+[2.202s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//end_effectors/franka_hand
+[2.202s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//end_effectors/franka_hand/inertials.yaml
+[2.203s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand_arguments.xacro
+[2.203s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand.urdf.xacro
+[2.204s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//end_effectors/common
+[2.204s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//end_effectors/common/utils.xacro
+[2.205s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//end_effectors/common/ee_with_one_link.xacro
+[2.206s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//end_effectors/common/franka_hand.xacro
+[2.207s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//end_effectors/cobot_pump
+[2.207s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//end_effectors/cobot_pump/inertials.yaml
+[2.208s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump_arguments.xacro
+[2.209s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump.urdf.xacro
+[2.209s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes
+[2.210s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms
+[2.210s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fp3
+[2.210s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision
+[2.210s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link0.stl
+[2.211s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link7.stl
+[2.212s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link2.stl
+[2.212s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link5.stl
+[2.213s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link3.stl
+[2.214s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link4.stl
+[2.214s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link6.stl
+[2.215s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link1.stl
+[2.216s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual
+[2.216s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link5.dae
+[2.228s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link2.dae
+[2.233s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link0.dae
+[2.254s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link4.dae
+[2.262s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link6.dae
+[2.276s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link7.dae
+[2.287s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link1.dae
+[2.291s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link3.dae
+[2.300s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fr3
+[2.300s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision
+[2.300s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link0.stl
+[2.301s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link7.stl
+[2.301s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link2.stl
+[2.301s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link5.stl
+[2.302s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link3.stl
+[2.302s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link4.stl
+[2.302s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link6.stl
+[2.303s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link1.stl
+[2.303s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual
+[2.303s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link5.dae
+[2.314s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link2.dae
+[2.319s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link0.dae
+[2.339s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link4.dae
+[2.353s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link6.dae
+[2.370s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link7.dae
+[2.381s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link1.dae
+[2.385s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link3.dae
+[2.394s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer
+[2.394s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision
+[2.394s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link0.stl
+[2.395s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link7.stl
+[2.396s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link2.stl
+[2.397s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link5.stl
+[2.397s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link3.stl
+[2.398s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link4.stl
+[2.399s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link6.stl
+[2.399s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link1.stl
+[2.400s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/hand.stl
+[2.400s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual
+[2.400s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link5.dae
+[2.406s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link2.dae
+[2.411s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link0.dae
+[2.418s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link4.dae
+[2.423s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link6.dae
+[2.429s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link7.dae
+[2.434s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link1.dae
+[2.439s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/finger.dae
+[2.440s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link3.dae
+[2.446s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/hand.dae
+[2.449s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_ee
+[2.449s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white
+[2.449s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/collision
+[2.450s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/collision/hand.stl
+[2.450s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual
+[2.450s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/finger.dae
+[2.451s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/hand.dae
+[2.458s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump
+[2.458s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/collision
+[2.458s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/collision/cobot_pump.stl
+[2.470s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/visual
+[2.471s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/visual/cobot_pump.dae
+[2.499s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black
+[2.499s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/collision
+[2.499s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/collision/hand.stl
+[2.500s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual
+[2.500s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/finger.dae
+[2.500s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/hand.dae
+[2.503s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//rviz
+[2.503s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description//rviz/visualize_franka.rviz
+[2.504s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description
+[2.504s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description
+[2.504s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description/environment/ament_prefix_path.sh
+[2.505s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description/environment/ament_prefix_path.dsv
+[2.505s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description/environment/path.sh
+[2.505s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description/environment/path.dsv
+[2.505s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description/local_setup.bash
+[2.505s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description/local_setup.sh
+[2.506s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description/local_setup.zsh
+[2.506s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description/local_setup.dsv
+[2.506s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description/package.dsv
+[2.506s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/ament_index/resource_index/packages/franka_description
+[2.507s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake
+[2.507s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake
+[2.507s] -- Installing: /home/ayaa/Agro2/install/franka_description/share/franka_description/package.xml
+[2.522s] Invoked command in '/home/ayaa/Agro2/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --install /home/ayaa/Agro2/build/franka_description

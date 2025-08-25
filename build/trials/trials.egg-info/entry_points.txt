@@ -1,0 +1,6 @@
+[console_scripts]
+astar_path_pub = trials.A_star: main
+client = trials.client: main
+listener = trials.subscriber: main
+server = trials.server: main
+talker = trials.publisher: main

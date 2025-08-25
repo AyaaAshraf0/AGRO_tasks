@@ -1,0 +1,120 @@
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:80:99:[m[K [01;31m[Kerror: [m[K‘[01m[KApproachObject[m[K’ is not a member of ‘[01m[Ktiago_behavior_tree::action[m[K’
+   80 | v2_behavior_tree::BtActionNode<tiago_behavior_tree::action::[01;31m[KApproachObject[m[K>
+      |                                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:80:113:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   80 | ehavior_tree::BtActionNode<tiago_behavior_tree::action::ApproachObject[01;31m[K>[m[K
+      |                                                                       [01;31m[K^[m[K
+
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:83:51:[m[K [01;31m[Kerror: [m[K‘[01m[KApproachObject[m[K’ in namespace ‘[01m[Ktiago_behavior_tree::action[m[K’ does not name a type
+   83 |   using ActionType = tiago_behavior_tree::action::[01;31m[KApproachObject[m[K;
+      |                                                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:102:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid nav2_behavior_tree::ApproachObjectAction::on_tick()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+  102 |   void [01;31m[Kon_tick[m[K() override
+      |        [01;31m[K^~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:120:18:[m[K [01;31m[Kerror: [m[K‘[01m[KBT::NodeStatus nav2_behavior_tree::ApproachObjectAction::on_success()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+  120 |   BT::NodeStatus [01;31m[Kon_success[m[K() override
+      |                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:126:18:[m[K [01;31m[Kerror: [m[K‘[01m[KBT::NodeStatus nav2_behavior_tree::ApproachObjectAction::on_aborted()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+  126 |   BT::NodeStatus [01;31m[Kon_aborted[m[K() override
+      |                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:132:18:[m[K [01;31m[Kerror: [m[K‘[01m[KBT::NodeStatus nav2_behavior_tree::ApproachObjectAction::on_cancelled()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+  132 |   BT::NodeStatus [01;31m[Kon_cancelled[m[K() override
+      |                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In constructor ‘[01m[Knav2_behavior_tree::ApproachObjectAction::ApproachObjectAction(const string&, const string&, const BT::NodeConfiguration&)[m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:89:18:[m[K [01;31m[Kerror: [m[K‘[01m[KActionType[m[K’ was not declared in this scope
+   89 |   : BtActionNode<[01;31m[KActionType[m[K>(xml_tag_name, action_name, conf)
+      |                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:89:28:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   89 |   : BtActionNode<ActionType[01;31m[K>[m[K(xml_tag_name, action_name, conf)
+      |                            [01;31m[K^[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:89:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K([m[K’ token
+   89 |   : BtActionNode<ActionType>[01;31m[K([m[Kxml_tag_name, action_name, conf)
+      |                             [01;31m[K^[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:86:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxml_tag_name[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   86 |     [01;35m[Kconst std::string & xml_tag_name[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:87:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kaction_name[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   87 |     [01;35m[Kconst std::string & action_name[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:88:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kconf[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   88 |     [01;35m[Kconst BT::NodeConfiguration & conf[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In static member function ‘[01m[Kstatic BT::PortsList nav2_behavior_tree::ApproachObjectAction::providedPorts()[m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:98:12:[m[K [01;31m[Kerror: [m[K‘[01m[KprovidedBasicPorts[m[K’ was not declared in this scope; did you mean ‘[01m[KprovidedPorts[m[K’?
+   98 |     return [01;31m[KprovidedBasicPorts[m[K({ BT::InputPort<geometry_msgs::msg::Pose>("target_pose") });
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |            [32m[KprovidedPorts[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In member function ‘[01m[Kvoid nav2_behavior_tree::ApproachObjectAction::on_tick()[m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:104:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_[m[K’ was not declared in this scope
+  104 |     getInput("target_pose", [01;31m[Kgoal_[m[K.pose);
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:104:5:[m[K [01;31m[Kerror: [m[K‘[01m[KgetInput[m[K’ was not declared in this scope; did you mean ‘[01m[Kgetpt[m[K’?
+  104 |     [01;31m[KgetInput[m[K("target_pose", goal_.pose);
+      |     [01;31m[K^~~~~~~~[m[K
+      |     [32m[Kgetpt[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:4[m[K:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:116:20:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+  116 |       RCLCPP_ERROR([01;31m[Knode_[m[K->get_logger(), "Failed to plan arm motion to object.");
+      |                    [01;31m[K^~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:116:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  116 |       [01;31m[KRCLCPP_ERROR[m[K(node_->get_logger(), "Failed to plan arm motion to object.");
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:116:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  116 |       [01;31m[KRCLCPP_ERROR[m[K(node_->get_logger(), "Failed to plan arm motion to object.");
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:116:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  116 |       [01;31m[KRCLCPP_ERROR[m[K(node_->get_logger(), "Failed to plan arm motion to object.");
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In member function ‘[01m[KBT::NodeStatus nav2_behavior_tree::ApproachObjectAction::on_success()[m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:122:17:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+  122 |     RCLCPP_INFO([01;31m[Knode_[m[K->get_logger(), "✅ ApproachObject succeeded");
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:122:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  122 |     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "✅ ApproachObject succeeded");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:122:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  122 |     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "✅ ApproachObject succeeded");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:122:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  122 |     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "✅ ApproachObject succeeded");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In member function ‘[01m[KBT::NodeStatus nav2_behavior_tree::ApproachObjectAction::on_aborted()[m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:128:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+  128 |     RCLCPP_ERROR([01;31m[Knode_[m[K->get_logger(), "❌ ApproachObject aborted");
+      |                  [01;31m[K^~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:128:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  128 |     [01;31m[KRCLCPP_ERROR[m[K(node_->get_logger(), "❌ ApproachObject aborted");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:128:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  128 |     [01;31m[KRCLCPP_ERROR[m[K(node_->get_logger(), "❌ ApproachObject aborted");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:128:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  128 |     [01;31m[KRCLCPP_ERROR[m[K(node_->get_logger(), "❌ ApproachObject aborted");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In member function ‘[01m[KBT::NodeStatus nav2_behavior_tree::ApproachObjectAction::on_cancelled()[m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:134:17:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+  134 |     RCLCPP_WARN([01;31m[Knode_[m[K->get_logger(), "⚠️ ApproachObject cancelled");
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:134:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  134 |     [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "⚠️ ApproachObject cancelled");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:134:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  134 |     [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "⚠️ ApproachObject cancelled");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:134:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  134 |     [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "⚠️ ApproachObject cancelled");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/pick_action_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

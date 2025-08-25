@@ -1,9 +1,0 @@
-[31mCMake Error at CMakeLists.txt:20 (add_executable):
-  add_executable cannot create target "pick_action_node" because another
-  target with the same name already exists.  The existing target is a shared
-  library created in source directory
-  "/home/ayaa/Agro2/src/tiago_behavior_tree".  See documentation for policy
-  CMP0002 for more details.
-
-[0m
-gmake: *** [Makefile:267: cmake_check_build_system] Error 1

@@ -1,0 +1,35 @@
+[0.098s] Invoking command in '/home/ayaa/Agro2/build/tiago_behavior_tree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8
+[0.176s] [  8%] Built target tiago_behavior_tree__rosidl_generator_c
+[0.186s] [  8%] Built target ament_cmake_python_copy_tiago_behavior_tree
+[0.188s] [ 11%] Built target tiago_behavior_tree__cpp
+[0.244s] [ 20%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_c
+[0.245s] [ 28%] Built target tiago_behavior_tree__rosidl_typesupport_c
+[0.247s] [ 37%] Built target tiago_behavior_tree__rosidl_typesupport_cpp
+[0.260s] [ 45%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_c
+[0.270s] [ 54%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_cpp
+[0.280s] [35m[1mConsolidate compiler generated dependencies of target pick_action_node[0m
+[0.297s] [ 62%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_cpp
+[0.313s] [ 68%] Built target open_gripper_server
+[0.315s] [ 71%] [32mBuilding CXX object CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o[0m
+[0.326s] [ 71%] Built target tiago_behavior_tree
+[0.354s] [ 74%] Built target tiago_behavior_tree__py
+[0.386s] [ 80%] Built target tiago_behavior_tree__rosidl_generator_py
+[0.424s] [ 85%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_c__pyext
+[0.435s] [ 91%] Built target tiago_behavior_tree__rosidl_typesupport_c__pyext
+[0.445s] [ 97%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_c__pyext
+[0.924s] running egg_info
+[0.957s] writing tiago_behavior_tree.egg-info/PKG-INFO
+[0.957s] writing dependency_links to tiago_behavior_tree.egg-info/dependency_links.txt
+[0.957s] writing top-level names to tiago_behavior_tree.egg-info/top_level.txt
+[1.059s] reading manifest file 'tiago_behavior_tree.egg-info/SOURCES.txt'
+[1.060s] writing manifest file 'tiago_behavior_tree.egg-info/SOURCES.txt'
+[1.145s] [ 97%] Built target ament_cmake_python_build_tiago_behavior_tree_egg
+[6.040s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_behavior_tree::OpenGripperAction::on_tick()[m[K’:
+[6.040s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:38:55:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_[m[K’?
+[6.040s]    38 | to gripper_group_interface = MoveGroupInterface([01;31m[Knode[m[K, "gripper");
+[6.040s]       |                                                 [01;31m[K^~~~[m[K
+[6.040s]       |                                                 [32m[Knode_[m[K
+[8.790s] gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+[8.790s] gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/pick_action_node.dir/all] Error 2
+[8.791s] gmake: *** [Makefile:146: all] Error 2
+[8.793s] Invoked command in '/home/ayaa/Agro2/build/tiago_behavior_tree' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8

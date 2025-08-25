@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/pick_place_tiago.dir/src/pick_place_tiago.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pick_place_tiago[0m
+[100%] Built target pick_place_tiago
+-- Install configuration: ""
+-- Installing: /home/ayaa/Agro2/install/tiago_cpp/lib/tiago_cpp/pick_place_tiago
+-- Set runtime path of "/home/ayaa/Agro2/install/tiago_cpp/lib/tiago_cpp/pick_place_tiago" to ""
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/ament_index/resource_index/package_run_dependencies/tiago_cpp
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/ament_index/resource_index/parent_prefix_path/tiago_cpp
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/environment/path.sh
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/environment/path.dsv
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/local_setup.bash
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/local_setup.sh
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/local_setup.zsh
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/local_setup.dsv
+-- Installing: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/package.dsv
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/ament_index/resource_index/packages/tiago_cpp
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/cmake/tiago_cppConfig.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/cmake/tiago_cppConfig-version.cmake
+-- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/package.xml

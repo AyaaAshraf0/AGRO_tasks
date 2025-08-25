@@ -1,0 +1,46 @@
+[3.224s] Invoking command in '/home/ayaa/Agro2/src/tiago_custom': PYTHONPATH=/home/ayaa/Agro2/build/tiago_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/tiago_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tiago_custom build --build-base /home/ayaa/Agro2/build/tiago_custom/build install --record /home/ayaa/Agro2/build/tiago_custom/install.log --single-version-externally-managed install_data
+[4.171s] running egg_info
+[4.172s] creating ../../build/tiago_custom/tiago_custom.egg-info
+[4.208s] writing ../../build/tiago_custom/tiago_custom.egg-info/PKG-INFO
+[4.208s] writing dependency_links to ../../build/tiago_custom/tiago_custom.egg-info/dependency_links.txt
+[4.208s] writing entry points to ../../build/tiago_custom/tiago_custom.egg-info/entry_points.txt
+[4.209s] writing requirements to ../../build/tiago_custom/tiago_custom.egg-info/requires.txt
+[4.209s] writing top-level names to ../../build/tiago_custom/tiago_custom.egg-info/top_level.txt
+[4.209s] writing manifest file '../../build/tiago_custom/tiago_custom.egg-info/SOURCES.txt'
+[4.294s] reading manifest file '../../build/tiago_custom/tiago_custom.egg-info/SOURCES.txt'
+[4.295s] writing manifest file '../../build/tiago_custom/tiago_custom.egg-info/SOURCES.txt'
+[4.296s] running build
+[4.296s] running build_py
+[4.296s] creating /home/ayaa/Agro2/build/tiago_custom/build
+[4.296s] creating /home/ayaa/Agro2/build/tiago_custom/build/lib
+[4.296s] creating /home/ayaa/Agro2/build/tiago_custom/build/lib/tiago_custom
+[4.297s] copying tiago_custom/__init__.py -> /home/ayaa/Agro2/build/tiago_custom/build/lib/tiago_custom
+[4.297s] copying tiago_custom/bridge_cmd.py -> /home/ayaa/Agro2/build/tiago_custom/build/lib/tiago_custom
+[4.297s] running install
+[4.317s] running install_lib
+[4.355s] creating /home/ayaa/Agro2/install/tiago_custom/lib/python3.10/site-packages/tiago_custom
+[4.355s] copying /home/ayaa/Agro2/build/tiago_custom/build/lib/tiago_custom/__init__.py -> /home/ayaa/Agro2/install/tiago_custom/lib/python3.10/site-packages/tiago_custom
+[4.355s] copying /home/ayaa/Agro2/build/tiago_custom/build/lib/tiago_custom/bridge_cmd.py -> /home/ayaa/Agro2/install/tiago_custom/lib/python3.10/site-packages/tiago_custom
+[4.356s] byte-compiling /home/ayaa/Agro2/install/tiago_custom/lib/python3.10/site-packages/tiago_custom/__init__.py to __init__.cpython-310.pyc
+[4.357s] byte-compiling /home/ayaa/Agro2/install/tiago_custom/lib/python3.10/site-packages/tiago_custom/bridge_cmd.py to bridge_cmd.cpython-310.pyc
+[4.357s] running install_data
+[4.358s] creating /home/ayaa/Agro2/install/tiago_custom/share/ament_index
+[4.358s] creating /home/ayaa/Agro2/install/tiago_custom/share/ament_index/resource_index
+[4.358s] creating /home/ayaa/Agro2/install/tiago_custom/share/ament_index/resource_index/packages
+[4.358s] copying resource/tiago_custom -> /home/ayaa/Agro2/install/tiago_custom/share/ament_index/resource_index/packages
+[4.359s] copying package.xml -> /home/ayaa/Agro2/install/tiago_custom/share/tiago_custom
+[4.359s] creating /home/ayaa/Agro2/install/tiago_custom/share/tiago_custom/launch
+[4.359s] copying launch/spawn.launch.py -> /home/ayaa/Agro2/install/tiago_custom/share/tiago_custom/launch
+[4.360s] creating /home/ayaa/Agro2/install/tiago_custom/share/tiago_custom/urdf
+[4.360s] creating /home/ayaa/Agro2/install/tiago_custom/share/tiago_custom/worlds
+[4.361s] copying worlds/agricultural_world.sdf -> /home/ayaa/Agro2/install/tiago_custom/share/tiago_custom/worlds
+[4.362s] creating /home/ayaa/Agro2/install/tiago_custom/share/tiago_custom/config
+[4.362s] copying config/Tiago_nav_params.yaml -> /home/ayaa/Agro2/install/tiago_custom/share/tiago_custom/config
+[4.362s] creating /home/ayaa/Agro2/install/tiago_custom/share/tiago_custom/rviz
+[4.362s] copying rviz/tiago.rviz -> /home/ayaa/Agro2/install/tiago_custom/share/tiago_custom/rviz
+[4.363s] running install_egg_info
+[4.385s] Copying ../../build/tiago_custom/tiago_custom.egg-info to /home/ayaa/Agro2/install/tiago_custom/lib/python3.10/site-packages/tiago_custom-0.0.0-py3.10.egg-info
+[4.386s] running install_scripts
+[4.462s] Installing bridge_cmd script to /home/ayaa/Agro2/install/tiago_custom/lib/tiago_custom
+[4.462s] writing list of installed files to '/home/ayaa/Agro2/build/tiago_custom/install.log'
+[4.963s] Invoked command in '/home/ayaa/Agro2/src/tiago_custom' returned '0': PYTHONPATH=/home/ayaa/Agro2/build/tiago_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/tiago_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tiago_custom build --build-base /home/ayaa/Agro2/build/tiago_custom/build install --record /home/ayaa/Agro2/build/tiago_custom/install.log --single-version-externally-managed install_data

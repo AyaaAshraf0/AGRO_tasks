@@ -1,2 +1,0 @@
-Invoking command in '/home/ayaa/Agro2/build/franka_msgs': /usr/bin/cmake /home/ayaa/Agro2/src/franka_ros/franka_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ayaa/Agro2/install/franka_msgs
-Invoked command in '/home/ayaa/Agro2/build/franka_msgs' returned '1': /usr/bin/cmake /home/ayaa/Agro2/src/franka_ros/franka_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ayaa/Agro2/install/franka_msgs

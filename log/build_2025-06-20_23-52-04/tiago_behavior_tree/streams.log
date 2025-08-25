@@ -1,0 +1,94 @@
+[0.120s] Invoking command in '/home/ayaa/Agro2/build/tiago_behavior_tree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8
+[0.202s] [  2%] Built target tiago_behavior_tree__cpp
+[0.206s] [ 11%] Built target tiago_behavior_tree__rosidl_generator_c
+[0.224s] [ 11%] Built target ament_cmake_python_copy_tiago_behavior_tree
+[0.248s] [ 22%] Built target tiago_behavior_tree__rosidl_typesupport_cpp
+[0.249s] [ 28%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_cpp
+[0.266s] [ 37%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_cpp
+[0.270s] [ 45%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_c
+[0.278s] [ 54%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_c
+[0.283s] [ 62%] Built target tiago_behavior_tree__rosidl_typesupport_c
+[0.298s] [35m[1mConsolidate compiler generated dependencies of target open_gripper_server[0m
+[0.319s] [ 65%] [32mBuilding CXX object CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o[0m
+[0.329s] [ 65%] Built target tiago_behavior_tree
+[0.331s] [ 71%] Built target open_gripper_server
+[0.360s] [ 74%] Built target tiago_behavior_tree__py
+[0.392s] [ 80%] Built target tiago_behavior_tree__rosidl_generator_py
+[0.433s] [ 85%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_c__pyext
+[0.438s] [ 91%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_c__pyext
+[0.451s] [ 97%] Built target tiago_behavior_tree__rosidl_typesupport_c__pyext
+[0.967s] running egg_info
+[1.003s] writing tiago_behavior_tree.egg-info/PKG-INFO
+[1.003s] writing dependency_links to tiago_behavior_tree.egg-info/dependency_links.txt
+[1.003s] writing top-level names to tiago_behavior_tree.egg-info/top_level.txt
+[1.105s] reading manifest file 'tiago_behavior_tree.egg-info/SOURCES.txt'
+[1.106s] writing manifest file 'tiago_behavior_tree.egg-info/SOURCES.txt'
+[1.198s] [ 97%] Built target ament_cmake_python_build_tiago_behavior_tree_egg
+[3.760s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:117:17:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid BT_RegisterNodesFromPlugin(BT::BehaviorTreeFactory&)[m[K’
+[3.761s]   117 | extern "C" void [01;31m[KBT_RegisterNodesFromPlugin[m[K(BT::BehaviorTreeFactory & factory)
+[3.761s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.761s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid BT_RegisterNodesFromPlugin(BT::BehaviorTreeFactory&)[m[K’ previously defined here
+[3.761s]   106 | extern "C" void [01;36m[KBT_RegisterNodesFromPlugin[m[K(BT::BehaviorTreeFactory & factory)
+[3.761s]       |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.761s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In lambda function:
+[3.761s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:121:49:[m[K [01;31m[Kerror: [m[K‘[01m[KApproachObjectAction[m[K’ is not a member of ‘[01m[Knav2_behavior_tree[m[K’; did you mean ‘[01m[KApproachObjectAction[m[K’?
+[3.761s]   121 |     return std::make_unique<nav2_behavior_tree::[01;31m[KApproachObjectAction[m[K>(name, "open_gripper", config);
+[3.762s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.762s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:59:7:[m[K [01;36m[Knote: [m[K‘[01m[KApproachObjectAction[m[K’ declared here
+[3.762s]    59 | class [01;36m[KApproachObjectAction[m[K : public nav2_behavior_tree::BtActionNode<tiago_behavior_tree::action::OpenGripper>
+[3.762s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.762s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:121:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >(const string&, const char [13], const BT::NodeConfiguration&)[m[K’
+[3.762s]   121 |     return [01;31m[Kstd::make_unique<nav2_behavior_tree::ApproachObjectAction>(name, "open_gripper", config)[m[K;
+[3.762s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.762s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.762s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+[3.762s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:961:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)[m[K’
+[3.762s]   961 |     [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[3.762s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.763s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:961:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.763s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:121:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.763s]   121 |     return [01;31m[Kstd::make_unique<nav2_behavior_tree::ApproachObjectAction>(name, "open_gripper", config)[m[K;
+[3.763s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.763s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.763s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+[3.763s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:967:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)[m[K’
+[3.763s]   967 |     [01;36m[Kmake_unique[m[K(size_t __num)
+[3.763s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.763s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:967:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.763s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:121:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.763s]   121 |     return [01;31m[Kstd::make_unique<nav2_behavior_tree::ApproachObjectAction>(name, "open_gripper", config)[m[K;
+[3.763s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.764s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.764s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+[3.764s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:973:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...)[m[K’ (deleted)
+[3.764s]   973 |     [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[3.764s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.764s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:973:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.764s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:121:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.764s]   121 |     return [01;31m[Kstd::make_unique<nav2_behavior_tree::ApproachObjectAction>(name, "open_gripper", config)[m[K;
+[3.764s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.764s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In function ‘[01m[Kvoid BT_RegisterNodesFromPlugin(BT::BehaviorTreeFactory&)[m[K’:
+[3.764s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:122:3:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[KBT_RegisterNodesFromPlugin(BT::BehaviorTreeFactory&)::<lambda(const string&, const BT::NodeConfiguration&)>[m[K’ to non-scalar type ‘[01m[KBT::NodeBuilder[m[K’ {aka ‘[01m[Kstd::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>[m[K’} requested
+[3.764s]   122 |   [01;31m[K}[m[K;
+[3.764s]       |   [01;31m[K^[m[K
+[3.764s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:124:47:[m[K [01;31m[Kerror: [m[K‘[01m[KApproachObjectAction[m[K’ is not a member of ‘[01m[Knav2_behavior_tree[m[K’; did you mean ‘[01m[KApproachObjectAction[m[K’?
+[3.764s]   124 |   factory.registerBuilder<nav2_behavior_tree::[01;31m[KApproachObjectAction[m[K>("", builder);
+[3.764s]       |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.764s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:59:7:[m[K [01;36m[Knote: [m[K‘[01m[KApproachObjectAction[m[K’ declared here
+[3.765s]    59 | class [01;36m[KApproachObjectAction[m[K : public nav2_behavior_tree::BtActionNode<tiago_behavior_tree::action::OpenGripper>
+[3.765s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.765s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:124:68:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBT::BehaviorTreeFactory::registerBuilder<<expression error> >(const char [1], BT::NodeBuilder&)[m[K’
+[3.765s]   124 |   [01;31m[Kfactory.registerBuilder<nav2_behavior_tree::ApproachObjectAction>("", builder)[m[K;
+[3.765s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[3.765s] In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:6[m[K:
+[3.765s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:267:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&)[m[K’
+[3.765s]   267 |   void [01;36m[KregisterBuilder[m[K(const std::string& ID, const NodeBuilder& builder)
+[3.765s]       |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.765s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:267:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.765s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:124:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.765s]   124 |   [01;31m[Kfactory.registerBuilder<nav2_behavior_tree::ApproachObjectAction>("", builder)[m[K;
+[3.765s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[4.924s] gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+[4.924s] gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/pick_action_node.dir/all] Error 2
+[4.924s] gmake: *** [Makefile:146: all] Error 2
+[4.927s] Invoked command in '/home/ayaa/Agro2/build/tiago_behavior_tree' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8

@@ -1,0 +1,25 @@
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In function ‘[01m[Kvoid BT_RegisterNodesFromPlugin(BT::BehaviorTreeFactory&)[m[K’:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:67:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBT::BehaviorTreeFactory::registerBuilder(const char [12], BT::NodeBuilder&)[m[K’
+   67 | [01;31m[Kory.registerBuilder("OpenGripper",builder)[m[K;
+      | [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:267:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&)[m[K’
+  267 |   void [01;36m[KregisterBuilder[m[K(const std::string& ID, const NodeBuilder& builder)
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:267:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:67:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KT[m[K’
+   67 | [01;36m[Kory.registerBuilder("OpenGripper",builder)[m[K;
+      | [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:264:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid BT::BehaviorTreeFactory::registerBuilder(const BT::TreeNodeManifest&, const NodeBuilder&)[m[K’
+  264 |   void [01;36m[KregisterBuilder[m[K(const TreeNodeManifest& manifest, const NodeBuilder& builder);
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:264:48:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [12][m[K’ to ‘[01m[Kconst BT::TreeNodeManifest&[m[K’
+  264 | [01;36m[K TreeNodeManifest& manifest[m[K, const NodeBuilder& builder);
+      |  [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/pick_action_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

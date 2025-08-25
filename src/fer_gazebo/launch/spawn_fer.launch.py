@@ -9,20 +9,20 @@ from ament_index_python.packages import get_package_share_directory
 from moveit_configs_utils import MoveItConfigsBuilder
 from launch.event_handlers import OnProcessStart
 
+
 def generate_launch_description():
     # Paths
     fer_description_pkg = get_package_share_directory('franka_description')
     fer_moveit_pkg = get_package_share_directory("fer_moveit")
     
     
-    urdf_file= os.path.join(fer_description_pkg,'robots','fer','fer.urdf.xacro')
-    robot_description_content = Command(['xacro ',urdf_file])
+    # urdf_file= os.path.join(fer_description_pkg,'robots','fer','fer.urdf.xacro')
     ros2_controllers_yaml =  os.path.join(fer_moveit_pkg,'config','ros2_controllers.yaml')
     rviz_config_file = os.path.join(fer_moveit_pkg,'config','moveit.rviz')
     
     moveit_config = (
         MoveItConfigsBuilder("fer", package_name= "fer_moveit")
-        .robot_description(file_path="config/fer.urdf.xacro")
+        .robot_description(file_path="config/fer.urdf")
         .robot_description_semantic(file_path="config/fer.srdf")
         .trajectory_execution(file_path="config/moveit_controllers.yaml")
         .robot_description_kinematics(file_path="config/kinematics.yaml")

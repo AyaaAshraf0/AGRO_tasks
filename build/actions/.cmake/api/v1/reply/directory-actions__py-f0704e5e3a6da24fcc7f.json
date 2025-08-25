@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "actions__py",
+		"source" : "/home/ayaa/Agro2/build/actions/actions__py"
+	}
+}

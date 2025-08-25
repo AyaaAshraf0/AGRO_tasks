@@ -1,0 +1,107 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found nav2_behavior_tree: 1.1.18 (/opt/ros/humble/share/nav2_behavior_tree/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/ayaa/Agro2/src/tiago_behavior_tree/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ayaa/Agro2/build/tiago_behavior_tree
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  4%] Built target ament_cmake_python_copy_tiago_behavior_tree
+running egg_info
+writing tiago_behavior_tree.egg-info/PKG-INFO
+writing dependency_links to tiago_behavior_tree.egg-info/dependency_links.txt
+writing top-level names to tiago_behavior_tree.egg-info/top_level.txt
+reading manifest file 'tiago_behavior_tree.egg-info/SOURCES.txt'
+writing manifest file 'tiago_behavior_tree.egg-info/SOURCES.txt'
+[  4%] Built target ament_cmake_python_build_tiago_behavior_tree_egg
+[35m[1mConsolidate compiler generated dependencies of target tiago_behavior_tree__rosidl_generator_c[0m
+[  9%] [32mBuilding C object CMakeFiles/tiago_behavior_tree__rosidl_generator_c.dir/rosidl_generator_c/tiago_behavior_tree/action/detail/approach_object__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/tiago_behavior_tree__rosidl_generator_c.dir/rosidl_generator_c/tiago_behavior_tree/action/detail/open_gripper__functions.c.o[0m
+In file included from [01m[K/home/ayaa/Agro2/build/tiago_behavior_tree/rosidl_generator_c/tiago_behavior_tree/action/detail/approach_object__functions.h:19[m[K,
+                 from [01m[K/home/ayaa/Agro2/build/tiago_behavior_tree/rosidl_generator_c/tiago_behavior_tree/action/detail/approach_object__functions.c:4[m[K:
+[01m[K/home/ayaa/Agro2/build/tiago_behavior_tree/rosidl_generator_c/tiago_behavior_tree/action/detail/approach_object__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/pose__struct.h: No such file or directory
+   22 | #include [01;31m[K"geometry_msgs/msg/detail/pose__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/tiago_behavior_tree__rosidl_generator_c.dir/build.make:142: CMakeFiles/tiago_behavior_tree__rosidl_generator_c.dir/rosidl_generator_c/tiago_behavior_tree/action/detail/approach_object__functions.c.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[  9%] Built target tiago_behavior_tree__cpp
+[ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+gmake[1]: *** [CMakeFiles/Makefile2:217: CMakeFiles/tiago_behavior_tree__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[35m[1mConsolidate compiler generated dependencies of target tiago_behavior_tree__rosidl_typesupport_cpp[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/tiago_behavior_tree__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tiago_behavior_tree/action/open_gripper__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/tiago_behavior_tree__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tiago_behavior_tree/action/approach_object__type_support.cpp.o[0m
+In file included from [01m[K/home/ayaa/Agro2/build/tiago_behavior_tree/rosidl_typesupport_cpp/tiago_behavior_tree/action/approach_object__type_support.cpp:7[m[K:
+[01m[K/home/ayaa/Agro2/build/tiago_behavior_tree/rosidl_generator_cpp/tiago_behavior_tree/action/detail/approach_object__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/pose__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"geometry_msgs/msg/detail/pose__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/tiago_behavior_tree__rosidl_typesupport_cpp.dir/build.make:111: CMakeFiles/tiago_behavior_tree__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tiago_behavior_tree/action/approach_object__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[35m[1mConsolidate compiler generated dependencies of target tiago_behavior_tree__rosidl_typesupport_introspection_cpp[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/tiago_behavior_tree__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tiago_behavior_tree/action/detail/open_gripper__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/tiago_behavior_tree__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tiago_behavior_tree/action/detail/approach_object__type_support.cpp.o[0m
+In file included from [01m[K/home/ayaa/Agro2/build/tiago_behavior_tree/rosidl_typesupport_introspection_cpp/tiago_behavior_tree/action/detail/approach_object__type_support.cpp:12[m[K:
+[01m[K/home/ayaa/Agro2/build/tiago_behavior_tree/rosidl_generator_cpp/tiago_behavior_tree/action/detail/approach_object__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/pose__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"geometry_msgs/msg/detail/pose__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/tiago_behavior_tree__rosidl_typesupport_introspection_cpp.dir/build.make:119: CMakeFiles/tiago_behavior_tree__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tiago_behavior_tree/action/detail/approach_object__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[35m[1mConsolidate compiler generated dependencies of target tiago_behavior_tree__rosidl_typesupport_fastrtps_cpp[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/tiago_behavior_tree__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tiago_behavior_tree/action/detail/dds_fastrtps/approach_object__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/tiago_behavior_tree__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tiago_behavior_tree/action/detail/dds_fastrtps/open_gripper__type_support.cpp.o[0m
+In file included from [01m[K/home/ayaa/Agro2/build/tiago_behavior_tree/rosidl_typesupport_fastrtps_cpp/tiago_behavior_tree/action/detail/approach_object__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/ayaa/Agro2/build/tiago_behavior_tree/rosidl_typesupport_fastrtps_cpp/tiago_behavior_tree/action/detail/dds_fastrtps/approach_object__type_support.cpp:4[m[K:
+[01m[K/home/ayaa/Agro2/build/tiago_behavior_tree/rosidl_generator_cpp/tiago_behavior_tree/action/detail/approach_object__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/pose__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"geometry_msgs/msg/detail/pose__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/tiago_behavior_tree__rosidl_typesupport_fastrtps_cpp.dir/build.make:119: CMakeFiles/tiago_behavior_tree__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tiago_behavior_tree/action/detail/dds_fastrtps/approach_object__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:399: CMakeFiles/tiago_behavior_tree__rosidl_typesupport_cpp.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:373: CMakeFiles/tiago_behavior_tree__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:295: CMakeFiles/tiago_behavior_tree__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,1 +1,1 @@
-gazebo_ros2_control:gazebo_ros2_control_demos:ros2_control
+controller_manager:gazebo_ros2_control:gazebo_ros2_control_demos:moveit_ros_move_group:ros2_control

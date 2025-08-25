@@ -1,0 +1,322 @@
+[0.091s] Invoking command in '/home/ayaa/Agro2/build/tiago_behavior_tree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8
+[0.160s] [  3%] Built target tiago_behavior_tree__cpp
+[0.178s] [ 12%] Built target tiago_behavior_tree__rosidl_generator_c
+[0.190s] [ 12%] Built target ament_cmake_python_copy_tiago_behavior_tree
+[0.218s] [ 21%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_cpp
+[0.225s] [ 30%] Built target tiago_behavior_tree__rosidl_typesupport_cpp
+[0.227s] [ 39%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_c
+[0.231s] [ 48%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_cpp
+[0.234s] [ 57%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_c
+[0.258s] [ 66%] Built target tiago_behavior_tree__rosidl_typesupport_c
+[0.259s] [35m[1mConsolidate compiler generated dependencies of target pick_action_node[0m
+[0.280s] [ 66%] Built target tiago_behavior_tree
+[0.290s] [ 69%] [32mBuilding CXX object CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o[0m
+[0.309s] [ 72%] Built target tiago_behavior_tree__py
+[0.343s] [ 78%] Built target tiago_behavior_tree__rosidl_generator_py
+[0.377s] [ 84%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_c__pyext
+[0.391s] [ 90%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_c__pyext
+[0.407s] [ 96%] Built target tiago_behavior_tree__rosidl_typesupport_c__pyext
+[0.961s] running egg_info
+[0.995s] writing tiago_behavior_tree.egg-info/PKG-INFO
+[0.995s] writing dependency_links to tiago_behavior_tree.egg-info/dependency_links.txt
+[0.996s] writing top-level names to tiago_behavior_tree.egg-info/top_level.txt
+[1.094s] reading manifest file 'tiago_behavior_tree.egg-info/SOURCES.txt'
+[1.095s] writing manifest file 'tiago_behavior_tree.egg-info/SOURCES.txt'
+[1.169s] [ 96%] Built target ament_cmake_python_build_tiago_behavior_tree_egg
+[3.466s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:13:48:[m[K [01;31m[Kerror: [m[Kexpected template-name before ‘[01m[K<[m[K’ token
+[3.466s]    13 |   class OpenGripperAction : public BtActionNode[01;31m[K<[m[Ktiago_behavior_tree::action::OpenGripper>
+[3.466s]       |                                                [01;31m[K^[m[K
+[3.466s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:13:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K<[m[K’ token
+[3.466s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:13:48:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K<[m[K’ token
+[3.469s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:72:1:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenGripperAction[m[K’ does not name a type
+[3.469s]    72 | [01;31m[KOpenGripperAction[m[K::OpenGripperAction(
+[3.469s]       | [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.475s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In function ‘[01m[KBT::PortsList providedPorts()[m[K’:
+[3.475s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:83:10:[m[K [01;31m[Kerror: [m[K‘[01m[KprovidedBasicPorts[m[K’ was not declared in this scope; did you mean ‘[01m[KprovidedPorts[m[K’?
+[3.475s]    83 |   return [01;31m[KprovidedBasicPorts[m[K({});
+[3.475s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.475s]       |          [32m[KprovidedPorts[m[K
+[3.475s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K At global scope:
+[3.475s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:86:16:[m[K [01;31m[Kerror: [m[Kvirt-specifiers in ‘[01m[Kon_tick[m[K’ not allowed outside a class definition
+[3.475s]    86 | void on_tick() [01;31m[Koverride[m[K
+[3.475s]       |                [01;31m[K^~~~~~~~[m[K
+[3.478s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In function ‘[01m[Kvoid on_tick()[m[K’:
+[3.478s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:89:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_[m[K’ was not declared in this scope
+[3.478s]    89 |     [01;31m[Kgoal_[m[K.structure_needs_at_least_one_member = 0;  // Dummy field (required for empty goals)
+[3.478s]       |     [01;31m[K^~~~~[m[K
+[3.478s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K At global scope:
+[3.478s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:92:31:[m[K [01;31m[Kerror: [m[Kvirt-specifiers in ‘[01m[Kon_success[m[K’ not allowed outside a class definition
+[3.478s]    92 |   BT::NodeStatus on_success() [01;31m[Koverride[m[K
+[3.478s]       |                               [01;31m[K^~~~~~~~[m[K
+[3.481s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.481s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.481s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.481s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.481s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.482s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.482s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.482s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.482s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.482s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.482s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:4[m[K:
+[3.482s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In function ‘[01m[KBT::NodeStatus on_success()[m[K’:
+[3.482s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:94:17:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+[3.482s]    94 |     RCLCPP_INFO([01;31m[Knode_[m[K->get_logger(), "✅ OpenGripper succeeded");
+[3.483s]       |                 [01;31m[K^~~~~[m[K
+[3.483s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:94:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.483s]    94 |     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "✅ OpenGripper succeeded");
+[3.483s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.483s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:94:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.483s]    94 |     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "✅ OpenGripper succeeded");
+[3.483s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.483s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:94:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.483s]    94 |     [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "✅ OpenGripper succeeded");
+[3.483s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.484s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K At global scope:
+[3.484s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:98:31:[m[K [01;31m[Kerror: [m[Kvirt-specifiers in ‘[01m[Kon_aborted[m[K’ not allowed outside a class definition
+[3.484s]    98 |   BT::NodeStatus on_aborted() [01;31m[Koverride[m[K
+[3.484s]       |                               [01;31m[K^~~~~~~~[m[K
+[3.485s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.485s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.485s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.485s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.485s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.485s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.485s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.486s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.486s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.486s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.486s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:4[m[K:
+[3.486s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In function ‘[01m[KBT::NodeStatus on_aborted()[m[K’:
+[3.486s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:100:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+[3.486s]   100 |     RCLCPP_ERROR([01;31m[Knode_[m[K->get_logger(), "❌ OpenGripper aborted");
+[3.486s]       |                  [01;31m[K^~~~~[m[K
+[3.486s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:100:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.486s]   100 |     [01;31m[KRCLCPP_ERROR[m[K(node_->get_logger(), "❌ OpenGripper aborted");
+[3.486s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[3.487s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:100:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.487s]   100 |     [01;31m[KRCLCPP_ERROR[m[K(node_->get_logger(), "❌ OpenGripper aborted");
+[3.487s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[3.487s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:100:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.487s]   100 |     [01;31m[KRCLCPP_ERROR[m[K(node_->get_logger(), "❌ OpenGripper aborted");
+[3.487s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[3.487s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K At global scope:
+[3.487s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:104:33:[m[K [01;31m[Kerror: [m[Kvirt-specifiers in ‘[01m[Kon_cancelled[m[K’ not allowed outside a class definition
+[3.487s]   104 |   BT::NodeStatus on_cancelled() [01;31m[Koverride[m[K
+[3.487s]       |                                 [01;31m[K^~~~~~~~[m[K
+[3.489s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.489s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:4[m[K:
+[3.489s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In function ‘[01m[KBT::NodeStatus on_cancelled()[m[K’:
+[3.489s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:106:17:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+[3.489s]   106 |     RCLCPP_WARN([01;31m[Knode_[m[K->get_logger(), "⚠️ OpenGripper cancelled");
+[3.489s]       |                 [01;31m[K^~~~~[m[K
+[3.490s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:106:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.490s]   106 |     [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "⚠️ OpenGripper cancelled");
+[3.490s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.490s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:106:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.490s]   106 |     [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "⚠️ OpenGripper cancelled");
+[3.490s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.490s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:106:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.490s]   106 |     [01;31m[KRCLCPP_WARN[m[K(node_->get_logger(), "⚠️ OpenGripper cancelled");
+[3.490s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.501s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In function ‘[01m[Kvoid BT_RegisterNodesFromPlugin(BT::BehaviorTreeFactory&)[m[K’:
+[3.501s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:116:3:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[KBT_RegisterNodesFromPlugin(BT::BehaviorTreeFactory&)::<lambda(const string&, const BT::NodeConfiguration&)>[m[K’ to non-scalar type ‘[01m[KBT::NodeBuilder[m[K’ {aka ‘[01m[Kstd::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>[m[K’} requested
+[3.502s]   116 |   [01;31m[K}[m[K;
+[3.502s]       |   [01;31m[K^[m[K
+[3.601s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.602s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+[3.602s] /usr/include/c++/11/bits/unique_ptr.h: In instantiation of ‘[01m[Ktypename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...) [with _Tp = custom_bt_nodes::OpenGripperAction; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const char (&)[13], const BT::NodeConfiguration&}; typename std::_MakeUniq<_Tp>::__single_object = std::unique_ptr<custom_bt_nodes::OpenGripperAction, std::default_delete<custom_bt_nodes::OpenGripperAction> >][m[K’:
+[3.602s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:115:64:[m[K   required from here
+[3.602s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:962:30:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass custom_bt_nodes::OpenGripperAction[m[K’
+[3.602s]   962 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+[3.602s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.602s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:13:9:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass custom_bt_nodes::OpenGripperAction[m[K’
+[3.602s]    13 |   class [01;36m[KOpenGripperAction[m[K : public BtActionNode<tiago_behavior_tree::action::OpenGripper>
+[3.602s]       |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.719s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.719s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:2[m[K:
+[3.719s] /usr/include/c++/11/bits/unique_ptr.h: In instantiation of ‘[01m[Kvoid std::default_delete<_Tp>::operator()(_Tp*) const [with _Tp = custom_bt_nodes::OpenGripperAction][m[K’:
+[3.719s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:361:17:[m[K   required from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>::~unique_ptr() [with _Tp = custom_bt_nodes::OpenGripperAction; _Dp = std::default_delete<custom_bt_nodes::OpenGripperAction>][m[K’
+[3.719s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:115:64:[m[K   required from here
+[3.719s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:83:23:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[Kcustom_bt_nodes::OpenGripperAction[m[K’
+[3.719s]    83 |         static_assert([01;31m[Ksizeof(_Tp)[m[K>0,
+[3.719s]       |                       [01;31m[K^~~~~~~~~~~[m[K
+[3.806s] In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+[3.806s]                  from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+[3.806s]                  from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+[3.806s]                  from [01m[K/usr/include/c++/11/bits/char_traits.h:39[m[K,
+[3.806s]                  from [01m[K/usr/include/c++/11/string:40[m[K,
+[3.807s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:1[m[K:
+[3.807s] /usr/include/c++/11/type_traits: In instantiation of ‘[01m[Kstruct std::is_base_of<BT::ActionNodeBase, custom_bt_nodes::OpenGripperAction>[m[K’:
+[3.807s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:83:45:[m[K   required from ‘[01m[KBT::NodeType BT::getType() [with T = custom_bt_nodes::OpenGripperAction][m[K’
+[3.807s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:[m[K   required from ‘[01m[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>][m[K’
+[3.807s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>][m[K’
+[3.807s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:118:62:[m[K   required from here
+[3.807s] [01m[K/usr/include/c++/11/type_traits:1422:38:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass custom_bt_nodes::OpenGripperAction[m[K’
+[3.807s]  1422 |     : public integral_constant<bool, [01;31m[K__is_base_of(_Base, _Derived)[m[K>
+[3.807s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.808s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:13:9:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass custom_bt_nodes::OpenGripperAction[m[K’
+[3.808s]    13 |   class [01;36m[KOpenGripperAction[m[K : public BtActionNode<tiago_behavior_tree::action::OpenGripper>
+[3.808s]       |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.808s] In file included from [01m[K/opt/ros/humble/include/nav2_behavior_tree/bt_conversions.hpp:21[m[K,
+[3.808s]                  from [01m[K/opt/ros/humble/include/nav2_behavior_tree/bt_action_node.hpp:25[m[K,
+[3.808s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:5[m[K:
+[3.808s] /opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h: In instantiation of ‘[01m[KBT::NodeType BT::getType() [with T = custom_bt_nodes::OpenGripperAction][m[K’:
+[3.808s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:[m[K   required from ‘[01m[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>][m[K’
+[3.808s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>][m[K’
+[3.808s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:118:62:[m[K   required from here
+[3.809s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:83:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kvalue[m[K’ is not a member of ‘[01m[Kstd::is_base_of<BT::ActionNodeBase, custom_bt_nodes::OpenGripperAction>[m[K’
+[3.809s]    83 |     if( std::is_base_of<ActionNodeBase, T>::[01;31m[Kvalue[m[K )        return NodeType::ACTION;
+[3.809s]       |                                             [01;31m[K^~~~~[m[K
+[3.809s] In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+[3.809s]                  from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+[3.809s]                  from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+[3.809s]                  from [01m[K/usr/include/c++/11/bits/char_traits.h:39[m[K,
+[3.809s]                  from [01m[K/usr/include/c++/11/string:40[m[K,
+[3.809s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:1[m[K:
+[3.809s] /usr/include/c++/11/type_traits: In instantiation of ‘[01m[Kstruct std::is_base_of<BT::ConditionNode, custom_bt_nodes::OpenGripperAction>[m[K’:
+[3.810s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:84:44:[m[K   required from ‘[01m[KBT::NodeType BT::getType() [with T = custom_bt_nodes::OpenGripperAction][m[K’
+[3.810s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:[m[K   required from ‘[01m[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>][m[K’
+[3.810s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>][m[K’
+[3.810s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:118:62:[m[K   required from here
+[3.810s] [01m[K/usr/include/c++/11/type_traits:1422:38:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass custom_bt_nodes::OpenGripperAction[m[K’
+[3.810s]  1422 |     : public integral_constant<bool, [01;31m[K__is_base_of(_Base, _Derived)[m[K>
+[3.810s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.810s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:13:9:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass custom_bt_nodes::OpenGripperAction[m[K’
+[3.810s]    13 |   class [01;36m[KOpenGripperAction[m[K : public BtActionNode<tiago_behavior_tree::action::OpenGripper>
+[3.810s]       |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.811s] In file included from [01m[K/opt/ros/humble/include/nav2_behavior_tree/bt_conversions.hpp:21[m[K,
+[3.811s]                  from [01m[K/opt/ros/humble/include/nav2_behavior_tree/bt_action_node.hpp:25[m[K,
+[3.811s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:5[m[K:
+[3.811s] /opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h: In instantiation of ‘[01m[KBT::NodeType BT::getType() [with T = custom_bt_nodes::OpenGripperAction][m[K’:
+[3.811s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:[m[K   required from ‘[01m[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>][m[K’
+[3.811s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>][m[K’
+[3.811s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:118:62:[m[K   required from here
+[3.811s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:84:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kvalue[m[K’ is not a member of ‘[01m[Kstd::is_base_of<BT::ConditionNode, custom_bt_nodes::OpenGripperAction>[m[K’
+[3.811s]    84 |     if( std::is_base_of<ConditionNode, T>::[01;31m[Kvalue[m[K )         return NodeType::CONDITION;
+[3.811s]       |                                            [01;31m[K^~~~~[m[K
+[3.812s] In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+[3.812s]                  from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+[3.812s]                  from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+[3.812s]                  from [01m[K/usr/include/c++/11/bits/char_traits.h:39[m[K,
+[3.812s]                  from [01m[K/usr/include/c++/11/string:40[m[K,
+[3.812s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:1[m[K:
+[3.812s] /usr/include/c++/11/type_traits: In instantiation of ‘[01m[Kstruct std::is_base_of<BT::SubtreeNode, custom_bt_nodes::OpenGripperAction>[m[K’:
+[3.812s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:85:42:[m[K   required from ‘[01m[KBT::NodeType BT::getType() [with T = custom_bt_nodes::OpenGripperAction][m[K’
+[3.813s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:[m[K   required from ‘[01m[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>][m[K’
+[3.813s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>][m[K’
+[3.813s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:118:62:[m[K   required from here
+[3.813s] [01m[K/usr/include/c++/11/type_traits:1422:38:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass custom_bt_nodes::OpenGripperAction[m[K’
+[3.813s]  1422 |     : public integral_constant<bool, [01;31m[K__is_base_of(_Base, _Derived)[m[K>
+[3.813s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.813s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:13:9:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass custom_bt_nodes::OpenGripperAction[m[K’
+[3.813s]    13 |   class [01;36m[KOpenGripperAction[m[K : public BtActionNode<tiago_behavior_tree::action::OpenGripper>
+[3.813s]       |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.813s] In file included from [01m[K/opt/ros/humble/include/nav2_behavior_tree/bt_conversions.hpp:21[m[K,
+[3.814s]                  from [01m[K/opt/ros/humble/include/nav2_behavior_tree/bt_action_node.hpp:25[m[K,
+[3.814s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:5[m[K:
+[3.814s] /opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h: In instantiation of ‘[01m[KBT::NodeType BT::getType() [with T = custom_bt_nodes::OpenGripperAction][m[K’:
+[3.814s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:[m[K   required from ‘[01m[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>][m[K’
+[3.814s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>][m[K’
+[3.814s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:118:62:[m[K   required from here
+[3.814s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:85:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kvalue[m[K’ is not a member of ‘[01m[Kstd::is_base_of<BT::SubtreeNode, custom_bt_nodes::OpenGripperAction>[m[K’
+[3.814s]    85 |     if( std::is_base_of<SubtreeNode, T>::[01;31m[Kvalue[m[K )           return NodeType::SUBTREE;
+[3.814s]       |                                          [01;31m[K^~~~~[m[K
+[3.814s] In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+[3.814s]                  from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+[3.815s]                  from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+[3.815s]                  from [01m[K/usr/include/c++/11/bits/char_traits.h:39[m[K,
+[3.815s]                  from [01m[K/usr/include/c++/11/string:40[m[K,
+[3.815s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:1[m[K:
+[3.815s] /usr/include/c++/11/type_traits: In instantiation of ‘[01m[Kstruct std::is_base_of<BT::SubtreePlusNode, custom_bt_nodes::OpenGripperAction>[m[K’:
+[3.815s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:86:46:[m[K   required from ‘[01m[KBT::NodeType BT::getType() [with T = custom_bt_nodes::OpenGripperAction][m[K’
+[3.815s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:[m[K   required from ‘[01m[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>][m[K’
+[3.815s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>][m[K’
+[3.815s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:118:62:[m[K   required from here
+[3.815s] [01m[K/usr/include/c++/11/type_traits:1422:38:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass custom_bt_nodes::OpenGripperAction[m[K’
+[3.815s]  1422 |     : public integral_constant<bool, [01;31m[K__is_base_of(_Base, _Derived)[m[K>
+[3.816s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.816s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:13:9:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass custom_bt_nodes::OpenGripperAction[m[K’
+[3.816s]    13 |   class [01;36m[KOpenGripperAction[m[K : public BtActionNode<tiago_behavior_tree::action::OpenGripper>
+[3.816s]       |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.816s] In file included from [01m[K/opt/ros/humble/include/nav2_behavior_tree/bt_conversions.hpp:21[m[K,
+[3.816s]                  from [01m[K/opt/ros/humble/include/nav2_behavior_tree/bt_action_node.hpp:25[m[K,
+[3.816s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:5[m[K:
+[3.816s] /opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h: In instantiation of ‘[01m[KBT::NodeType BT::getType() [with T = custom_bt_nodes::OpenGripperAction][m[K’:
+[3.816s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:[m[K   required from ‘[01m[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>][m[K’
+[3.816s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>][m[K’
+[3.816s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:118:62:[m[K   required from here
+[3.817s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:86:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kvalue[m[K’ is not a member of ‘[01m[Kstd::is_base_of<BT::SubtreePlusNode, custom_bt_nodes::OpenGripperAction>[m[K’
+[3.817s]    86 |     if( std::is_base_of<SubtreePlusNode, T>::[01;31m[Kvalue[m[K )       return NodeType::SUBTREE;
+[3.817s]       |                                              [01;31m[K^~~~~[m[K
+[3.817s] In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+[3.817s]                  from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+[3.817s]                  from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+[3.817s]                  from [01m[K/usr/include/c++/11/bits/char_traits.h:39[m[K,
+[3.817s]                  from [01m[K/usr/include/c++/11/string:40[m[K,
+[3.817s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:1[m[K:
+[3.817s] /usr/include/c++/11/type_traits: In instantiation of ‘[01m[Kstruct std::is_base_of<BT::DecoratorNode, custom_bt_nodes::OpenGripperAction>[m[K’:
+[3.818s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:87:44:[m[K   required from ‘[01m[KBT::NodeType BT::getType() [with T = custom_bt_nodes::OpenGripperAction][m[K’
+[3.818s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:[m[K   required from ‘[01m[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>][m[K’
+[3.818s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>][m[K’
+[3.818s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:118:62:[m[K   required from here
+[3.818s] [01m[K/usr/include/c++/11/type_traits:1422:38:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass custom_bt_nodes::OpenGripperAction[m[K’
+[3.818s]  1422 |     : public integral_constant<bool, [01;31m[K__is_base_of(_Base, _Derived)[m[K>
+[3.818s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.818s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:13:9:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass custom_bt_nodes::OpenGripperAction[m[K’
+[3.818s]    13 |   class [01;36m[KOpenGripperAction[m[K : public BtActionNode<tiago_behavior_tree::action::OpenGripper>
+[3.818s]       |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.818s] In file included from [01m[K/opt/ros/humble/include/nav2_behavior_tree/bt_conversions.hpp:21[m[K,
+[3.819s]                  from [01m[K/opt/ros/humble/include/nav2_behavior_tree/bt_action_node.hpp:25[m[K,
+[3.819s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:5[m[K:
+[3.819s] /opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h: In instantiation of ‘[01m[KBT::NodeType BT::getType() [with T = custom_bt_nodes::OpenGripperAction][m[K’:
+[3.819s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:[m[K   required from ‘[01m[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>][m[K’
+[3.819s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>][m[K’
+[3.819s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:118:62:[m[K   required from here
+[3.819s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:87:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kvalue[m[K’ is not a member of ‘[01m[Kstd::is_base_of<BT::DecoratorNode, custom_bt_nodes::OpenGripperAction>[m[K’
+[3.819s]    87 |     if( std::is_base_of<DecoratorNode, T>::[01;31m[Kvalue[m[K )         return NodeType::DECORATOR;
+[3.819s]       |                                            [01;31m[K^~~~~[m[K
+[3.819s] In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+[3.819s]                  from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+[3.820s]                  from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+[3.820s]                  from [01m[K/usr/include/c++/11/bits/char_traits.h:39[m[K,
+[3.820s]                  from [01m[K/usr/include/c++/11/string:40[m[K,
+[3.820s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:1[m[K:
+[3.820s] /usr/include/c++/11/type_traits: In instantiation of ‘[01m[Kstruct std::is_base_of<BT::ControlNode, custom_bt_nodes::OpenGripperAction>[m[K’:
+[3.820s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:88:42:[m[K   required from ‘[01m[KBT::NodeType BT::getType() [with T = custom_bt_nodes::OpenGripperAction][m[K’
+[3.820s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:[m[K   required from ‘[01m[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>][m[K’
+[3.820s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>][m[K’
+[3.820s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:118:62:[m[K   required from here
+[3.820s] [01m[K/usr/include/c++/11/type_traits:1422:38:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass custom_bt_nodes::OpenGripperAction[m[K’
+[3.820s]  1422 |     : public integral_constant<bool, [01;31m[K__is_base_of(_Base, _Derived)[m[K>
+[3.821s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.821s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:13:9:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass custom_bt_nodes::OpenGripperAction[m[K’
+[3.821s]    13 |   class [01;36m[KOpenGripperAction[m[K : public BtActionNode<tiago_behavior_tree::action::OpenGripper>
+[3.821s]       |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.821s] In file included from [01m[K/opt/ros/humble/include/nav2_behavior_tree/bt_conversions.hpp:21[m[K,
+[3.821s]                  from [01m[K/opt/ros/humble/include/nav2_behavior_tree/bt_action_node.hpp:25[m[K,
+[3.821s]                  from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:5[m[K:
+[3.821s] /opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h: In instantiation of ‘[01m[KBT::NodeType BT::getType() [with T = custom_bt_nodes::OpenGripperAction][m[K’:
+[3.821s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:[m[K   required from ‘[01m[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>][m[K’
+[3.821s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = custom_bt_nodes::OpenGripperAction; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>][m[K’
+[3.821s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:118:62:[m[K   required from here
+[3.821s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:88:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kvalue[m[K’ is not a member of ‘[01m[Kstd::is_base_of<BT::ControlNode, custom_bt_nodes::OpenGripperAction>[m[K’
+[3.821s]    88 |     if( std::is_base_of<ControlNode, T>::[01;31m[Kvalue[m[K )           return NodeType::CONTROL;
+[3.821s]       |                                          [01;31m[K^~~~~[m[K
+[4.009s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K At global scope:
+[4.009s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:81:22:[m[K [01;35m[Kwarning: [m[K‘[01m[KBT::PortsList providedPorts()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[4.009s]    81 | static BT::PortsList [01;35m[KprovidedPorts[m[K()
+[4.009s]       |                      [01;35m[K^~~~~~~~~~~~~[m[K
+[4.034s] gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+[4.034s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/pick_action_node.dir/all] Error 2
+[4.035s] gmake: *** [Makefile:146: all] Error 2
+[4.037s] Invoked command in '/home/ayaa/Agro2/build/tiago_behavior_tree' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8

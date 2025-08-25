@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_libraries/cmake/template/ament_cmake_export_libraries.cmake.in
 
-set(_exported_libraries "pick_action_node")
+set(_exported_libraries "tiago_behavior_tree__rosidl_generator_c;tiago_behavior_tree__rosidl_typesupport_c;tiago_behavior_tree__rosidl_typesupport_cpp")
 set(_exported_library_names "")
 
 # populate tiago_behavior_tree_LIBRARIES

@@ -1,0 +1,59 @@
+[1.770s] Invoking command in '/home/ayaa/Agro2/src/trials': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/service_define:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/smclib:/home/ayaa/Agro2/install/occupancy_grid_demo:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit:/home/ayaa/Agro2/install/bond:/home/ayaa/Agro2/install/actions LD_LIBRARY_PATH=/home/ayaa/Agro2/install/service_define/lib:/home/ayaa/Agro2/install/tiago_behavior_tree/lib:/home/ayaa/Agro2/install/bond/lib:/home/ayaa/Agro2/install/actions/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ayaa/Agro2/build/trials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/trials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trials build --build-base /home/ayaa/Agro2/build/trials/build install --record /home/ayaa/Agro2/build/trials/install.log --single-version-externally-managed install_data
+[2.246s] running egg_info
+[2.246s] creating ../../build/trials/trials.egg-info
+[2.265s] writing ../../build/trials/trials.egg-info/PKG-INFO
+[2.265s] writing dependency_links to ../../build/trials/trials.egg-info/dependency_links.txt
+[2.265s] writing entry points to ../../build/trials/trials.egg-info/entry_points.txt
+[2.265s] writing requirements to ../../build/trials/trials.egg-info/requires.txt
+[2.266s] writing top-level names to ../../build/trials/trials.egg-info/top_level.txt
+[2.266s] writing manifest file '../../build/trials/trials.egg-info/SOURCES.txt'
+[2.320s] reading manifest file '../../build/trials/trials.egg-info/SOURCES.txt'
+[2.321s] writing manifest file '../../build/trials/trials.egg-info/SOURCES.txt'
+[2.321s] running build
+[2.321s] running build_py
+[2.322s] creating /home/ayaa/Agro2/build/trials/build
+[2.322s] creating /home/ayaa/Agro2/build/trials/build/lib
+[2.322s] creating /home/ayaa/Agro2/build/trials/build/lib/trials
+[2.322s] copying trials/__init__.py -> /home/ayaa/Agro2/build/trials/build/lib/trials
+[2.322s] copying trials/publisher.py -> /home/ayaa/Agro2/build/trials/build/lib/trials
+[2.322s] copying trials/A_star.py -> /home/ayaa/Agro2/build/trials/build/lib/trials
+[2.322s] copying trials/action_server.py -> /home/ayaa/Agro2/build/trials/build/lib/trials
+[2.323s] copying trials/client.py -> /home/ayaa/Agro2/build/trials/build/lib/trials
+[2.323s] copying trials/ORC_odom_pub.py -> /home/ayaa/Agro2/build/trials/build/lib/trials
+[2.323s] copying trials/server.py -> /home/ayaa/Agro2/build/trials/build/lib/trials
+[2.323s] copying trials/subscriber.py -> /home/ayaa/Agro2/build/trials/build/lib/trials
+[2.323s] running install
+[2.330s] running install_lib
+[2.349s] creating /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials
+[2.349s] copying /home/ayaa/Agro2/build/trials/build/lib/trials/__init__.py -> /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials
+[2.349s] copying /home/ayaa/Agro2/build/trials/build/lib/trials/publisher.py -> /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials
+[2.349s] copying /home/ayaa/Agro2/build/trials/build/lib/trials/A_star.py -> /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials
+[2.349s] copying /home/ayaa/Agro2/build/trials/build/lib/trials/action_server.py -> /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials
+[2.350s] copying /home/ayaa/Agro2/build/trials/build/lib/trials/client.py -> /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials
+[2.350s] copying /home/ayaa/Agro2/build/trials/build/lib/trials/ORC_odom_pub.py -> /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials
+[2.350s] copying /home/ayaa/Agro2/build/trials/build/lib/trials/server.py -> /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials
+[2.350s] copying /home/ayaa/Agro2/build/trials/build/lib/trials/subscriber.py -> /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials
+[2.350s] byte-compiling /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials/__init__.py to __init__.cpython-310.pyc
+[2.351s] byte-compiling /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials/publisher.py to publisher.cpython-310.pyc
+[2.351s] byte-compiling /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials/A_star.py to A_star.cpython-310.pyc
+[2.352s] byte-compiling /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials/action_server.py to action_server.cpython-310.pyc
+[2.353s] byte-compiling /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials/client.py to client.cpython-310.pyc
+[2.353s] byte-compiling /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials/ORC_odom_pub.py to ORC_odom_pub.cpython-310.pyc
+[2.354s] byte-compiling /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials/server.py to server.cpython-310.pyc
+[2.354s] byte-compiling /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials/subscriber.py to subscriber.cpython-310.pyc
+[2.354s] running install_data
+[2.354s] creating /home/ayaa/Agro2/install/trials/share/ament_index
+[2.355s] creating /home/ayaa/Agro2/install/trials/share/ament_index/resource_index
+[2.355s] creating /home/ayaa/Agro2/install/trials/share/ament_index/resource_index/packages
+[2.355s] copying resource/trials -> /home/ayaa/Agro2/install/trials/share/ament_index/resource_index/packages
+[2.355s] copying package.xml -> /home/ayaa/Agro2/install/trials/share/trials
+[2.355s] running install_egg_info
+[2.379s] Copying ../../build/trials/trials.egg-info to /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials-0.0.0-py3.10.egg-info
+[2.380s] running install_scripts
+[2.456s] Installing astar_path_pub script to /home/ayaa/Agro2/install/trials/lib/trials
+[2.456s] Installing client script to /home/ayaa/Agro2/install/trials/lib/trials
+[2.456s] Installing listener script to /home/ayaa/Agro2/install/trials/lib/trials
+[2.456s] Installing server script to /home/ayaa/Agro2/install/trials/lib/trials
+[2.456s] Installing talker script to /home/ayaa/Agro2/install/trials/lib/trials
+[2.457s] writing list of installed files to '/home/ayaa/Agro2/build/trials/install.log'
+[2.520s] Invoked command in '/home/ayaa/Agro2/src/trials' returned '0': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/service_define:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/smclib:/home/ayaa/Agro2/install/occupancy_grid_demo:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit:/home/ayaa/Agro2/install/bond:/home/ayaa/Agro2/install/actions LD_LIBRARY_PATH=/home/ayaa/Agro2/install/service_define/lib:/home/ayaa/Agro2/install/tiago_behavior_tree/lib:/home/ayaa/Agro2/install/bond/lib:/home/ayaa/Agro2/install/actions/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ayaa/Agro2/build/trials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/trials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trials build --build-base /home/ayaa/Agro2/build/trials/build install --record /home/ayaa/Agro2/build/trials/install.log --single-version-externally-managed install_data

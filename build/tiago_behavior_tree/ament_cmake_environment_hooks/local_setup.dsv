@@ -1,2 +1,4 @@
 source;share/tiago_behavior_tree/environment/ament_prefix_path.sh
+source;share/tiago_behavior_tree/environment/library_path.sh
 source;share/tiago_behavior_tree/environment/path.sh
+source;share/tiago_behavior_tree/environment/pythonpath.sh

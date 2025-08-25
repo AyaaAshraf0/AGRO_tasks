@@ -1,8 +1,9 @@
 <library path="pick_action_node">
-  <class name="ApproachObject"
-         type="ApproachObject"
-         base_class_type="BT::SyncActionNode"/>
   <class name="OpenGripperAction"
-         type="OpenGripperAction"
-         base_class_type="BT::ActionNodeBase"/>
+         type="nav2_behavior_tree::OpenGripperAction"
+         base_class_type="nav2_behavior_tree::BtActionNodeBase"/>
+         
+  <class name="ApproachObjectAction"
+         type="nav2_behavior_tree::ApproachObjectAction"
+         base_class_type="nav2_behavior_tree::BtActionNodeBase"/>
 </library>

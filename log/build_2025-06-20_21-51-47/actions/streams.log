@@ -1,0 +1,232 @@
+[0.040s] Invoking command in '/home/ayaa/Agro2/build/actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake /home/ayaa/Agro2/src/actions -DCMAKE_INSTALL_PREFIX=/home/ayaa/Agro2/install/actions
+[1.716s] -- The C compiler identification is GNU 11.4.0
+[1.716s] -- The CXX compiler identification is GNU 11.4.0
+[1.716s] -- Detecting C compiler ABI info
+[1.716s] -- Detecting C compiler ABI info - done
+[1.716s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.717s] -- Detecting C compile features
+[1.717s] -- Detecting C compile features - done
+[1.717s] -- Detecting CXX compiler ABI info
+[1.717s] -- Detecting CXX compiler ABI info - done
+[1.717s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.717s] -- Detecting CXX compile features
+[1.717s] -- Detecting CXX compile features - done
+[1.717s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.718s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.718s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.718s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.721s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.799s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.464s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.866s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.393s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.397s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.442s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.443s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.443s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.443s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.484s] -- Found PythonExtra: .so  
+[3.593s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.633s] -- Added test 'lint_cmake' to check CMake code style
+[3.636s] -- Added test 'xmllint' to check XML markup files
+[3.642s] -- Configuring done
+[3.700s] -- Generating done
+[3.722s] -- Build files have been written to: /home/ayaa/Agro2/build/actions
+[3.733s] Invoked command in '/home/ayaa/Agro2/build/actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake /home/ayaa/Agro2/src/actions -DCMAKE_INSTALL_PREFIX=/home/ayaa/Agro2/install/actions
+[3.759s] Invoking command in '/home/ayaa/Agro2/build/actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/actions -- -j8 -l8
+[4.683s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.684s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.684s] [  6%] Built target ament_cmake_python_copy_actions
+[5.122s] running egg_info
+[5.123s] creating actions.egg-info
+[5.201s] writing actions.egg-info/PKG-INFO
+[5.202s] writing dependency_links to actions.egg-info/dependency_links.txt
+[5.203s] writing top-level names to actions.egg-info/top_level.txt
+[5.203s] writing manifest file 'actions.egg-info/SOURCES.txt'
+[5.239s] [  6%] Built target actions__cpp
+[5.293s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.312s] reading manifest file 'actions.egg-info/SOURCES.txt'
+[5.314s] writing manifest file 'actions.egg-info/SOURCES.txt'
+[5.317s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.347s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.508s] [ 16%] Built target ament_cmake_python_build_actions_egg
+[5.675s] [ 19%] [32mBuilding C object CMakeFiles/actions__rosidl_generator_c.dir/rosidl_generator_c/actions/action/detail/reach_wall__functions.c.o[0m
+[6.037s] [ 22%] [32m[1mLinking C shared library libactions__rosidl_generator_c.so[0m
+[6.132s] [ 25%] [32mBuilding CXX object CMakeFiles/actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/actions/action/reach_wall__type_support.cpp.o[0m
+[6.178s] [ 25%] Built target actions__rosidl_generator_c
+[6.230s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.237s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.268s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.268s] [ 38%] [32mBuilding CXX object CMakeFiles/actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/actions/action/detail/reach_wall__type_support.cpp.o[0m
+[6.546s] [ 41%] [32mBuilding CXX object CMakeFiles/actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/actions/action/detail/dds_fastrtps/reach_wall__type_support.cpp.o[0m
+[7.075s] [ 45%] [32mBuilding CXX object CMakeFiles/actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/actions/action/reach_wall__type_support.cpp.o[0m
+[7.223s] [ 48%] [32m[1mLinking CXX shared library libactions__rosidl_typesupport_c.so[0m
+[7.345s] [ 51%] [32mBuilding C object CMakeFiles/actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/actions/action/detail/reach_wall__type_support.c.o[0m
+[7.424s] [ 51%] Built target actions__rosidl_typesupport_c
+[7.567s] [ 54%] [32m[1mLinking C shared library libactions__rosidl_typesupport_introspection_c.so[0m
+[7.674s] [ 58%] [32m[1mLinking CXX shared library libactions__rosidl_typesupport_cpp.so[0m
+[7.713s] [ 61%] [32m[1mLinking CXX shared library libactions__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.738s] [ 61%] Built target actions__rosidl_typesupport_introspection_c
+[7.778s] [ 64%] [32mBuilding CXX object CMakeFiles/actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/actions/action/detail/reach_wall__type_support_c.cpp.o[0m
+[7.895s] [ 64%] Built target actions__rosidl_typesupport_cpp
+[7.917s] [ 64%] Built target actions__rosidl_typesupport_fastrtps_cpp
+[7.970s] [ 67%] [32m[1mLinking CXX shared library libactions__rosidl_typesupport_introspection_cpp.so[0m
+[8.127s] [ 67%] Built target actions__rosidl_typesupport_introspection_cpp
+[8.532s] [ 70%] [32m[1mLinking CXX shared library libactions__rosidl_typesupport_fastrtps_c.so[0m
+[8.717s] [ 70%] Built target actions__rosidl_typesupport_fastrtps_c
+[8.747s] [ 70%] Built target actions
+[8.780s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.963s] [ 74%] Built target actions__py
+[9.985s] [ 77%] [32mBuilding C object CMakeFiles/actions__rosidl_generator_py.dir/rosidl_generator_py/actions/action/_reach_wall_s.c.o[0m
+[10.138s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/actions/libactions__rosidl_generator_py.so[0m
+[10.183s] [ 80%] Built target actions__rosidl_generator_py
+[10.213s] [ 90%] [32mBuilding C object CMakeFiles/actions__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/actions/_actions_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.213s] [ 90%] [32mBuilding C object CMakeFiles/actions__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/actions/_actions_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.213s] [ 90%] [32mBuilding C object CMakeFiles/actions__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/actions/_actions_s.ep.rosidl_typesupport_c.c.o[0m
+[10.429s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/actions/actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.436s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/actions/actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.438s] [100%] [32m[1mLinking C shared library rosidl_generator_py/actions/actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.497s] [100%] Built target actions__rosidl_typesupport_c__pyext
+[10.504s] [100%] Built target actions__rosidl_typesupport_introspection_c__pyext
+[10.506s] [100%] Built target actions__rosidl_typesupport_fastrtps_c__pyext
+[10.523s] Invoked command in '/home/ayaa/Agro2/build/actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/actions -- -j8 -l8
+[10.524s] Invoking command in '/home/ayaa/Agro2/build/actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --install /home/ayaa/Agro2/build/actions
+[10.533s] -- Install configuration: ""
+[10.533s] -- Installing: /home/ayaa/Agro2/install/actions/share/ament_index/resource_index/rosidl_interfaces/actions
+[10.534s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions
+[10.534s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/msg
+[10.534s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/msg/rosidl_generator_c__visibility_control.h
+[10.534s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/action
+[10.534s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail
+[10.534s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail/reach_wall__struct.h
+[10.535s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail/reach_wall__functions.c
+[10.535s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail/reach_wall__type_support.h
+[10.535s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail/reach_wall__functions.h
+[10.535s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/action/reach_wall.h
+[10.535s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/environment/library_path.sh
+[10.536s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/environment/library_path.dsv
+[10.536s] -- Installing: /home/ayaa/Agro2/install/actions/lib/libactions__rosidl_generator_c.so
+[10.537s] -- Set runtime path of "/home/ayaa/Agro2/install/actions/lib/libactions__rosidl_generator_c.so" to ""
+[10.537s] -- Up-to-date: /home/ayaa/Agro2/install/actions/include/actions/actions
+[10.537s] -- Up-to-date: /home/ayaa/Agro2/install/actions/include/actions/actions/msg
+[10.537s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.537s] -- Up-to-date: /home/ayaa/Agro2/install/actions/include/actions/actions/action
+[10.537s] -- Up-to-date: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail
+[10.537s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail/reach_wall__rosidl_typesupport_fastrtps_c.h
+[10.538s] -- Installing: /home/ayaa/Agro2/install/actions/lib/libactions__rosidl_typesupport_fastrtps_c.so
+[10.538s] -- Set runtime path of "/home/ayaa/Agro2/install/actions/lib/libactions__rosidl_typesupport_fastrtps_c.so" to ""
+[10.538s] -- Up-to-date: /home/ayaa/Agro2/install/actions/include/actions/actions
+[10.538s] -- Up-to-date: /home/ayaa/Agro2/install/actions/include/actions/actions/msg
+[10.538s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.539s] -- Up-to-date: /home/ayaa/Agro2/install/actions/include/actions/actions/action
+[10.539s] -- Up-to-date: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail
+[10.539s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail/reach_wall__rosidl_typesupport_introspection_c.h
+[10.539s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail/reach_wall__type_support.c
+[10.539s] -- Installing: /home/ayaa/Agro2/install/actions/lib/libactions__rosidl_typesupport_introspection_c.so
+[10.540s] -- Set runtime path of "/home/ayaa/Agro2/install/actions/lib/libactions__rosidl_typesupport_introspection_c.so" to ""
+[10.540s] -- Installing: /home/ayaa/Agro2/install/actions/lib/libactions__rosidl_typesupport_c.so
+[10.540s] -- Set runtime path of "/home/ayaa/Agro2/install/actions/lib/libactions__rosidl_typesupport_c.so" to ""
+[10.540s] -- Up-to-date: /home/ayaa/Agro2/install/actions/include/actions/actions
+[10.541s] -- Up-to-date: /home/ayaa/Agro2/install/actions/include/actions/actions/msg
+[10.541s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.541s] -- Up-to-date: /home/ayaa/Agro2/install/actions/include/actions/actions/action
+[10.541s] -- Up-to-date: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail
+[10.541s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail/reach_wall__traits.hpp
+[10.541s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail/reach_wall__builder.hpp
+[10.541s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail/reach_wall__type_support.hpp
+[10.541s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail/reach_wall__struct.hpp
+[10.542s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/action/reach_wall.hpp
+[10.542s] -- Up-to-date: /home/ayaa/Agro2/install/actions/include/actions/actions
+[10.542s] -- Up-to-date: /home/ayaa/Agro2/install/actions/include/actions/actions/msg
+[10.542s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.542s] -- Up-to-date: /home/ayaa/Agro2/install/actions/include/actions/actions/action
+[10.543s] -- Up-to-date: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail
+[10.543s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail/reach_wall__rosidl_typesupport_fastrtps_cpp.hpp
+[10.543s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail/dds_fastrtps
+[10.543s] -- Installing: /home/ayaa/Agro2/install/actions/lib/libactions__rosidl_typesupport_fastrtps_cpp.so
+[10.544s] -- Set runtime path of "/home/ayaa/Agro2/install/actions/lib/libactions__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.544s] -- Up-to-date: /home/ayaa/Agro2/install/actions/include/actions/actions
+[10.544s] -- Up-to-date: /home/ayaa/Agro2/install/actions/include/actions/actions/action
+[10.544s] -- Up-to-date: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail
+[10.544s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail/reach_wall__type_support.cpp
+[10.544s] -- Installing: /home/ayaa/Agro2/install/actions/include/actions/actions/action/detail/reach_wall__rosidl_typesupport_introspection_cpp.hpp
+[10.544s] -- Installing: /home/ayaa/Agro2/install/actions/lib/libactions__rosidl_typesupport_introspection_cpp.so
+[10.545s] -- Set runtime path of "/home/ayaa/Agro2/install/actions/lib/libactions__rosidl_typesupport_introspection_cpp.so" to ""
+[10.545s] -- Installing: /home/ayaa/Agro2/install/actions/lib/libactions__rosidl_typesupport_cpp.so
+[10.545s] -- Set runtime path of "/home/ayaa/Agro2/install/actions/lib/libactions__rosidl_typesupport_cpp.so" to ""
+[10.545s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/environment/pythonpath.sh
+[10.545s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/environment/pythonpath.dsv
+[10.545s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions-0.0.0-py3.10.egg-info
+[10.546s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions-0.0.0-py3.10.egg-info/PKG-INFO
+[10.546s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.546s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.546s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions-0.0.0-py3.10.egg-info/top_level.txt
+[10.546s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions
+[10.546s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/__init__.py
+[10.546s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.547s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/_actions_s.ep.rosidl_typesupport_introspection_c.c
+[10.547s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/_actions_s.ep.rosidl_typesupport_c.c
+[10.547s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.547s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/action
+[10.547s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/action/__init__.py
+[10.548s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/action/_reach_wall_s.c
+[10.548s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/action/_reach_wall.py
+[10.548s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/_actions_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.548s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.548s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/libactions__rosidl_generator_py.so
+[10.623s] Listing '/home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions'...
+[10.623s] Compiling '/home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/__init__.py'...
+[10.623s] Listing '/home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/action'...
+[10.623s] Compiling '/home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/action/__init__.py'...
+[10.623s] Compiling '/home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/action/_reach_wall.py'...
+[10.631s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.631s] -- Set runtime path of "/home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.632s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.632s] -- Set runtime path of "/home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.632s] -- Installing: /home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.633s] -- Set runtime path of "/home/ayaa/Agro2/install/actions/local/lib/python3.10/dist-packages/actions/actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.633s] -- Installing: /home/ayaa/Agro2/install/actions/lib/libactions__rosidl_generator_py.so
+[10.634s] -- Set runtime path of "/home/ayaa/Agro2/install/actions/lib/libactions__rosidl_generator_py.so" to ""
+[10.634s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/action/ReachWall.idl
+[10.634s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/action/ReachWall.action
+[10.634s] -- Installing: /home/ayaa/Agro2/install/actions/share/ament_index/resource_index/package_run_dependencies/actions
+[10.634s] -- Installing: /home/ayaa/Agro2/install/actions/share/ament_index/resource_index/parent_prefix_path/actions
+[10.635s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/environment/ament_prefix_path.sh
+[10.635s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/environment/ament_prefix_path.dsv
+[10.635s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/environment/path.sh
+[10.635s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/environment/path.dsv
+[10.635s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/local_setup.bash
+[10.636s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/local_setup.sh
+[10.636s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/local_setup.zsh
+[10.636s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/local_setup.dsv
+[10.636s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/package.dsv
+[10.636s] -- Installing: /home/ayaa/Agro2/install/actions/share/ament_index/resource_index/packages/actions
+[10.637s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/export_actions__rosidl_generator_cExport.cmake
+[10.637s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/export_actions__rosidl_generator_cExport-noconfig.cmake
+[10.637s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/export_actions__rosidl_typesupport_fastrtps_cExport.cmake
+[10.637s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/export_actions__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.637s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/actions__rosidl_typesupport_introspection_cExport.cmake
+[10.637s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/actions__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.638s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/actions__rosidl_typesupport_cExport.cmake
+[10.638s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/actions__rosidl_typesupport_cExport-noconfig.cmake
+[10.638s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/export_actions__rosidl_generator_cppExport.cmake
+[10.638s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/export_actions__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.638s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/export_actions__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.639s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/actions__rosidl_typesupport_introspection_cppExport.cmake
+[10.639s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/actions__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.639s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/actions__rosidl_typesupport_cppExport.cmake
+[10.639s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/actions__rosidl_typesupport_cppExport-noconfig.cmake
+[10.639s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/export_actions__rosidl_generator_pyExport.cmake
+[10.640s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/export_actions__rosidl_generator_pyExport-noconfig.cmake
+[10.640s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/rosidl_cmake-extras.cmake
+[10.640s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.640s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.640s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/ament_cmake_export_libraries-extras.cmake
+[10.641s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/ament_cmake_export_targets-extras.cmake
+[10.641s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.641s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.641s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/actionsConfig.cmake
+[10.641s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/cmake/actionsConfig-version.cmake
+[10.642s] -- Installing: /home/ayaa/Agro2/install/actions/share/actions/package.xml
+[10.646s] Invoked command in '/home/ayaa/Agro2/build/actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --install /home/ayaa/Agro2/build/actions

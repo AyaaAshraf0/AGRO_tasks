@@ -46,6 +46,7 @@
 /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/install/local_setup.ps1
 /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/install/setup.sh
 /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/install/local_setup.bash
+/home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/t.urdf
 /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/fer.urdf
 /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/kinematics.yaml
 /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/sensors_3d.yaml

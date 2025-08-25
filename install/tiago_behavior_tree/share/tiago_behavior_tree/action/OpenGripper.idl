@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from tiago_behavior_tree/action/OpenGripper.action
+// generated code does not contain a copyright notice
+
+
+module tiago_behavior_tree {
+  module action {
+    @verbatim (language="comment", text=
+      "OpenGripper.action")
+    struct OpenGripper_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "Result (after the action completes)")
+    struct OpenGripper_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback (optional, can be empty or used for status updates)")
+    struct OpenGripper_Feedback {
+      string feedback;
+    };
+  };
+};

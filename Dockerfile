@@ -10,22 +10,26 @@ WORKDIR /app
 # Install packages.
 RUN apt-get update && apt-get install -y \
     ros-humble-gazebo-* \
+    ros-humble-ros2-controllers \
     python-is-python3 \
     nano \
     less \
     xterm \
     mesa-utils \
-    x11-utils \
-    tmux 
+    x11-utils 
+
 
 RUN apt update && apt install -y \
     software-properties-common && \
     add-apt-repository universe && \
     apt update && apt install -y \
     python3-rosdep \
+    ros-humble-moveit \
     python3-colcon-common-extensions && \
     rosdep update
     
+
+
 # here, we are copying "src" folder from our workspace folder to the newly created folder 
 # ws_pub_sub/src inside of our container. That is, we are creating "ws_pub_sub" folder 
 # int the container and another subfolder inside of that folder called "src"

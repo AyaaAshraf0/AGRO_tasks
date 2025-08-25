@@ -8,10 +8,11 @@ set -e
 # such that we can run our package 
 source /opt/ros/humble/setup.bash
 source /app/Agro2/install/setup.bash
-source /usr/share/gazebo/setup.sh 
+source /usr/share/gazebo/setup.bash 
 export TURTLEBOT3_MODEL=burger
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/app/Agro2/src/custom_worlds/models/model_editor_models
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/app/Agro2/src
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/ayaa/Agro2/install/franka_description/share
 
 
 # This means that we are doing everything in this  entrypoint.sh script, 

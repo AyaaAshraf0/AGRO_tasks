@@ -1,0 +1,10 @@
+# OpenGripper.action
+
+---
+# Result (after the action completes)
+bool success
+string message
+
+---
+# Feedback (optional, can be empty or used for status updates)
+string feedback

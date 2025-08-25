@@ -1,0 +1,22 @@
+[1.176s] Invoking command in '/home/ayaa/Agro2/build/fer_cpp_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/fer_cpp_moveit -- -j8 -l8
+[2.929s] [100%] Built target pick_place
+[2.929s] Invoked command in '/home/ayaa/Agro2/build/fer_cpp_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/fer_cpp_moveit -- -j8 -l8
+[2.944s] Invoking command in '/home/ayaa/Agro2/build/fer_cpp_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --install /home/ayaa/Agro2/build/fer_cpp_moveit
+[2.977s] -- Install configuration: ""
+[2.977s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/lib/fer_cpp_moveit/pick_place
+[2.978s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/ament_index/resource_index/package_run_dependencies/fer_cpp_moveit
+[2.978s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/ament_index/resource_index/parent_prefix_path/fer_cpp_moveit
+[2.978s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/environment/ament_prefix_path.sh
+[2.978s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/environment/ament_prefix_path.dsv
+[2.978s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/environment/path.sh
+[2.978s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/environment/path.dsv
+[2.978s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/local_setup.bash
+[2.979s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/local_setup.sh
+[2.979s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/local_setup.zsh
+[2.979s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/local_setup.dsv
+[2.979s] -- Installing: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/package.dsv
+[2.979s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/ament_index/resource_index/packages/fer_cpp_moveit
+[2.979s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/cmake/fer_cpp_moveitConfig.cmake
+[2.980s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/cmake/fer_cpp_moveitConfig-version.cmake
+[2.980s] -- Up-to-date: /home/ayaa/Agro2/install/fer_cpp_moveit/share/fer_cpp_moveit/package.xml
+[3.158s] Invoked command in '/home/ayaa/Agro2/build/fer_cpp_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --install /home/ayaa/Agro2/build/fer_cpp_moveit

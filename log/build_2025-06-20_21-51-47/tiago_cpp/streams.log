@@ -1,0 +1,80 @@
+[0.220s] Invoking command in '/home/ayaa/Agro2/build/tiago_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake /home/ayaa/Agro2/src/tiago_cpp -DCMAKE_INSTALL_PREFIX=/home/ayaa/Agro2/install/tiago_cpp
+[0.477s] -- The C compiler identification is GNU 11.4.0
+[0.726s] -- The CXX compiler identification is GNU 11.4.0
+[0.744s] -- Detecting C compiler ABI info
+[1.036s] -- Detecting C compiler ABI info - done
+[1.064s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.064s] -- Detecting C compile features
+[1.065s] -- Detecting C compile features - done
+[1.086s] -- Detecting CXX compiler ABI info
+[1.358s] -- Detecting CXX compiler ABI info - done
+[1.390s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.391s] -- Detecting CXX compile features
+[1.392s] -- Detecting CXX compile features - done
+[1.398s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.057s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.314s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.414s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.428s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.446s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.473s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.683s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.690s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.967s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.030s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.118s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.138s] -- Looking for pthread.h
+[4.240s] -- Looking for pthread.h - found
+[4.241s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.322s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.323s] -- Found Threads: TRUE  
+[4.438s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[4.497s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[4.873s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[4.981s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[5.007s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.014s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[5.063s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[5.239s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[5.312s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.615s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[5.684s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[5.733s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[5.800s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.936s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.936s] -- Configured cppcheck include dirs: 
+[5.936s] -- Configured cppcheck exclude dirs and/or files: 
+[5.938s] -- Added test 'lint_cmake' to check CMake code style
+[5.940s] -- Added test 'uncrustify' to check C / C++ code style
+[5.940s] -- Configured uncrustify additional arguments: 
+[5.941s] -- Added test 'xmllint' to check XML markup files
+[5.944s] -- Configuring done
+[5.992s] -- Generating done
+[6.005s] -- Build files have been written to: /home/ayaa/Agro2/build/tiago_cpp
+[6.031s] Invoked command in '/home/ayaa/Agro2/build/tiago_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake /home/ayaa/Agro2/src/tiago_cpp -DCMAKE_INSTALL_PREFIX=/home/ayaa/Agro2/install/tiago_cpp
+[6.033s] Invoking command in '/home/ayaa/Agro2/build/tiago_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_cpp -- -j8 -l8
+[6.094s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_place_tiago.dir/src/pick_place_tiago.cpp.o[0m
+[13.778s] [100%] [32m[1mLinking CXX executable pick_place_tiago[0m
+[14.061s] [100%] Built target pick_place_tiago
+[14.070s] Invoked command in '/home/ayaa/Agro2/build/tiago_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_cpp -- -j8 -l8
+[14.072s] Invoking command in '/home/ayaa/Agro2/build/tiago_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --install /home/ayaa/Agro2/build/tiago_cpp
+[14.079s] -- Install configuration: ""
+[14.079s] -- Installing: /home/ayaa/Agro2/install/tiago_cpp/lib/tiago_cpp/pick_place_tiago
+[14.080s] -- Set runtime path of "/home/ayaa/Agro2/install/tiago_cpp/lib/tiago_cpp/pick_place_tiago" to ""
+[14.080s] -- Installing: /home/ayaa/Agro2/install/tiago_cpp/share/ament_index/resource_index/package_run_dependencies/tiago_cpp
+[14.080s] -- Installing: /home/ayaa/Agro2/install/tiago_cpp/share/ament_index/resource_index/parent_prefix_path/tiago_cpp
+[14.080s] -- Installing: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/environment/ament_prefix_path.sh
+[14.080s] -- Installing: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/environment/ament_prefix_path.dsv
+[14.081s] -- Installing: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/environment/path.sh
+[14.081s] -- Installing: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/environment/path.dsv
+[14.081s] -- Installing: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/local_setup.bash
+[14.081s] -- Installing: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/local_setup.sh
+[14.081s] -- Installing: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/local_setup.zsh
+[14.081s] -- Installing: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/local_setup.dsv
+[14.081s] -- Installing: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/package.dsv
+[14.082s] -- Installing: /home/ayaa/Agro2/install/tiago_cpp/share/ament_index/resource_index/packages/tiago_cpp
+[14.082s] -- Installing: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/cmake/tiago_cppConfig.cmake
+[14.082s] -- Installing: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/cmake/tiago_cppConfig-version.cmake
+[14.082s] -- Installing: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/package.xml
+[14.084s] Invoked command in '/home/ayaa/Agro2/build/tiago_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --install /home/ayaa/Agro2/build/tiago_cpp

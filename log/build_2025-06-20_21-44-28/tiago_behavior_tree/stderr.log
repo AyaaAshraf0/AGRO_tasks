@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:22 (find_package):
+  By not providing "Findtiago_behavior_tree.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "tiago_behavior_tree", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "tiago_behavior_tree" with any of the following names:
+
+    tiago_behavior_treeConfig.cmake
+    tiago_behavior_tree-config.cmake
+
+  Add the installation prefix of "tiago_behavior_tree" to CMAKE_PREFIX_PATH
+  or set "tiago_behavior_tree_DIR" to a directory containing one of the above
+  files.  If "tiago_behavior_tree" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m

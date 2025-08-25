@@ -1,0 +1,89 @@
+[1.099s] Invoking command in '/home/ayaa/Agro2/build/fer_moveit': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/smclib:/home/ayaa/Agro2/install/service_define:/home/ayaa/Agro2/install/occupancy_grid_demo:/home/ayaa/Agro2/install/fer_cpp_moveit:/home/ayaa/Agro2/install/bond:/home/ayaa/Agro2/install/actions:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake /home/ayaa/Agro2/src/fer_moveit -DCMAKE_INSTALL_PREFIX=/home/ayaa/Agro2/install/fer_moveit
+[1.319s] -- The C compiler identification is GNU 11.4.0
+[1.456s] -- The CXX compiler identification is GNU 11.4.0
+[1.475s] -- Detecting C compiler ABI info
+[1.832s] -- Detecting C compiler ABI info - done
+[1.852s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.852s] -- Detecting C compile features
+[1.853s] -- Detecting C compile features - done
+[1.874s] -- Detecting CXX compiler ABI info
+[2.190s] -- Detecting CXX compiler ABI info - done
+[2.206s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.207s] -- Detecting CXX compile features
+[2.208s] -- Detecting CXX compile features - done
+[2.217s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.909s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.162s] -- Configuring done
+[4.169s] -- Generating done
+[4.170s] -- Build files have been written to: /home/ayaa/Agro2/build/fer_moveit
+[4.177s] Invoked command in '/home/ayaa/Agro2/build/fer_moveit' returned '0': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/smclib:/home/ayaa/Agro2/install/service_define:/home/ayaa/Agro2/install/occupancy_grid_demo:/home/ayaa/Agro2/install/fer_cpp_moveit:/home/ayaa/Agro2/install/bond:/home/ayaa/Agro2/install/actions:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake /home/ayaa/Agro2/src/fer_moveit -DCMAKE_INSTALL_PREFIX=/home/ayaa/Agro2/install/fer_moveit
+[4.201s] Invoking command in '/home/ayaa/Agro2/build/fer_moveit': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/smclib:/home/ayaa/Agro2/install/service_define:/home/ayaa/Agro2/install/occupancy_grid_demo:/home/ayaa/Agro2/install/fer_cpp_moveit:/home/ayaa/Agro2/install/bond:/home/ayaa/Agro2/install/actions:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/fer_moveit -- -j8 -l8
+[4.267s] Invoked command in '/home/ayaa/Agro2/build/fer_moveit' returned '0': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/smclib:/home/ayaa/Agro2/install/service_define:/home/ayaa/Agro2/install/occupancy_grid_demo:/home/ayaa/Agro2/install/fer_cpp_moveit:/home/ayaa/Agro2/install/bond:/home/ayaa/Agro2/install/actions:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/fer_moveit -- -j8 -l8
+[4.268s] Invoking command in '/home/ayaa/Agro2/build/fer_moveit': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/smclib:/home/ayaa/Agro2/install/service_define:/home/ayaa/Agro2/install/occupancy_grid_demo:/home/ayaa/Agro2/install/fer_cpp_moveit:/home/ayaa/Agro2/install/bond:/home/ayaa/Agro2/install/actions:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --install /home/ayaa/Agro2/build/fer_moveit
+[4.282s] -- Install configuration: ""
+[4.282s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/ament_index/resource_index/package_run_dependencies/fer_moveit
+[4.282s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/ament_index/resource_index/parent_prefix_path/fer_moveit
+[4.283s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/environment/ament_prefix_path.sh
+[4.283s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/environment/ament_prefix_path.dsv
+[4.283s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/environment/path.sh
+[4.283s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/environment/path.dsv
+[4.283s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/local_setup.bash
+[4.284s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/local_setup.sh
+[4.284s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/local_setup.zsh
+[4.284s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/local_setup.dsv
+[4.284s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/package.dsv
+[4.285s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/ament_index/resource_index/packages/fer_moveit
+[4.285s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/cmake/fer_moveitConfig.cmake
+[4.285s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/cmake/fer_moveitConfig-version.cmake
+[4.285s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/package.xml
+[4.285s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/launch
+[4.286s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/launch/warehouse_db.launch.py
+[4.286s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/launch/demo.launch.py
+[4.286s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/launch/move_group.launch.py
+[4.287s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/launch/fer_gazebo.launch.py
+[4.287s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/launch/moveit_rviz.launch.py
+[4.288s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/launch/spawn_controllers.launch.py
+[4.288s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/launch/setup_assistant.launch.py
+[4.288s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/launch/static_virtual_joint_tfs.launch.py
+[4.288s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/launch/rsp.launch.py
+[4.289s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config
+[4.289s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/fer_gazebo.urdf
+[4.289s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/fer.ros2_control.xacro
+[4.290s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/moveit_controllers.yaml
+[4.290s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/custom_fer.ros2_control.xacro
+[4.291s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/initial_positions.yaml
+[4.291s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/log
+[4.291s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/log/latest_build
+[4.291s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/log/COLCON_IGNORE
+[4.291s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/log/latest
+[4.291s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/log/build_2025-03-14_23-27-25
+[4.292s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/log/build_2025-03-14_23-27-25/events.log
+[4.292s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/log/build_2025-03-14_23-27-25/logger_all.log
+[4.292s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/moveit.rviz
+[4.292s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/joint_limits.yaml
+[4.293s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/install
+[4.293s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/install/_local_setup_util_ps1.py
+[4.293s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/install/.colcon_install_layout
+[4.294s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/install/local_setup.sh
+[4.294s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/install/setup.bash
+[4.294s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/install/setup.ps1
+[4.295s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/install/COLCON_IGNORE
+[4.295s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/install/setup.zsh
+[4.295s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/install/_local_setup_util_sh.py
+[4.296s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/install/local_setup.zsh
+[4.296s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/install/local_setup.ps1
+[4.296s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/install/setup.sh
+[4.297s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/install/local_setup.bash
+[4.297s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/t.urdf
+[4.297s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/fer.urdf
+[4.298s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/kinematics.yaml
+[4.298s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/sensors_3d.yaml
+[4.299s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/ros2_controllers.yaml
+[4.299s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/fer.srdf
+[4.300s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/pilz_cartesian_limits.yaml
+[4.300s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/build
+[4.301s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/build/.built_by
+[4.301s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/build/COLCON_IGNORE
+[4.302s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/config/fer.urdf.xacro
+[4.303s] -- Installing: /home/ayaa/Agro2/install/fer_moveit/share/fer_moveit/.setup_assistant
+[4.894s] Invoked command in '/home/ayaa/Agro2/build/fer_moveit' returned '0': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/smclib:/home/ayaa/Agro2/install/service_define:/home/ayaa/Agro2/install/occupancy_grid_demo:/home/ayaa/Agro2/install/fer_cpp_moveit:/home/ayaa/Agro2/install/bond:/home/ayaa/Agro2/install/actions:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --install /home/ayaa/Agro2/build/fer_moveit

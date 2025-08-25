@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from actions/action/ReachWall.action
+// generated code does not contain a copyright notice
+
+
+module actions {
+  module action {
+    struct ReachWall_Goal {
+      float target_distance;
+    };
+    struct ReachWall_Result {
+      boolean reached;
+    };
+    struct ReachWall_Feedback {
+      float remaining_distance;
+    };
+  };
+};

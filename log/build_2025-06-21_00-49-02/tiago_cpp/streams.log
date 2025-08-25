@@ -1,0 +1,22 @@
+[0.048s] Invoking command in '/home/ayaa/Agro2/build/tiago_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_cpp -- -j8 -l8
+[0.874s] [100%] Built target pick_place_tiago
+[0.879s] Invoked command in '/home/ayaa/Agro2/build/tiago_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_cpp -- -j8 -l8
+[0.883s] Invoking command in '/home/ayaa/Agro2/build/tiago_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --install /home/ayaa/Agro2/build/tiago_cpp
+[0.900s] -- Install configuration: ""
+[0.900s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/lib/tiago_cpp/pick_place_tiago
+[0.900s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/ament_index/resource_index/package_run_dependencies/tiago_cpp
+[0.900s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/ament_index/resource_index/parent_prefix_path/tiago_cpp
+[0.901s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/environment/ament_prefix_path.sh
+[0.901s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/environment/ament_prefix_path.dsv
+[0.901s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/environment/path.sh
+[0.901s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/environment/path.dsv
+[0.902s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/local_setup.bash
+[0.902s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/local_setup.sh
+[0.902s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/local_setup.zsh
+[0.902s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/local_setup.dsv
+[0.902s] -- Installing: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/package.dsv
+[0.902s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/ament_index/resource_index/packages/tiago_cpp
+[0.902s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/cmake/tiago_cppConfig.cmake
+[0.903s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/cmake/tiago_cppConfig-version.cmake
+[0.903s] -- Up-to-date: /home/ayaa/Agro2/install/tiago_cpp/share/tiago_cpp/package.xml
+[0.936s] Invoked command in '/home/ayaa/Agro2/build/tiago_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --install /home/ayaa/Agro2/build/tiago_cpp

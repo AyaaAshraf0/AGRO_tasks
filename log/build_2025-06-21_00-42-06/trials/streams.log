@@ -1,0 +1,25 @@
+[2.633s] Invoking command in '/home/ayaa/Agro2/src/trials': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/service_define:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/smclib:/home/ayaa/Agro2/install/occupancy_grid_demo:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit:/home/ayaa/Agro2/install/bond:/home/ayaa/Agro2/install/actions LD_LIBRARY_PATH=/home/ayaa/Agro2/install/service_define/lib:/home/ayaa/Agro2/install/tiago_behavior_tree/lib:/home/ayaa/Agro2/install/bond/lib:/home/ayaa/Agro2/install/actions/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ayaa/Agro2/build/trials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/trials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trials build --build-base /home/ayaa/Agro2/build/trials/build install --record /home/ayaa/Agro2/build/trials/install.log --single-version-externally-managed install_data
+[3.081s] running egg_info
+[3.102s] writing ../../build/trials/trials.egg-info/PKG-INFO
+[3.102s] writing dependency_links to ../../build/trials/trials.egg-info/dependency_links.txt
+[3.103s] writing entry points to ../../build/trials/trials.egg-info/entry_points.txt
+[3.103s] writing requirements to ../../build/trials/trials.egg-info/requires.txt
+[3.103s] writing top-level names to ../../build/trials/trials.egg-info/top_level.txt
+[3.150s] reading manifest file '../../build/trials/trials.egg-info/SOURCES.txt'
+[3.151s] writing manifest file '../../build/trials/trials.egg-info/SOURCES.txt'
+[3.151s] running build
+[3.151s] running build_py
+[3.152s] running install
+[3.157s] running install_lib
+[3.176s] running install_data
+[3.177s] running install_egg_info
+[3.195s] removing '/home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials-0.0.0-py3.10.egg-info' (and everything under it)
+[3.195s] Copying ../../build/trials/trials.egg-info to /home/ayaa/Agro2/install/trials/lib/python3.10/site-packages/trials-0.0.0-py3.10.egg-info
+[3.196s] running install_scripts
+[3.265s] Installing astar_path_pub script to /home/ayaa/Agro2/install/trials/lib/trials
+[3.265s] Installing client script to /home/ayaa/Agro2/install/trials/lib/trials
+[3.266s] Installing listener script to /home/ayaa/Agro2/install/trials/lib/trials
+[3.266s] Installing server script to /home/ayaa/Agro2/install/trials/lib/trials
+[3.266s] Installing talker script to /home/ayaa/Agro2/install/trials/lib/trials
+[3.266s] writing list of installed files to '/home/ayaa/Agro2/build/trials/install.log'
+[3.311s] Invoked command in '/home/ayaa/Agro2/src/trials' returned '0': CMAKE_PREFIX_PATH=/home/ayaa/Agro2/install/service_define:/home/ayaa/Agro2/install/fer_moveit:/home/ayaa/Agro2/install/tiago_cpp:/home/ayaa/Agro2/install/tiago_behavior_tree:/home/ayaa/Agro2/install/smclib:/home/ayaa/Agro2/install/occupancy_grid_demo:/home/ayaa/Agro2/install/franka_description:/home/ayaa/Agro2/install/fer_cpp_moveit:/home/ayaa/Agro2/install/bond:/home/ayaa/Agro2/install/actions LD_LIBRARY_PATH=/home/ayaa/Agro2/install/service_define/lib:/home/ayaa/Agro2/install/tiago_behavior_tree/lib:/home/ayaa/Agro2/install/bond/lib:/home/ayaa/Agro2/install/actions/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ayaa/Agro2/build/trials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayaa/Agro2/install/trials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trials build --build-base /home/ayaa/Agro2/build/trials/build install --record /home/ayaa/Agro2/build/trials/install.log --single-version-externally-managed install_data

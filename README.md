@@ -37,7 +37,7 @@ You can run the simulation environment and packages using Docker for a consisten
    xhost +local:root
    ```
    ```bash
-   docker run -it     --env DISPLAY=$DISPLAY     --env QT_X11_NO_MITSHM=1     --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"     --network host --name agro  ros2_gazebo:latest 
+   docker run -it     --env DISPLAY=$DISPLAY     --env QT_X11_NO_MITSHM=1     --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"     --device /dev/dri:/dev/dri --network host --name agro  ros2_gazebo:latest  
 4. Make sure you are inside Agro2
    ```bash
    cd Agro2

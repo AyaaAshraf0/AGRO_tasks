@@ -1,0 +1,65 @@
+[0.110s] Invoking command in '/home/ayaa/Agro2/build/tiago_behavior_tree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8
+[0.197s] [  8%] Built target tiago_behavior_tree__rosidl_generator_c
+[0.205s] [ 11%] Built target tiago_behavior_tree__cpp
+[0.221s] [ 11%] Built target ament_cmake_python_copy_tiago_behavior_tree
+[0.261s] [ 20%] Built target tiago_behavior_tree__rosidl_typesupport_cpp
+[0.261s] [ 28%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_cpp
+[0.261s] [ 37%] Built target tiago_behavior_tree__rosidl_typesupport_c
+[0.262s] [ 45%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_c
+[0.268s] [ 54%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_c
+[0.280s] [ 62%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_cpp
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target pick_action_node[0m
+[0.313s] [ 68%] Built target open_gripper_server
+[0.313s] [ 68%] Built target tiago_behavior_tree
+[0.342s] [ 71%] [32mBuilding CXX object CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o[0m
+[0.355s] [ 74%] Built target tiago_behavior_tree__py
+[0.395s] [ 80%] Built target tiago_behavior_tree__rosidl_generator_py
+[0.449s] [ 85%] Built target tiago_behavior_tree__rosidl_typesupport_introspection_c__pyext
+[0.456s] [ 91%] Built target tiago_behavior_tree__rosidl_typesupport_c__pyext
+[0.462s] [ 97%] Built target tiago_behavior_tree__rosidl_typesupport_fastrtps_c__pyext
+[1.015s] running egg_info
+[1.051s] writing tiago_behavior_tree.egg-info/PKG-INFO
+[1.052s] writing dependency_links to tiago_behavior_tree.egg-info/dependency_links.txt
+[1.052s] writing top-level names to tiago_behavior_tree.egg-info/top_level.txt
+[1.140s] reading manifest file 'tiago_behavior_tree.egg-info/SOURCES.txt'
+[1.141s] writing manifest file 'tiago_behavior_tree.egg-info/SOURCES.txt'
+[1.217s] [ 97%] Built target ament_cmake_python_build_tiago_behavior_tree_egg
+[6.736s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:25:69:[m[K [01;31m[Kerror: [m[Kinvalid declarator before ‘[01m[Kgripper_group_[m[K’
+[6.736s]    25 |     std::shared_ptr<moveit::planning_interface::MoveGroupInterface> [01;31m[Kgripper_group_[m[K;
+[6.736s]       |                                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.747s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:26:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kxml_tag_name[m[K’ was not declared in this scope
+[6.747s]    26 |   : BtActionNode<ActionType>([01;31m[Kxml_tag_name[m[K, action_name, conf)
+[6.747s]       |                              [01;31m[K^~~~~~~~~~~~[m[K
+[6.753s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:26:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_name[m[K’ was not declared in this scope; did you mean ‘[01m[Kaction_name_[m[K’?
+[6.753s]    26 |   : BtActionNode<ActionType>(xml_tag_name, [01;31m[Kaction_name[m[K, conf)
+[6.753s]       |                                            [01;31m[K^~~~~~~~~~~[m[K
+[6.753s]       |                                            [32m[Kaction_name_[m[K
+[6.758s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:26:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kconf[m[K’ was not declared in this scope; did you mean ‘[01m[Kcosf[m[K’?
+[6.759s]    26 |   : BtActionNode<ActionType>(xml_tag_name, action_name, [01;31m[Kconf[m[K)
+[6.759s]       |                                                         [01;31m[K^~~~[m[K
+[6.759s]       |                                                         [32m[Kcosf[m[K
+[6.759s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:27:3:[m[K [01;31m[Kerror: [m[Kdefault member initializer for unnamed bit-field
+[6.759s]    27 |   [01;31m[K{[m[K
+[6.759s]       |   [01;31m[K^[m[K
+[6.759s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:31:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[6.759s]    31 |   [01;31m[K}[m[K
+[6.759s]       |   [01;31m[K^[m[K
+[6.759s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:31:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[6.759s]    31 |   [01;31m[K}[m[K
+[6.759s]       |   [01;31m[K^[m[K
+[6.760s]       |    [32m[K;[m[K
+[6.772s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_behavior_tree::OpenGripperAction::on_tick()[m[K’:
+[6.773s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_group_[m[K’ was not declared in this scope
+[6.773s]    42 |     [01;31m[Kgripper_group_[m[K->setJointValueTarget({
+[6.773s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.773s] [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:49:96:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.773s]    49 |     bool success = (gripper_group_->plan(plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[6.773s]       |                                                                                                [01;35m[K^~~~~~~[m[K
+[6.773s] In file included from [01m[K/home/ayaa/Agro2/src/tiago_behavior_tree/src/pick_action.cpp:11[m[K:
+[6.773s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.773s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[6.773s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[9.805s] gmake[2]: *** [CMakeFiles/pick_action_node.dir/build.make:76: CMakeFiles/pick_action_node.dir/src/pick_action.cpp.o] Error 1
+[9.805s] gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/pick_action_node.dir/all] Error 2
+[9.805s] gmake: *** [Makefile:146: all] Error 2
+[9.808s] Invoked command in '/home/ayaa/Agro2/build/tiago_behavior_tree' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaa/Agro2/install/trials:/home/ayaa/Agro2/install/tiago_custom:/home/ayaa/Agro2/install/my_nav2_bringup:/home/ayaa/Agro2/install/fer_gazebo:/home/ayaa/Agro2/install/custom_worlds:/opt/ros/humble /usr/bin/cmake --build /home/ayaa/Agro2/build/tiago_behavior_tree -- -j8 -l8
