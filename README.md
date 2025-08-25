@@ -54,6 +54,10 @@ You can run the simulation environment and packages using Docker for a consisten
 
     ros2 launch my_nav2_bringup bringup.launch.py
 
+#### To launch Franka Panda arm simulation 
+
+    ros2 launch fer_gazebo spawn_fer.launch.py verbose:=true
+
 #### To launch the agricultural world with TiaGo mobile manipulator 
 
     ros2 launch tiago_custom spawn.launch.py is_public_sim:=True
